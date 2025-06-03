@@ -86,4 +86,5 @@ jobs:
           echo "- [Best Odds](https://$(echo ${{ github.repository_owner }}).github.io/$(echo ${{ github.event.repository.name }})/api/v1/best-odds.json)" >> $GITHUB_STEP_SUMMARY
           echo "- [Documentation](https://$(echo ${{ github.repository_owner }}).github.io/$(echo ${{ github.event.repository.name }})/)" >> $GITHUB_STEP_SUMMARY
         else
-          echo "❌ **Feed update failed**" >> $GITHUB_STEP_SUMMARY 
+          echo "❌ **Feed update failed**" >> $GITHUB_STEP_SUMMARY
+        fi 
