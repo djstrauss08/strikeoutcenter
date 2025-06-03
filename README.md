@@ -1,115 +1,195 @@
-# MLB Strikeout Props Analyzer
+# 🎯 StrikeoutCenter - MLB Strikeout Props API
 
-This project fetches and analyzes consensus odds for MLB pitcher strikeout props using The Odds API.
+A comprehensive system for fetching, analyzing, and distributing MLB strikeout props data with consensus odds from multiple sportsbooks.
 
-## Features
+## 🚀 Features
 
-- ✅ Fetches real-time strikeout prop odds for today's MLB starting pitchers
-- ✅ Calculates consensus odds from multiple sportsbooks
-- ✅ Shows both detailed and summary views
-- ✅ Covers all major US sportsbooks (FanDuel, DraftKings, BetMGM, etc.)
-- ✅ Displays game times, lines, and odds in an easy-to-read format
+- **Real-time Data**: Live odds from 6+ major sportsbooks via The Odds API
+- **Consensus Odds**: Mathematically averaged odds across all available books
+- **Multiple Formats**: JSON exports optimized for different use cases
+- **Public API**: Hosted endpoints for other websites and applications
+- **Automatic Updates**: GitHub Actions workflow for scheduled data refreshes
+- **Clean Interface**: Beautiful summary views and detailed analysis tools
 
-## Files
+## 📊 What You Get
 
-### `strikeout_odds.py`
-The comprehensive script that shows ALL available strikeout lines for each pitcher. This includes:
-- Multiple lines per pitcher (e.g., 4.5, 5.5, 6.5 strikeouts)
-- Alternate odds from different sportsbooks
-- Detailed breakdown of which books offer each line
+### Data Coverage
+- All MLB games for today (Eastern timezone)
+- Starting pitcher strikeout props with multiple lines (4.5K, 5.5K, 6.5K, etc.)
+- Individual sportsbook odds + consensus averages
+- Sportsbook availability counts and comparisons
 
-### `strikeout_summary.py`
-A cleaner summary version that shows only the PRIMARY line for each pitcher:
-- Shows the most commonly offered line across sportsbooks
-- Cleaner, more readable output
-- Perfect for quick daily analysis
+### Export Formats
+- **Full Dataset**: Complete odds data with all sportsbooks
+- **Summary View**: Game info and pitcher counts (lightweight)
+- **Pitcher Focus**: Optimized for pitcher comparison tools
+- **Best Odds**: Top value bets ranked by favorability
 
-## Setup
+## 🛠️ Setup
 
-1. Install dependencies:
+### 1. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-2. Your API key is already configured in the scripts:
-```
-API_KEY = "fc2d8ba3268ab0b6e5e08a8344b6e797"
-```
+### 2. Configure API Key (REQUIRED)
 
-## Usage
+**🔐 IMPORTANT: Your API key should be set as an environment variable, never hardcoded.**
 
-### Get Detailed Odds (All Lines)
+Get your API key from [The Odds API](https://the-odds-api.com/), then:
+
 ```bash
-python3 strikeout_odds.py
+# Set environment variable (replace with your actual key)
+export THE_ODDS_API_KEY="your-api-key-here"
 ```
 
-### Get Summary (Primary Lines Only)
+For permanent setup, add to your shell profile:
 ```bash
+echo 'export THE_ODDS_API_KEY="your-api-key-here"' >> ~/.zshrc
+source ~/.zshrc
+```
+
+### 3. Test the Setup
+```bash
+# Verify environment variable
+echo $THE_ODDS_API_KEY
+
+# Test basic functionality
 python3 strikeout_summary.py
 ```
 
-## Sample Output
+## 🎯 Usage
 
-The scripts will show:
+### Basic Analysis
+```bash
+# Clean summary view (most commonly offered line per pitcher)
+python3 strikeout_summary.py
+
+# Detailed analysis with all available lines
+python3 strikeout_odds.py
+```
+
+### JSON Export
+```bash
+# Export to file
+python3 export_json_feed.py
+
+# Export with summary
+python3 export_json_feed.py --pretty
+
+# Output to stdout (for piping)
+python3 export_json_feed.py --stdout
+```
+
+### Public API Generation
+```bash
+# Generate public API endpoints
+python3 update_public_feed.py
+```
+
+## 📡 Public API
+
+Once deployed, your API provides multiple endpoints:
+
+- `/api/v1/strikeout-props.json` - Full dataset (~95KB)
+- `/api/v1/summary.json` - Lightweight summary (~5KB)  
+- `/api/v1/pitchers.json` - Pitcher-focused data (~96KB)
+- `/api/v1/best-odds.json` - Best odds rankings (~8KB)
+
+### Example Usage
+```javascript
+fetch('https://your-username.github.io/StrikeoutCenter/api/v1/summary.json')
+  .then(response => response.json())
+  .then(data => {
+    console.log(`${data.summary.total_pitchers} pitchers across ${data.summary.total_games} games`);
+  });
+```
+
+## 🔄 Automatic Updates
+
+GitHub Actions workflow runs every 2 hours during baseball season (10 AM - 10 PM ET) to:
+- Fetch fresh data from The Odds API
+- Update JSON endpoints
+- Commit changes to repository
+- Deploy via GitHub Pages
+
+## 📈 Key Benefits
+
+### For You
+- 🔒 **Control API costs** - You decide when to fetch data
+- ⚙️ **Process data your way** - Custom consensus calculations
+- 📊 **Rich analytics** - Multiple view formats for different needs
+- 🚀 **Easy deployment** - One-click GitHub Pages hosting
+
+### For Others  
+- 🆓 **Free access** - No API keys needed for consumers
+- ⚡ **Fast delivery** - Global CDN via GitHub Pages
+- 🌐 **CORS enabled** - Works from any website
+- 📱 **Multiple formats** - Choose the right endpoint for your needs
+
+## 🛡️ Security Features
+
+- Environment variable configuration for API keys
+- GitHub Secrets integration for automated workflows  
+- API key never exposed in public code
+- Easy key rotation and management
+
+## 📚 Documentation
+
+- `PUBLIC_API_SETUP.md` - Complete deployment guide
+- `SECURITY_SETUP.md` - API key security configuration
+- `README_JSON_Export.md` - JSON export system details
+
+## 🎯 Use Cases
+
+**Your Internal Analysis:**
+- Daily betting research and value identification
+- Sportsbook comparison and line shopping
+- Historical tracking and trend analysis
+
+**Public API Consumers:**
+- Betting analysis websites and tools
+- Fantasy baseball applications  
+- Discord bots and notifications
+- Mobile apps and dashboards
+- Academic research and data visualization
+
+## 📊 Example Output
+
+Shows the most commonly offered line across sportsbooks:
 
 ```
 🎯 MLB Strikeout Props - Today's Starting Pitchers
 ============================================================
 Date: Tuesday, June 03, 2025
 
-🏟️  Cleveland Guardians @ New York Yankees
-    11:05 PM ET
-    --------------------------------------------------
-    👨‍⚾ Carlos Rodon
-        Line: 6.5 strikeouts
-        Over 6.5: -131  |  Under 6.5: +100
-        (6 sportsbooks)
+📅 Found 15 MLB games for today
 
-    👨‍⚾ Tanner Bibee
+📊 STARTING PITCHER STRIKEOUT PROPS
+============================================================
+
+🏟️  Colorado Rockies @ Miami Marlins
+    06:40 PM EDT
+    --------------------------------------------------
+    👨‍⚾ Sandy Alcantara
         Line: 5.5 strikeouts
-        Over 5.5: +117  |  Under 5.5: -153
+        Over 5.5: -134  |  Under 5.5: +102
         (6 sportsbooks)
 ```
 
-## Key Information
+## 🔧 Advanced Features
 
-- **Lines**: Represent total strikeouts for the pitcher in the entire game
-- **Consensus Odds**: Averaged from multiple sportsbooks using implied probabilities
-- **Sportsbooks Included**: FanDuel, DraftKings, BetMGM, BetRivers, Bovada, BetOnline.ag, and more
-- **Update Frequency**: The Odds API updates odds frequently throughout the day
+- **Consensus Calculation**: Converts odds to implied probabilities, averages, then back to American odds
+- **Multiple Lines**: Handles different strikeout totals for the same pitcher
+- **Primary Line Detection**: Shows most commonly offered line across books
+- **Error Handling**: Graceful handling of missing props or API issues
+- **Timezone Management**: Proper Eastern timezone handling for game times
 
-## API Details
+## 📞 Support
 
-This project uses [The Odds API](https://the-odds-api.com/) which provides:
-- Real-time betting odds from 40+ sportsbooks
-- Player props for MLB (and other sports)
-- Both American and decimal odds formats
-- Historical odds data
+For issues related to:
+- **The Odds API**: Contact their support for API-related questions
+- **This Tool**: Open an issue in this repository
+- **GitHub Pages**: Check GitHub's documentation for hosting issues
 
-### API Limits
-- Free tier: 500 requests per month
-- Paid tiers available for higher usage
-
-## Notes
-
-- Props are typically posted closer to game time
-- Not all games may have strikeout props available
-- Lines can vary throughout the day as odds move
-- The consensus calculation converts odds to implied probabilities, averages them, then converts back
-
-## Troubleshooting
-
-If you see "No strikeout props found":
-1. Check if there are MLB games scheduled today
-2. Props might not be posted yet (usually available 1-3 hours before games)
-3. Some games might not have pitcher props available
-4. Verify your API key is working
-
-## Future Enhancements
-
-Potential improvements:
-- Add email notifications for favorable lines
-- Track line movement over time
-- Add more advanced statistical analysis
-- Include pitcher stats and matchup data
-- Export to CSV/Excel format 
+Built with ❤️ for the baseball analytics community 

@@ -10,14 +10,14 @@
 
 **Option A: Temporary (for current session):**
 ```bash
-export THE_ODDS_API_KEY="fc2d8ba3268ab0b6e5e08a8344b6e797"
+export THE_ODDS_API_KEY="your-api-key-here"
 ```
 
 **Option B: Permanent (recommended):**
 
 Add to your shell profile (`~/.bashrc`, `~/.zshrc`, or `~/.bash_profile`):
 ```bash
-echo 'export THE_ODDS_API_KEY="fc2d8ba3268ab0b6e5e08a8344b6e797"' >> ~/.zshrc
+echo 'export THE_ODDS_API_KEY="your-api-key-here"' >> ~/.zshrc
 source ~/.zshrc
 ```
 
@@ -39,7 +39,7 @@ python3 export_json_feed.py --pretty
 3. Click **Secrets and variables** → **Actions** (left sidebar)
 4. Click **New repository secret**
 5. **Name:** `THE_ODDS_API_KEY`
-6. **Secret:** `fc2d8ba3268ab0b6e5e08a8344b6e797`
+6. **Secret:** `[Your actual API key from The Odds API]`
 7. Click **Add secret**
 
 ### Step 2: Update GitHub Actions Workflow
@@ -78,7 +78,7 @@ For local development, you can also use a `.env` file:
 
 ### Step 1: Create .env file
 ```bash
-echo "THE_ODDS_API_KEY=fc2d8ba3268ab0b6e5e08a8344b6e797" > .env
+echo "THE_ODDS_API_KEY=your-api-key-here" > .env
 ```
 
 ### Step 2: Load .env in scripts
@@ -112,15 +112,22 @@ export THE_ODDS_API_KEY="new-api-key-here"
 
 ## ⚠️ URGENT: Current Situation
 
-**Your current API key was exposed in the public repository.** For maximum security, consider:
+**API keys should never be visible in public repositories.** For maximum security:
 
-1. **Rotating your API key** at The Odds API dashboard
-2. **Setting up the new key** using the secure methods above
-3. **Monitoring your API usage** for any unexpected activity
+1. **Get your API key** from The Odds API dashboard
+2. **Set it up** using the secure methods above (environment variables or GitHub Secrets)
+3. **Monitor your API usage** for any unexpected activity
 
 ## 📞 Support
 
 If your API key was compromised:
 - Contact The Odds API support to rotate your key
 - Monitor your account for unexpected usage
-- Set up usage alerts if available 
+- Set up usage alerts if available
+
+## 🔑 Getting Your API Key
+
+1. Sign up at [The Odds API](https://the-odds-api.com/)
+2. Go to your dashboard
+3. Copy your API key
+4. Use the secure setup methods above 
