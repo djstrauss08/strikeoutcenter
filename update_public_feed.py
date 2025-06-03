@@ -7,6 +7,7 @@ Generates JSON data and updates public directory for web hosting
 import json
 import os
 import shutil
+import sys
 from datetime import datetime, timedelta
 import pytz
 from export_json_feed import get_all_strikeout_props_data
@@ -250,32 +251,42 @@ def create_cors_headers(public_dir):
 
 def update_feed():
     """Main function to update the public feed"""
-    print("🔄 Updating MLB Strikeout Props Public Feed...")
-    
-    # Get fresh data
-    print("📡 Fetching fresh data from The Odds API...")
-    data = get_all_strikeout_props_data()
-    
-    if "error" in data:
-        print(f"❌ Error getting data: {data['error']}")
-        return False
-    
-    # Create public directory
-    public_dir = create_public_directory()
-    
-    # Generate API endpoints
-    print("📁 Generating API endpoints...")
-    endpoints = generate_api_endpoints(data, public_dir)
-    
-    # Create documentation
-    print("📝 Creating documentation page...")
-    create_documentation_page(public_dir, endpoints)
-    
-    # Add CORS headers
-    create_cors_headers(public_dir)
-    
-    # Create a README for the public directory
-    readme_content = f"""# MLB Strikeout Props Public Feed
+    try:
+        print("🔄 Updating MLB Strikeout Props Public Feed...")
+        
+        # Get fresh data
+        print("📡 Fetching fresh data from The Odds API...")
+        data = get_all_strikeout_props_data()
+        
+        if "error" in data:
+            print(f"❌ Error getting data: {data['error']}")
+            print("This might be due to:")
+            print("- Invalid or expired API key")
+            print("- Network connectivity issues")
+            print("- No MLB games scheduled for today")
+            sys.exit(1)
+        
+        if data['summary']['total_games'] == 0:
+            print("⚠️ No MLB games found for today")
+            print("This is normal during off-season or rest days")
+            # Create empty but valid JSON files anyway
+        
+        # Create public directory
+        public_dir = create_public_directory()
+        
+        # Generate API endpoints
+        print("📁 Generating API endpoints...")
+        endpoints = generate_api_endpoints(data, public_dir)
+        
+        # Create documentation
+        print("📝 Creating documentation page...")
+        create_documentation_page(public_dir, endpoints)
+        
+        # Add CORS headers
+        create_cors_headers(public_dir)
+        
+        # Create a README for the public directory
+        readme_content = f"""# MLB Strikeout Props Public Feed
 
 This directory contains the public JSON API endpoints for MLB strikeout props data.
 
@@ -296,20 +307,30 @@ This directory contains the public JSON API endpoints for MLB strikeout props da
 ## Usage:
 These files are designed to be served statically via GitHub Pages, Netlify, or similar hosting.
 """
-    
-    with open(f"{public_dir}/README.md", 'w') as f:
-        f.write(readme_content)
-    
-    print(f"✅ Public feed updated successfully!")
-    print(f"📊 Generated {data['summary']['total_pitchers']} pitchers across {data['summary']['total_games']} games")
-    print(f"📁 Files created in: {public_dir}/")
-    print()
-    print("🚀 Next steps:")
-    print("1. Commit the public/ directory to your GitHub repo")
-    print("2. Enable GitHub Pages on the repo")
-    print("3. Your API will be available at: https://your-username.github.io/StrikeoutCenter/")
-    
-    return True
+        
+        with open(f"{public_dir}/README.md", 'w') as f:
+            f.write(readme_content)
+        
+        print(f"✅ Public feed updated successfully!")
+        print(f"📊 Generated {data['summary']['total_pitchers']} pitchers across {data['summary']['total_games']} games")
+        print(f"📁 Files created in: {public_dir}/")
+        print()
+        print("🚀 Next steps:")
+        print("1. Commit the public/ directory to your GitHub repo")
+        print("2. Enable GitHub Pages on the repo")
+        print("3. Your API will be available at: https://your-username.github.io/StrikeoutCenter/")
+        
+        return True
+        
+    except Exception as e:
+        print(f"❌ Unexpected error: {str(e)}")
+        print(f"Error type: {type(e).__name__}")
+        import traceback
+        print("Full traceback:")
+        traceback.print_exc()
+        sys.exit(1)
 
 if __name__ == "__main__":
-    update_feed() 
+    success = update_feed()
+    if not success:
+        sys.exit(1) 

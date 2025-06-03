@@ -21,6 +21,7 @@ jobs:
       uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
     
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -32,23 +33,34 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     
+    - name: Configure Git
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+    
     - name: Update public feed
       env:
         THE_ODDS_API_KEY: ${{ secrets.THE_ODDS_API_KEY }}
       run: |
+        echo "API Key is set: $([[ -n "$THE_ODDS_API_KEY" ]] && echo "Yes" || echo "No")"
+        echo "API Key length: ${#THE_ODDS_API_KEY}"
         python update_public_feed.py
     
     - name: Check for changes
       id: git-check
       run: |
-        git diff --exit-code public/ || echo "changes=true" >> $GITHUB_OUTPUT
+        git add public/
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+          echo "changes=false" >> $GITHUB_OUTPUT
+        else
+          echo "Changes detected"
+          echo "changes=true" >> $GITHUB_OUTPUT
+        fi
     
     - name: Commit and push changes
       if: steps.git-check.outputs.changes == 'true'
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add public/
         git commit -m "Update MLB strikeout props feed - $(date -u '+%Y-%m-%d %H:%M UTC')"
         git push
     
