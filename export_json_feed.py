@@ -12,8 +12,13 @@ import sys
 import os
 from typing import Dict, List, Any, Optional
 
-# API Configuration  
-API_KEY = "fc2d8ba3268ab0b6e5e08a8344b6e797"
+# API Configuration - Use environment variable for security
+API_KEY = os.getenv('THE_ODDS_API_KEY')
+if not API_KEY:
+    print("❌ Error: THE_ODDS_API_KEY environment variable not set")
+    print("Please set your API key: export THE_ODDS_API_KEY='your-api-key-here'")
+    sys.exit(1)
+
 BASE_URL = "https://api.the-odds-api.com/v4"
 
 def get_mlb_games():

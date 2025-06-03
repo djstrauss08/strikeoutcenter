@@ -32,6 +32,8 @@ jobs:
         pip install -r requirements.txt
     
     - name: Update public feed
+      env:
+        THE_ODDS_API_KEY: ${{ secrets.THE_ODDS_API_KEY }}
       run: |
         python update_public_feed.py
     
