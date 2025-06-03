@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MLB Strikeout Props API</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 1000px; margin: 0 auto; padding: 20px; }
+        .endpoint { background: #f5f5f5; padding: 15px; margin: 10px 0; border-radius: 5px; }
+        .url { background: #333; color: #fff; padding: 5px 10px; border-radius: 3px; font-family: monospace; }
+        code { background: #f0f0f0; padding: 2px 5px; border-radius: 3px; }
+        .updated { color: #666; font-style: italic; }
+    </style>
+</head>
+<body>
+    <h1>🎯 MLB Strikeout Props JSON API</h1>
+    
+    <p class="updated">Last updated: <span id="lastUpdated"></span></p>
+    
+    <h2>📡 Available Endpoints</h2>
+    
+    <div class="endpoint">
+        <h3>Full Strikeout Props Data</h3>
+        <div class="url">GET /api/v1/strikeout-props.json</div>
+        <p>Complete dataset with all games, pitchers, lines, and odds from multiple sportsbooks.</p>
+        <p><strong>Use case:</strong> Full data analysis, comprehensive dashboards</p>
+    </div>
+    
+    <div class="endpoint">
+        <h3>Summary Data</h3>
+        <div class="url">GET /api/v1/summary.json</div>
+        <p>Lightweight summary with game info and pitcher counts (no odds data).</p>
+        <p><strong>Use case:</strong> Quick overview, mobile apps, initial page loads</p>
+    </div>
+    
+    <div class="endpoint">
+        <h3>Pitchers Only</h3>
+        <div class="url">GET /api/v1/pitchers.json</div>
+        <p>All pitcher props with game context, optimized for pitcher-focused views.</p>
+        <p><strong>Use case:</strong> Pitcher comparison tools, search interfaces</p>
+    </div>
+    
+    <div class="endpoint">
+        <h3>Best Odds</h3>
+        <div class="url">GET /api/v1/best-odds.json</div>
+        <p>Top 20 best odds for overs and unders, sorted by value.</p>
+        <p><strong>Use case:</strong> Finding value bets, odds comparison tools</p>
+    </div>
+    
+    <h2>🔄 Data Freshness</h2>
+    <ul>
+        <li>Data updates multiple times per day</li>
+        <li>Includes only today's MLB games (Eastern timezone)</li>
+        <li>Consensus odds calculated from 6+ major sportsbooks</li>
+        <li>Props availability depends on sportsbook posting schedules</li>
+    </ul>
+    
+    <h2>💻 Usage Examples</h2>
+    
+    <h3>JavaScript/Fetch</h3>
+    <pre><code>fetch('https://your-username.github.io/StrikeoutCenter/api/v1/summary.json')
+  .then(response => response.json())
+  .then(data => {
+    console.log(`${data.summary.total_pitchers} pitchers across ${data.summary.total_games} games`);
+  });</code></pre>
+    
+    <h3>Python</h3>
+    <pre><code>import requests
+
+response = requests.get('https://your-username.github.io/StrikeoutCenter/api/v1/strikeout-props.json')
+data = response.json()
+
+for game in data['games']:
+    print(f"Game: {game['matchup']}")
+    for pitcher in game['pitchers']:
+        print(f"  {pitcher['pitcher_name']}: {pitcher['strikeout_line']}K")</code></pre>
+    
+    <h3>cURL</h3>
+    <pre><code>curl -H "Accept: application/json" \
+     https://your-username.github.io/StrikeoutCenter/api/v1/best-odds.json</code></pre>
+    
+    <h2>📊 Response Format</h2>
+    <p>All endpoints return JSON with consistent structure:</p>
+    <ul>
+        <li><code>metadata</code>: Generation timestamp, date, timezone</li>
+        <li><code>summary</code>: Total counts and statistics</li>
+        <li><code>games</code> or <code>pitchers</code>: Main data arrays</li>
+    </ul>
+    
+    <h2>⚡ Rate Limiting</h2>
+    <p>No rate limiting on these endpoints. Data is cached and served statically.</p>
+    
+    <h2>🔗 CORS</h2>
+    <p>All endpoints support CORS for browser-based applications.</p>
+    
+    <script>
+        // Update last updated time
+        fetch('./api/v1/summary.json')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('lastUpdated').textContent = data.metadata.generated_at_formatted;
+            })
+            .catch(() => {
+                document.getElementById('lastUpdated').textContent = 'Unable to fetch';
+            });
+    </script>
+</body>
+</html>
