@@ -53,8 +53,12 @@ Thumbs.db
 !public/api/v1/*.json
 !api/v1/*.json
 
+# Persistent data files
+persistent_game_data.pkl
+
 # Logs
 *.log
+update_log.txt
 
 # API keys (if any are accidentally included)
 .env.local

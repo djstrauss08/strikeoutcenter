@@ -3,6 +3,7 @@
 """
 MLB Strikeout Props JSON Feed Exporter
 Exports today's strikeout props data for players, lines, and odds in JSON format
+Updated to persist lines until the following day
 """
 
 import requests
@@ -12,6 +13,7 @@ import pytz
 import sys
 import os
 from typing import Dict, List, Any, Optional
+import pickle
 
 # API Configuration - Use environment variable for security
 API_KEY = os.getenv('THE_ODDS_API_KEY')
@@ -21,6 +23,51 @@ if not API_KEY:
     sys.exit(1)
 
 BASE_URL = "https://api.the-odds-api.com/v4"
+
+# Persistence file for storing game data
+PERSISTENT_DATA_FILE = "persistent_game_data.pkl"
+
+def load_persistent_data() -> Dict[str, Any]:
+    """Load persistent data from disk"""
+    try:
+        if os.path.exists(PERSISTENT_DATA_FILE):
+            with open(PERSISTENT_DATA_FILE, 'rb') as f:
+                return pickle.load(f)
+    except Exception as e:
+        print(f"Warning: Could not load persistent data: {e}")
+    
+    return {
+        "last_updated": None,
+        "games": {},
+        "data_date": None
+    }
+
+def save_persistent_data(data: Dict[str, Any]):
+    """Save persistent data to disk"""
+    try:
+        with open(PERSISTENT_DATA_FILE, 'wb') as f:
+            pickle.dump(data, f)
+    except Exception as e:
+        print(f"Warning: Could not save persistent data: {e}")
+
+def is_game_started(game_time_str: str) -> bool:
+    """Check if a game has started based on its scheduled time"""
+    try:
+        game_time = datetime.fromisoformat(game_time_str.replace('Z', '+00:00'))
+        current_time = datetime.now(pytz.UTC)
+        
+        # Consider game started if current time is past game time
+        return current_time >= game_time
+    except Exception:
+        return False
+
+def should_use_new_data(current_date: str, stored_date: str) -> bool:
+    """Determine if we should use new API data or persist old data"""
+    if not stored_date:
+        return True
+    
+    # If it's a new day, use new data
+    return current_date != stored_date
 
 def get_mlb_games():
     """Get today's MLB games with proper timezone handling"""
