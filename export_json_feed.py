@@ -151,12 +151,20 @@ def get_all_strikeout_props_data() -> Dict[str, Any]:
     games = get_mlb_games()
     
     if not games:
+        # Return valid structure instead of error for no games (normal during off-season)
         return {
-            "error": "No MLB games found for today",
-            "timestamp": today_est.isoformat(),
-            "games": [],
-            "total_games": 0,
-            "total_pitchers": 0
+            "metadata": {
+                "generated_at": today_est.isoformat(),
+                "generated_at_formatted": today_est.strftime('%A, %B %d, %Y at %I:%M %p %Z'),
+                "date": today_est.strftime('%Y-%m-%d'),
+                "timezone": "US/Eastern"
+            },
+            "summary": {
+                "total_games": 0,
+                "total_pitchers": 0,
+                "games_with_props": 0
+            },
+            "games": []
         }
     
     all_games_data = []
