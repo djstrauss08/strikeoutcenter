@@ -3,8 +3,9 @@ name: Update MLB Strikeout Props Feed
 
 on:
   schedule:
-    # Run every 2 hours from 10 AM to 10 PM ET (during baseball season)
-    - cron: '0 14,16,18,20,22,0,2 * * *'  # UTC times
+    # Run every 2 hours from 6 AM to 10 PM ET (during baseball season)
+    # Added 6 AM ET (10 UTC during EDT) for early morning fresh data
+    - cron: '0 10,14,16,18,20,22,0,2 * * *'  # UTC times
   workflow_dispatch:  # Allow manual triggers
   push:
     paths:
