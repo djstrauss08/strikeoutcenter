@@ -1,167 +1,1960 @@
 {
   "metadata": {
-    "generated_at": "2025-06-16T23:15:17.943281-04:00",
-    "generated_at_formatted": "Monday, June 16, 2025 at 11:15 PM EDT",
-    "date": "2025-06-16",
+    "generated_at": "2025-06-17T06:17:57.185338-04:00",
+    "generated_at_formatted": "Tuesday, June 17, 2025 at 06:17 AM EDT",
+    "date": "2025-06-17",
     "timezone": "US/Eastern"
   },
   "summary": {
-    "total_games": 3,
-    "total_pitchers": 4,
-    "games_with_props": 3
+    "total_games": 15,
+    "total_pitchers": 37,
+    "games_with_props": 15
   },
   "games": [
     {
-      "event_id": "60778e6618fc47da3c988e91ced39524",
-      "away_team": "Boston Red Sox",
-      "home_team": "Seattle Mariners",
-      "matchup": "Boston Red Sox @ Seattle Mariners",
-      "game_time": "2025-06-16T21:41:00-04:00",
-      "game_time_formatted": "09:41 PM EDT",
+      "event_id": "66057d172d66d1e51aa7e2b418502262",
+      "away_team": "Pittsburgh Pirates",
+      "home_team": "Detroit Tigers",
+      "matchup": "Pittsburgh Pirates @ Detroit Tigers",
+      "game_time": "2025-06-17T18:41:00-04:00",
+      "game_time_formatted": "06:41 PM EDT",
       "pitchers": [
         {
-          "pitcher_name": "Lucas Giolito",
-          "strikeout_line": 9.5,
+          "pitcher_name": "Bailey Falter",
+          "strikeout_line": 3.5,
           "consensus_odds": {
-            "over": 175,
-            "under": -230,
-            "over_formatted": "+175",
-            "under_formatted": "-230"
+            "over": -109,
+            "under": -121,
+            "over_formatted": "-109",
+            "under_formatted": "-121"
           },
           "sportsbooks": [
-            "Bovada"
+            "Fanatics",
+            "BetRivers",
+            "MyBookie.ag",
+            "FanDuel",
+            "BetOnline.ag",
+            "DraftKings"
           ],
-          "sportsbook_count": 1,
+          "sportsbook_count": 6,
           "individual_odds": {
-            "Bovada": {
-              "over": 175,
-              "under": -230
+            "FanDuel": {
+              "over": -114,
+              "under": -114
+            },
+            "BetOnline.ag": {
+              "over": -101,
+              "under": -128
+            },
+            "DraftKings": {
+              "over": -110,
+              "under": -115
+            },
+            "MyBookie.ag": {
+              "over": -106,
+              "under": -130
+            },
+            "Fanatics": {
+              "over": -105,
+              "under": -125
+            },
+            "BetRivers": {
+              "over": -117,
+              "under": -114
             }
           },
           "raw_odds": {
             "over_odds": [
-              175
+              -114,
+              -101,
+              -110,
+              -106,
+              -105,
+              -117
             ],
             "under_odds": [
-              -230
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "event_id": "8226c5cdea617fd92569663cd9242cde",
-      "away_team": "Houston Astros",
-      "home_team": "Oakland Athletics",
-      "matchup": "Houston Astros @ Oakland Athletics",
-      "game_time": "2025-06-16T22:06:00-04:00",
-      "game_time_formatted": "10:06 PM EDT",
-      "pitchers": [
-        {
-          "pitcher_name": "Mitch Spence",
-          "strikeout_line": 1.5,
-          "consensus_odds": {
-            "over": -175,
-            "under": 135,
-            "over_formatted": "-175",
-            "under_formatted": "+135"
-          },
-          "sportsbooks": [
-            "Bovada"
-          ],
-          "sportsbook_count": 1,
-          "individual_odds": {
-            "Bovada": {
-              "over": -175,
-              "under": 135
-            }
-          },
-          "raw_odds": {
-            "over_odds": [
-              -175
-            ],
-            "under_odds": [
-              135
+              -114,
+              -128,
+              -115,
+              -130,
+              -125,
+              -114
             ]
           }
         },
         {
-          "pitcher_name": "Ryan Gusto",
-          "strikeout_line": 7.5,
+          "pitcher_name": "Casey Mize",
+          "strikeout_line": 4.5,
           "consensus_odds": {
-            "over": -155,
-            "under": 120,
-            "over_formatted": "-155",
-            "under_formatted": "+120"
+            "over": 102,
+            "under": -135,
+            "over_formatted": "+102",
+            "under_formatted": "-135"
           },
           "sportsbooks": [
-            "Bovada"
+            "Fanatics",
+            "BetRivers",
+            "MyBookie.ag",
+            "FanDuel",
+            "BetOnline.ag",
+            "DraftKings"
           ],
-          "sportsbook_count": 1,
+          "sportsbook_count": 6,
           "individual_odds": {
-            "Bovada": {
-              "over": -155,
-              "under": 120
+            "FanDuel": {
+              "over": -102,
+              "under": -126
+            },
+            "BetOnline.ag": {
+              "over": 107,
+              "under": -139
+            },
+            "DraftKings": {
+              "over": 100,
+              "under": -130
+            },
+            "MyBookie.ag": {
+              "over": 100,
+              "under": -138
+            },
+            "Fanatics": {
+              "over": 110,
+              "under": -145
+            },
+            "BetRivers": {
+              "over": 100,
+              "under": -132
             }
           },
           "raw_odds": {
             "over_odds": [
-              -155
+              -102,
+              107,
+              100,
+              100,
+              110,
+              100
             ],
             "under_odds": [
-              120
+              -126,
+              -139,
+              -130,
+              -138,
+              -145,
+              -132
             ]
           }
         }
       ]
     },
     {
-      "event_id": "0b964c56ee24c62203a4f2512b05a42b",
-      "away_team": "San Diego Padres",
-      "home_team": "Los Angeles Dodgers",
-      "matchup": "San Diego Padres @ Los Angeles Dodgers",
-      "game_time": "2025-06-16T22:11:00-04:00",
-      "game_time_formatted": "10:11 PM EDT",
+      "event_id": "bdeb2c91dd152e999957680f9b681050",
+      "away_team": "Philadelphia Phillies",
+      "home_team": "Miami Marlins",
+      "matchup": "Philadelphia Phillies @ Miami Marlins",
+      "game_time": "2025-06-17T18:41:00-04:00",
+      "game_time_formatted": "06:41 PM EDT",
       "pitchers": [
         {
-          "pitcher_name": "Dylan Cease",
-          "strikeout_line": 9.5,
+          "pitcher_name": "Cal Quantrill",
+          "strikeout_line": 3.5,
           "consensus_odds": {
-            "over": -124,
-            "under": -108,
-            "over_formatted": "-124",
-            "under_formatted": "-108"
+            "over": -137,
+            "under": 105,
+            "over_formatted": "-137",
+            "under_formatted": "+105"
           },
           "sportsbooks": [
-            "DraftKings",
             "Fanatics",
-            "Bovada"
+            "BetRivers",
+            "MyBookie.ag",
+            "FanDuel",
+            "BetOnline.ag",
+            "DraftKings"
           ],
-          "sportsbook_count": 3,
+          "sportsbook_count": 6,
           "individual_odds": {
+            "FanDuel": {
+              "over": -130,
+              "under": 104
+            },
+            "BetOnline.ag": {
+              "over": -137,
+              "under": 106
+            },
             "DraftKings": {
-              "over": -120,
-              "under": -110
+              "over": -135,
+              "under": 105
+            },
+            "MyBookie.ag": {
+              "over": -140,
+              "under": 101
             },
             "Fanatics": {
               "over": -140,
-              "under": 100
+              "under": 105
             },
-            "Bovada": {
-              "over": -115,
-              "under": -115
+            "BetRivers": {
+              "over": -141,
+              "under": 107
             }
           },
           "raw_odds": {
             "over_odds": [
-              -120,
+              -130,
+              -137,
+              -135,
               -140,
-              -115
+              -140,
+              -141
             ],
             "under_odds": [
+              104,
+              106,
+              105,
+              101,
+              105,
+              107
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Cal Quantrill",
+          "strikeout_line": 2.5,
+          "consensus_odds": {
+            "over": -375,
+            "under": 255,
+            "over_formatted": "-375",
+            "under_formatted": "+255"
+          },
+          "sportsbooks": [
+            "BetRivers"
+          ],
+          "sportsbook_count": 1,
+          "individual_odds": {
+            "BetRivers": {
+              "over": -375,
+              "under": 255
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -375
+            ],
+            "under_odds": [
+              255
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Cal Quantrill",
+          "strikeout_line": 4.5,
+          "consensus_odds": {
+            "over": 163,
+            "under": -225,
+            "over_formatted": "+163",
+            "under_formatted": "-225"
+          },
+          "sportsbooks": [
+            "BetRivers"
+          ],
+          "sportsbook_count": 1,
+          "individual_odds": {
+            "BetRivers": {
+              "over": 163,
+              "under": -225
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              163
+            ],
+            "under_odds": [
+              -225
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Jesus Luzardo",
+          "strikeout_line": 6.5,
+          "consensus_odds": {
+            "over": 118,
+            "under": -157,
+            "over_formatted": "+118",
+            "under_formatted": "-157"
+          },
+          "sportsbooks": [
+            "BetRivers",
+            "MyBookie.ag",
+            "FanDuel",
+            "BetOnline.ag",
+            "DraftKings"
+          ],
+          "sportsbook_count": 5,
+          "individual_odds": {
+            "FanDuel": {
+              "over": 108,
+              "under": -144
+            },
+            "BetOnline.ag": {
+              "over": 122,
+              "under": -159
+            },
+            "DraftKings": {
+              "over": 120,
+              "under": -160
+            },
+            "MyBookie.ag": {
+              "over": 116,
+              "under": -160
+            },
+            "BetRivers": {
+              "over": 123,
+              "under": -165
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              108,
+              122,
+              120,
+              116,
+              123
+            ],
+            "under_odds": [
+              -144,
+              -159,
+              -160,
+              -160,
+              -165
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Jesus Luzardo",
+          "strikeout_line": 5.5,
+          "consensus_odds": {
+            "over": -153,
+            "under": 115,
+            "over_formatted": "-153",
+            "under_formatted": "+115"
+          },
+          "sportsbooks": [
+            "BetRivers",
+            "Fanatics"
+          ],
+          "sportsbook_count": 2,
+          "individual_odds": {
+            "Fanatics": {
+              "over": -140,
+              "under": 105
+            },
+            "BetRivers": {
+              "over": -167,
+              "under": 125
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -140,
+              -167
+            ],
+            "under_odds": [
+              105,
+              125
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Jesus Luzardo",
+          "strikeout_line": 7.5,
+          "consensus_odds": {
+            "over": 250,
+            "under": -375,
+            "over_formatted": "+250",
+            "under_formatted": "-375"
+          },
+          "sportsbooks": [
+            "BetRivers"
+          ],
+          "sportsbook_count": 1,
+          "individual_odds": {
+            "BetRivers": {
+              "over": 250,
+              "under": -375
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              250
+            ],
+            "under_odds": [
+              -375
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Jesus Luzardo",
+          "strikeout_line": 4.5,
+          "consensus_odds": {
+            "over": -385,
+            "under": 260,
+            "over_formatted": "-385",
+            "under_formatted": "+260"
+          },
+          "sportsbooks": [
+            "BetRivers"
+          ],
+          "sportsbook_count": 1,
+          "individual_odds": {
+            "BetRivers": {
+              "over": -385,
+              "under": 260
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -385
+            ],
+            "under_odds": [
+              260
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "event_id": "1fc276d3059845b04732cef40a464398",
+      "away_team": "Colorado Rockies",
+      "home_team": "Washington Nationals",
+      "matchup": "Colorado Rockies @ Washington Nationals",
+      "game_time": "2025-06-17T18:46:00-04:00",
+      "game_time_formatted": "06:46 PM EDT",
+      "pitchers": [
+        {
+          "pitcher_name": "Antonio Senzatela",
+          "strikeout_line": 2.5,
+          "consensus_odds": {
+            "over": -124,
+            "under": -107,
+            "over_formatted": "-124",
+            "under_formatted": "-107"
+          },
+          "sportsbooks": [
+            "Fanatics",
+            "MyBookie.ag",
+            "FanDuel",
+            "BetOnline.ag",
+            "DraftKings"
+          ],
+          "sportsbook_count": 5,
+          "individual_odds": {
+            "FanDuel": {
+              "over": -130,
+              "under": -102
+            },
+            "BetOnline.ag": {
+              "over": -119,
+              "under": -109
+            },
+            "DraftKings": {
+              "over": -120,
+              "under": -110
+            },
+            "MyBookie.ag": {
+              "over": -123,
+              "under": -113
+            },
+            "Fanatics": {
+              "over": -130,
+              "under": 100
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -130,
+              -119,
+              -120,
+              -123,
+              -130
+            ],
+            "under_odds": [
+              -102,
+              -109,
               -110,
+              -113,
+              100
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Michael Soroka",
+          "strikeout_line": 6.5,
+          "consensus_odds": {
+            "over": 118,
+            "under": -154,
+            "over_formatted": "+118",
+            "under_formatted": "-154"
+          },
+          "sportsbooks": [
+            "BetOnline.ag",
+            "Fanatics",
+            "FanDuel",
+            "DraftKings"
+          ],
+          "sportsbook_count": 4,
+          "individual_odds": {
+            "FanDuel": {
+              "over": 118,
+              "under": -150
+            },
+            "BetOnline.ag": {
+              "over": 120,
+              "under": -156
+            },
+            "DraftKings": {
+              "over": 115,
+              "under": -150
+            },
+            "Fanatics": {
+              "over": 120,
+              "under": -160
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              118,
+              120,
+              115,
+              120
+            ],
+            "under_odds": [
+              -150,
+              -156,
+              -150,
+              -160
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "event_id": "7da8f778cedde50c9e98d90b45b3fbfd",
+      "away_team": "Los Angeles Angels",
+      "home_team": "New York Yankees",
+      "matchup": "Los Angeles Angels @ New York Yankees",
+      "game_time": "2025-06-17T19:06:00-04:00",
+      "game_time_formatted": "07:06 PM EDT",
+      "pitchers": [
+        {
+          "pitcher_name": "Kyle Hendricks",
+          "strikeout_line": 3.5,
+          "consensus_odds": {
+            "over": 105,
+            "under": -139,
+            "over_formatted": "+105",
+            "under_formatted": "-139"
+          },
+          "sportsbooks": [
+            "Fanatics",
+            "MyBookie.ag",
+            "FanDuel",
+            "BetOnline.ag",
+            "DraftKings"
+          ],
+          "sportsbook_count": 5,
+          "individual_odds": {
+            "FanDuel": {
+              "over": -104,
+              "under": -128
+            },
+            "BetOnline.ag": {
+              "over": 107,
+              "under": -139
+            },
+            "DraftKings": {
+              "over": 105,
+              "under": -140
+            },
+            "MyBookie.ag": {
+              "over": 102,
+              "under": -141
+            },
+            "Fanatics": {
+              "over": 115,
+              "under": -150
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -104,
+              107,
+              105,
+              102,
+              115
+            ],
+            "under_odds": [
+              -128,
+              -139,
+              -140,
+              -141,
+              -150
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Will Warren",
+          "strikeout_line": 6.5,
+          "consensus_odds": {
+            "over": 108,
+            "under": -142,
+            "over_formatted": "+108",
+            "under_formatted": "-142"
+          },
+          "sportsbooks": [
+            "Fanatics",
+            "MyBookie.ag",
+            "FanDuel",
+            "BetOnline.ag",
+            "DraftKings"
+          ],
+          "sportsbook_count": 5,
+          "individual_odds": {
+            "FanDuel": {
+              "over": 114,
+              "under": -144
+            },
+            "BetOnline.ag": {
+              "over": 109,
+              "under": -141
+            },
+            "DraftKings": {
+              "over": 110,
+              "under": -140
+            },
+            "MyBookie.ag": {
+              "over": 104,
+              "under": -144
+            },
+            "Fanatics": {
+              "over": 105,
+              "under": -140
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              114,
+              109,
+              110,
+              104,
+              105
+            ],
+            "under_odds": [
+              -144,
+              -141,
+              -140,
+              -144,
+              -140
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "event_id": "428599146319ec6287a9c65f553f0088",
+      "away_team": "Arizona Diamondbacks",
+      "home_team": "Toronto Blue Jays",
+      "matchup": "Arizona Diamondbacks @ Toronto Blue Jays",
+      "game_time": "2025-06-17T19:08:00-04:00",
+      "game_time_formatted": "07:08 PM EDT",
+      "pitchers": [
+        {
+          "pitcher_name": "Brandon Pfaadt",
+          "strikeout_line": 4.5,
+          "consensus_odds": {
+            "over": 116,
+            "under": -154,
+            "over_formatted": "+116",
+            "under_formatted": "-154"
+          },
+          "sportsbooks": [
+            "BetOnline.ag",
+            "MyBookie.ag",
+            "FanDuel",
+            "DraftKings"
+          ],
+          "sportsbook_count": 4,
+          "individual_odds": {
+            "FanDuel": {
+              "over": 120,
+              "under": -160
+            },
+            "BetOnline.ag": {
+              "over": 118,
+              "under": -154
+            },
+            "DraftKings": {
+              "over": 115,
+              "under": -145
+            },
+            "MyBookie.ag": {
+              "over": 112,
+              "under": -156
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              120,
+              118,
+              115,
+              112
+            ],
+            "under_odds": [
+              -160,
+              -154,
+              -145,
+              -156
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Brandon Pfaadt",
+          "strikeout_line": 3.5,
+          "consensus_odds": {
+            "over": -170,
+            "under": 130,
+            "over_formatted": "-170",
+            "under_formatted": "+130"
+          },
+          "sportsbooks": [
+            "Fanatics"
+          ],
+          "sportsbook_count": 1,
+          "individual_odds": {
+            "Fanatics": {
+              "over": -170,
+              "under": 130
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -170
+            ],
+            "under_odds": [
+              130
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Chris Bassitt",
+          "strikeout_line": 4.5,
+          "consensus_odds": {
+            "over": -133,
+            "under": 102,
+            "over_formatted": "-133",
+            "under_formatted": "+102"
+          },
+          "sportsbooks": [
+            "Fanatics",
+            "MyBookie.ag",
+            "FanDuel",
+            "BetOnline.ag",
+            "DraftKings"
+          ],
+          "sportsbook_count": 5,
+          "individual_odds": {
+            "FanDuel": {
+              "over": -138,
+              "under": 108
+            },
+            "BetOnline.ag": {
+              "over": -135,
+              "under": 105
+            },
+            "DraftKings": {
+              "over": -130,
+              "under": 100
+            },
+            "MyBookie.ag": {
+              "over": -138,
+              "under": 100
+            },
+            "Fanatics": {
+              "over": -125,
+              "under": -105
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -138,
+              -135,
+              -130,
+              -138,
+              -125
+            ],
+            "under_odds": [
+              108,
+              105,
               100,
-              -115
+              100,
+              -105
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "event_id": "97f8d1507e13f94f32faf220a88646f0",
+      "away_team": "Minnesota Twins",
+      "home_team": "Cincinnati Reds",
+      "matchup": "Minnesota Twins @ Cincinnati Reds",
+      "game_time": "2025-06-17T19:11:00-04:00",
+      "game_time_formatted": "07:11 PM EDT",
+      "pitchers": [
+        {
+          "pitcher_name": "Andrew Abbott",
+          "strikeout_line": 5.5,
+          "consensus_odds": {
+            "over": -107,
+            "under": -122,
+            "over_formatted": "-107",
+            "under_formatted": "-122"
+          },
+          "sportsbooks": [
+            "Fanatics",
+            "MyBookie.ag",
+            "FanDuel",
+            "BetOnline.ag",
+            "DraftKings"
+          ],
+          "sportsbook_count": 5,
+          "individual_odds": {
+            "FanDuel": {
+              "over": 100,
+              "under": -128
+            },
+            "BetOnline.ag": {
+              "over": -110,
+              "under": -118
+            },
+            "DraftKings": {
+              "over": -105,
+              "under": -120
+            },
+            "MyBookie.ag": {
+              "over": -114,
+              "under": -121
+            },
+            "Fanatics": {
+              "over": -105,
+              "under": -125
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              100,
+              -110,
+              -105,
+              -114,
+              -105
+            ],
+            "under_odds": [
+              -128,
+              -118,
+              -120,
+              -121,
+              -125
+            ]
+          }
+        },
+        {
+          "pitcher_name": "David Festa",
+          "strikeout_line": 5.5,
+          "consensus_odds": {
+            "over": 110,
+            "under": -146,
+            "over_formatted": "+110",
+            "under_formatted": "-146"
+          },
+          "sportsbooks": [
+            "Fanatics",
+            "MyBookie.ag",
+            "FanDuel",
+            "BetOnline.ag",
+            "DraftKings"
+          ],
+          "sportsbook_count": 5,
+          "individual_odds": {
+            "FanDuel": {
+              "over": 114,
+              "under": -152
+            },
+            "BetOnline.ag": {
+              "over": 112,
+              "under": -145
+            },
+            "DraftKings": {
+              "over": 105,
+              "under": -140
+            },
+            "MyBookie.ag": {
+              "over": 107,
+              "under": -148
+            },
+            "Fanatics": {
+              "over": 110,
+              "under": -145
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              114,
+              112,
+              105,
+              107,
+              110
+            ],
+            "under_odds": [
+              -152,
+              -145,
+              -140,
+              -148,
+              -145
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "event_id": "a7d5512f12c4b54cfe7a48eb6a43f277",
+      "away_team": "New York Mets",
+      "home_team": "Atlanta Braves",
+      "matchup": "New York Mets @ Atlanta Braves",
+      "game_time": "2025-06-17T19:16:00-04:00",
+      "game_time_formatted": "07:16 PM EDT",
+      "pitchers": [
+        {
+          "pitcher_name": "David Peterson",
+          "strikeout_line": 5.5,
+          "consensus_odds": {
+            "over": 120,
+            "under": -160,
+            "over_formatted": "+120",
+            "under_formatted": "-160"
+          },
+          "sportsbooks": [
+            "BetOnline.ag",
+            "MyBookie.ag",
+            "FanDuel",
+            "DraftKings"
+          ],
+          "sportsbook_count": 4,
+          "individual_odds": {
+            "FanDuel": {
+              "over": 112,
+              "under": -148
+            },
+            "BetOnline.ag": {
+              "over": 126,
+              "under": -164
+            },
+            "DraftKings": {
+              "over": 125,
+              "under": -165
+            },
+            "MyBookie.ag": {
+              "over": 119,
+              "under": -165
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              112,
+              126,
+              125,
+              119
+            ],
+            "under_odds": [
+              -148,
+              -164,
+              -165,
+              -165
+            ]
+          }
+        },
+        {
+          "pitcher_name": "David Peterson",
+          "strikeout_line": 4.5,
+          "consensus_odds": {
+            "over": -150,
+            "under": 115,
+            "over_formatted": "-150",
+            "under_formatted": "+115"
+          },
+          "sportsbooks": [
+            "Fanatics"
+          ],
+          "sportsbook_count": 1,
+          "individual_odds": {
+            "Fanatics": {
+              "over": -150,
+              "under": 115
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -150
+            ],
+            "under_odds": [
+              115
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Spencer Schwellenbach",
+          "strikeout_line": 5.5,
+          "consensus_odds": {
+            "over": 109,
+            "under": -142,
+            "over_formatted": "+109",
+            "under_formatted": "-142"
+          },
+          "sportsbooks": [
+            "Fanatics",
+            "MyBookie.ag",
+            "FanDuel",
+            "BetOnline.ag",
+            "DraftKings"
+          ],
+          "sportsbook_count": 5,
+          "individual_odds": {
+            "FanDuel": {
+              "over": 106,
+              "under": -134
+            },
+            "BetOnline.ag": {
+              "over": 112,
+              "under": -145
+            },
+            "DraftKings": {
+              "over": 110,
+              "under": -140
+            },
+            "MyBookie.ag": {
+              "over": 107,
+              "under": -148
+            },
+            "Fanatics": {
+              "over": 110,
+              "under": -145
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              106,
+              112,
+              110,
+              107,
+              110
+            ],
+            "under_odds": [
+              -134,
+              -145,
+              -140,
+              -148,
+              -145
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "event_id": "e49e52514b164804a09ef8430f87aa29",
+      "away_team": "Baltimore Orioles",
+      "home_team": "Tampa Bay Rays",
+      "matchup": "Baltimore Orioles @ Tampa Bay Rays",
+      "game_time": "2025-06-17T19:36:00-04:00",
+      "game_time_formatted": "07:36 PM EDT",
+      "pitchers": [
+        {
+          "pitcher_name": "Dean Kremer",
+          "strikeout_line": 4.5,
+          "consensus_odds": {
+            "over": -127,
+            "under": -105,
+            "over_formatted": "-127",
+            "under_formatted": "-105"
+          },
+          "sportsbooks": [
+            "Fanatics",
+            "MyBookie.ag",
+            "FanDuel",
+            "BetOnline.ag",
+            "DraftKings"
+          ],
+          "sportsbook_count": 5,
+          "individual_odds": {
+            "FanDuel": {
+              "over": -125,
+              "under": -106
+            },
+            "BetOnline.ag": {
+              "over": -123,
+              "under": -105
+            },
+            "DraftKings": {
+              "over": -135,
+              "under": 100
+            },
+            "MyBookie.ag": {
+              "over": -127,
+              "under": -109
+            },
+            "Fanatics": {
+              "over": -125,
+              "under": -105
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -125,
+              -123,
+              -135,
+              -127,
+              -125
+            ],
+            "under_odds": [
+              -106,
+              -105,
+              100,
+              -109,
+              -105
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Zack Littell",
+          "strikeout_line": 4.5,
+          "consensus_odds": {
+            "over": -112,
+            "under": -118,
+            "over_formatted": "-112",
+            "under_formatted": "-118"
+          },
+          "sportsbooks": [
+            "Fanatics",
+            "MyBookie.ag",
+            "FanDuel",
+            "BetOnline.ag",
+            "DraftKings"
+          ],
+          "sportsbook_count": 5,
+          "individual_odds": {
+            "FanDuel": {
+              "over": -110,
+              "under": -116
+            },
+            "BetOnline.ag": {
+              "over": -112,
+              "under": -115
+            },
+            "DraftKings": {
+              "over": -110,
+              "under": -120
+            },
+            "MyBookie.ag": {
+              "over": -116,
+              "under": -119
+            },
+            "Fanatics": {
+              "over": -110,
+              "under": -120
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -110,
+              -112,
+              -110,
+              -116,
+              -110
+            ],
+            "under_odds": [
+              -116,
+              -115,
+              -120,
+              -119,
+              -120
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "event_id": "392abe6f0c436507e09c7a82536dcc97",
+      "away_team": "St. Louis Cardinals",
+      "home_team": "Chicago White Sox",
+      "matchup": "St. Louis Cardinals @ Chicago White Sox",
+      "game_time": "2025-06-17T19:41:00-04:00",
+      "game_time_formatted": "07:41 PM EDT",
+      "pitchers": [
+        {
+          "pitcher_name": "Matthew Liberatore",
+          "strikeout_line": 4.5,
+          "consensus_odds": {
+            "over": -139,
+            "under": 105,
+            "over_formatted": "-139",
+            "under_formatted": "+105"
+          },
+          "sportsbooks": [
+            "Fanatics",
+            "MyBookie.ag",
+            "FanDuel",
+            "BetOnline.ag",
+            "DraftKings"
+          ],
+          "sportsbook_count": 5,
+          "individual_odds": {
+            "FanDuel": {
+              "over": -146,
+              "under": 110
+            },
+            "BetOnline.ag": {
+              "over": -141,
+              "under": 109
+            },
+            "DraftKings": {
+              "over": -140,
+              "under": 105
+            },
+            "MyBookie.ag": {
+              "over": -144,
+              "under": 104
+            },
+            "Fanatics": {
+              "over": -125,
+              "under": -105
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -146,
+              -141,
+              -140,
+              -144,
+              -125
+            ],
+            "under_odds": [
+              110,
+              109,
+              105,
+              104,
+              -105
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Shane Smith",
+          "strikeout_line": 4.5,
+          "consensus_odds": {
+            "over": 111,
+            "under": -145,
+            "over_formatted": "+111",
+            "under_formatted": "-145"
+          },
+          "sportsbooks": [
+            "Fanatics",
+            "MyBookie.ag",
+            "FanDuel",
+            "BetOnline.ag",
+            "DraftKings"
+          ],
+          "sportsbook_count": 5,
+          "individual_odds": {
+            "FanDuel": {
+              "over": 112,
+              "under": -142
+            },
+            "BetOnline.ag": {
+              "over": 110,
+              "under": -143
+            },
+            "DraftKings": {
+              "over": 115,
+              "under": -145
+            },
+            "MyBookie.ag": {
+              "over": 105,
+              "under": -145
+            },
+            "Fanatics": {
+              "over": 115,
+              "under": -150
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              112,
+              110,
+              115,
+              105,
+              115
+            ],
+            "under_odds": [
+              -142,
+              -143,
+              -145,
+              -145,
+              -150
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "event_id": "842c5e1f58ce51fde37d506f4071fb8b",
+      "away_team": "Milwaukee Brewers",
+      "home_team": "Chicago Cubs",
+      "matchup": "Milwaukee Brewers @ Chicago Cubs",
+      "game_time": "2025-06-17T20:06:00-04:00",
+      "game_time_formatted": "08:06 PM EDT",
+      "pitchers": [
+        {
+          "pitcher_name": "Ben Brown",
+          "strikeout_line": 5.5,
+          "consensus_odds": {
+            "over": 108,
+            "under": -141,
+            "over_formatted": "+108",
+            "under_formatted": "-141"
+          },
+          "sportsbooks": [
+            "Fanatics",
+            "MyBookie.ag",
+            "FanDuel",
+            "BetOnline.ag",
+            "DraftKings"
+          ],
+          "sportsbook_count": 5,
+          "individual_odds": {
+            "FanDuel": {
+              "over": 108,
+              "under": -136
+            },
+            "BetOnline.ag": {
+              "over": 109,
+              "under": -141
+            },
+            "DraftKings": {
+              "over": 110,
+              "under": -140
+            },
+            "MyBookie.ag": {
+              "over": 104,
+              "under": -144
+            },
+            "Fanatics": {
+              "over": 110,
+              "under": -145
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              108,
+              109,
+              110,
+              104,
+              110
+            ],
+            "under_odds": [
+              -136,
+              -141,
+              -140,
+              -144,
+              -145
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Chad Patrick",
+          "strikeout_line": 4.5,
+          "consensus_odds": {
+            "over": -111,
+            "under": -119,
+            "over_formatted": "-111",
+            "under_formatted": "-119"
+          },
+          "sportsbooks": [
+            "Fanatics",
+            "MyBookie.ag",
+            "FanDuel",
+            "BetOnline.ag",
+            "DraftKings"
+          ],
+          "sportsbook_count": 5,
+          "individual_odds": {
+            "FanDuel": {
+              "over": -122,
+              "under": -108
+            },
+            "BetOnline.ag": {
+              "over": -110,
+              "under": -118
+            },
+            "DraftKings": {
+              "over": -110,
+              "under": -120
+            },
+            "MyBookie.ag": {
+              "over": -114,
+              "under": -121
+            },
+            "Fanatics": {
+              "over": 100,
+              "under": -130
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -122,
+              -110,
+              -110,
+              -114,
+              100
+            ],
+            "under_odds": [
+              -108,
+              -118,
+              -120,
+              -121,
+              -130
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "event_id": "ec60f7b68e60e8207ece546e88c842c7",
+      "away_team": "Kansas City Royals",
+      "home_team": "Texas Rangers",
+      "matchup": "Kansas City Royals @ Texas Rangers",
+      "game_time": "2025-06-17T20:06:00-04:00",
+      "game_time_formatted": "08:06 PM EDT",
+      "pitchers": [
+        {
+          "pitcher_name": "Jack Leiter",
+          "strikeout_line": 3.5,
+          "consensus_odds": {
+            "over": -166,
+            "under": 129,
+            "over_formatted": "-166",
+            "under_formatted": "+129"
+          },
+          "sportsbooks": [
+            "Fanatics",
+            "FanDuel",
+            "DraftKings"
+          ],
+          "sportsbook_count": 3,
+          "individual_odds": {
+            "FanDuel": {
+              "over": -164,
+              "under": 128
+            },
+            "DraftKings": {
+              "over": -165,
+              "under": 130
+            },
+            "Fanatics": {
+              "over": -170,
+              "under": 130
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -164,
+              -165,
+              -170
+            ],
+            "under_odds": [
+              128,
+              130,
+              130
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Jack Leiter",
+          "strikeout_line": 4.5,
+          "consensus_odds": {
+            "over": 130,
+            "under": -175,
+            "over_formatted": "+130",
+            "under_formatted": "-175"
+          },
+          "sportsbooks": [
+            "BetOnline.ag",
+            "MyBookie.ag"
+          ],
+          "sportsbook_count": 2,
+          "individual_odds": {
+            "BetOnline.ag": {
+              "over": 134,
+              "under": -175
+            },
+            "MyBookie.ag": {
+              "over": 126,
+              "under": -176
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              134,
+              126
+            ],
+            "under_odds": [
+              -175,
+              -176
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Seth Lugo",
+          "strikeout_line": 4.5,
+          "consensus_odds": {
+            "over": -134,
+            "under": 102,
+            "over_formatted": "-134",
+            "under_formatted": "+102"
+          },
+          "sportsbooks": [
+            "Fanatics",
+            "MyBookie.ag",
+            "FanDuel",
+            "BetOnline.ag",
+            "DraftKings"
+          ],
+          "sportsbook_count": 5,
+          "individual_odds": {
+            "FanDuel": {
+              "over": -140,
+              "under": 106
+            },
+            "BetOnline.ag": {
+              "over": -135,
+              "under": 105
+            },
+            "DraftKings": {
+              "over": -130,
+              "under": 100
+            },
+            "MyBookie.ag": {
+              "over": -136,
+              "under": -101
+            },
+            "Fanatics": {
+              "over": -130,
+              "under": 100
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -140,
+              -135,
+              -130,
+              -136,
+              -130
+            ],
+            "under_odds": [
+              106,
+              105,
+              100,
+              -101,
+              100
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "event_id": "d2af7353959b4ffaeba1cd4c7c3d9c9e",
+      "away_team": "Boston Red Sox",
+      "home_team": "Seattle Mariners",
+      "matchup": "Boston Red Sox @ Seattle Mariners",
+      "game_time": "2025-06-17T21:41:00-04:00",
+      "game_time_formatted": "09:41 PM EDT",
+      "pitchers": [
+        {
+          "pitcher_name": "Bryan Woo",
+          "strikeout_line": 6.5,
+          "consensus_odds": {
+            "over": 104,
+            "under": -132,
+            "over_formatted": "+104",
+            "under_formatted": "-132"
+          },
+          "sportsbooks": [
+            "FanDuel"
+          ],
+          "sportsbook_count": 1,
+          "individual_odds": {
+            "FanDuel": {
+              "over": 104,
+              "under": -132
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              104
+            ],
+            "under_odds": [
+              -132
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Bryan Woo",
+          "strikeout_line": 5.5,
+          "consensus_odds": {
+            "over": -157,
+            "under": 119,
+            "over_formatted": "-157",
+            "under_formatted": "+119"
+          },
+          "sportsbooks": [
+            "BetOnline.ag",
+            "MyBookie.ag",
+            "Fanatics",
+            "DraftKings"
+          ],
+          "sportsbook_count": 4,
+          "individual_odds": {
+            "BetOnline.ag": {
+              "over": -159,
+              "under": 122
+            },
+            "DraftKings": {
+              "over": -160,
+              "under": 125
+            },
+            "MyBookie.ag": {
+              "over": -160,
+              "under": 116
+            },
+            "Fanatics": {
+              "over": -150,
+              "under": 115
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -159,
+              -160,
+              -160,
+              -150
+            ],
+            "under_odds": [
+              122,
+              125,
+              116,
+              115
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Walker Buehler",
+          "strikeout_line": 4.5,
+          "consensus_odds": {
+            "over": -141,
+            "under": 106,
+            "over_formatted": "-141",
+            "under_formatted": "+106"
+          },
+          "sportsbooks": [
+            "Fanatics",
+            "MyBookie.ag",
+            "FanDuel",
+            "BetOnline.ag",
+            "DraftKings"
+          ],
+          "sportsbook_count": 5,
+          "individual_odds": {
+            "FanDuel": {
+              "over": -152,
+              "under": 114
+            },
+            "BetOnline.ag": {
+              "over": -141,
+              "under": 108
+            },
+            "DraftKings": {
+              "over": -140,
+              "under": 105
+            },
+            "MyBookie.ag": {
+              "over": -143,
+              "under": 103
+            },
+            "Fanatics": {
+              "over": -130,
+              "under": 100
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -152,
+              -141,
+              -140,
+              -143,
+              -130
+            ],
+            "under_odds": [
+              114,
+              108,
+              105,
+              103,
+              100
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "event_id": "4fcbcd52984d278e71d7bd3024c579e0",
+      "away_team": "Cleveland Guardians",
+      "home_team": "San Francisco Giants",
+      "matchup": "Cleveland Guardians @ San Francisco Giants",
+      "game_time": "2025-06-17T21:46:00-04:00",
+      "game_time_formatted": "09:46 PM EDT",
+      "pitchers": [
+        {
+          "pitcher_name": "Robbie Ray",
+          "strikeout_line": 6.5,
+          "consensus_odds": {
+            "over": -131,
+            "under": -100,
+            "over_formatted": "-131",
+            "under_formatted": "-100"
+          },
+          "sportsbooks": [
+            "Fanatics",
+            "MyBookie.ag",
+            "FanDuel",
+            "BetOnline.ag",
+            "DraftKings"
+          ],
+          "sportsbook_count": 5,
+          "individual_odds": {
+            "FanDuel": {
+              "over": -126,
+              "under": -102
+            },
+            "BetOnline.ag": {
+              "over": -130,
+              "under": 100
+            },
+            "DraftKings": {
+              "over": -140,
+              "under": 110
+            },
+            "MyBookie.ag": {
+              "over": -133,
+              "under": -104
+            },
+            "Fanatics": {
+              "over": -125,
+              "under": -105
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -126,
+              -130,
+              -140,
+              -133,
+              -125
+            ],
+            "under_odds": [
+              -102,
+              100,
+              110,
+              -104,
+              -105
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Slade Cecconi",
+          "strikeout_line": 4.5,
+          "consensus_odds": {
+            "over": 102,
+            "under": -135,
+            "over_formatted": "+102",
+            "under_formatted": "-135"
+          },
+          "sportsbooks": [
+            "Fanatics",
+            "MyBookie.ag",
+            "FanDuel",
+            "BetOnline.ag",
+            "DraftKings"
+          ],
+          "sportsbook_count": 5,
+          "individual_odds": {
+            "FanDuel": {
+              "over": -102,
+              "under": -130
+            },
+            "BetOnline.ag": {
+              "over": 104,
+              "under": -135
+            },
+            "DraftKings": {
+              "over": 100,
+              "under": -130
+            },
+            "MyBookie.ag": {
+              "over": 100,
+              "under": -138
+            },
+            "Fanatics": {
+              "over": 110,
+              "under": -145
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -102,
+              104,
+              100,
+              100,
+              110
+            ],
+            "under_odds": [
+              -130,
+              -135,
+              -130,
+              -138,
+              -145
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "event_id": "9f04d0349d5ac6878f09f72590a19393",
+      "away_team": "Houston Astros",
+      "home_team": "Oakland Athletics",
+      "matchup": "Houston Astros @ Oakland Athletics",
+      "game_time": "2025-06-17T22:06:00-04:00",
+      "game_time_formatted": "10:06 PM EDT",
+      "pitchers": [
+        {
+          "pitcher_name": "JP Sears",
+          "strikeout_line": 3.5,
+          "consensus_odds": {
+            "over": 103,
+            "under": -136,
+            "over_formatted": "+103",
+            "under_formatted": "-136"
+          },
+          "sportsbooks": [
+            "MyBookie.ag",
+            "Fanatics",
+            "FanDuel",
+            "DraftKings"
+          ],
+          "sportsbook_count": 4,
+          "individual_odds": {
+            "FanDuel": {
+              "over": 102,
+              "under": -130
+            },
+            "Fanatics": {
+              "over": 105,
+              "under": -140
+            },
+            "DraftKings": {
+              "over": 105,
+              "under": -135
+            },
+            "MyBookie.ag": {
+              "over": 100,
+              "under": -138
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              102,
+              105,
+              105,
+              100
+            ],
+            "under_odds": [
+              -130,
+              -140,
+              -135,
+              -138
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "event_id": "cb3a8365956294fbb542245fec1081de",
+      "away_team": "San Diego Padres",
+      "home_team": "Los Angeles Dodgers",
+      "matchup": "San Diego Padres @ Los Angeles Dodgers",
+      "game_time": "2025-06-17T22:11:00-04:00",
+      "game_time_formatted": "10:11 PM EDT",
+      "pitchers": [
+        {
+          "pitcher_name": "Randy Vasquez",
+          "strikeout_line": 2.5,
+          "consensus_odds": {
+            "over": -137,
+            "under": 103,
+            "over_formatted": "-137",
+            "under_formatted": "+103"
+          },
+          "sportsbooks": [
+            "MyBookie.ag",
+            "Fanatics",
+            "FanDuel",
+            "DraftKings"
+          ],
+          "sportsbook_count": 4,
+          "individual_odds": {
+            "FanDuel": {
+              "over": -152,
+              "under": 114
+            },
+            "Fanatics": {
+              "over": -110,
+              "under": -120
+            },
+            "DraftKings": {
+              "over": -145,
+              "under": 110
+            },
+            "MyBookie.ag": {
+              "over": -147,
+              "under": 106
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -152,
+              -110,
+              -145,
+              -147
+            ],
+            "under_odds": [
+              114,
+              -120,
+              110,
+              106
             ]
           }
         }
