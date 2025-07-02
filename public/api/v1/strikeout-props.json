@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2025-07-02T16:16:13.953662-04:00",
-    "generated_at_formatted": "Wednesday, July 02, 2025 at 04:16 PM EDT",
+    "generated_at": "2025-07-02T18:15:26.373203-04:00",
+    "generated_at_formatted": "Wednesday, July 02, 2025 at 06:15 PM EDT",
     "date": "2025-07-02",
     "timezone": "US/Eastern"
   },
   "summary": {
     "total_games": 13,
-    "total_pitchers": 73,
+    "total_pitchers": 87,
     "games_with_props": 13
   },
   "games": [
@@ -16,48 +16,69 @@
       "away_team": "San Diego Padres",
       "home_team": "Philadelphia Phillies",
       "matchup": "San Diego Padres @ Philadelphia Phillies",
-      "game_time": "2025-07-02T18:15:00-04:00",
-      "game_time_formatted": "06:15 PM EDT",
+      "game_time": "2025-07-02T18:20:00-04:00",
+      "game_time_formatted": "06:20 PM EDT",
       "pitchers": [
         {
           "pitcher_name": "Cristopher Sanchez",
           "strikeout_line": 4.5,
           "consensus_odds": {
-            "over": -160,
-            "under": 121,
-            "over_formatted": "-160",
-            "under_formatted": "+121"
+            "over": -166,
+            "under": 126,
+            "over_formatted": "-166",
+            "under_formatted": "+126"
           },
           "sportsbooks": [
-            "BetRivers",
             "FanDuel",
+            "BetOnline.ag",
+            "BetRivers",
+            "BetMGM",
+            "Bovada",
             "Fanatics"
           ],
-          "sportsbook_count": 3,
+          "sportsbook_count": 6,
           "individual_odds": {
             "FanDuel": {
-              "over": -164,
-              "under": 128
+              "over": -176,
+              "under": 138
             },
             "Fanatics": {
               "over": -150,
               "under": 115
             },
+            "BetOnline.ag": {
+              "over": -172,
+              "under": 131
+            },
+            "BetMGM": {
+              "over": -165,
+              "under": 125
+            },
             "BetRivers": {
-              "over": -167,
-              "under": 120
+              "over": -157,
+              "under": 114
+            },
+            "Bovada": {
+              "over": -180,
+              "under": 135
             }
           },
           "raw_odds": {
             "over_odds": [
-              -164,
+              -176,
               -150,
-              -167
+              -172,
+              -165,
+              -157,
+              -180
             ],
             "under_odds": [
-              128,
+              138,
               115,
-              120
+              131,
+              125,
+              114,
+              135
             ]
           }
         },
@@ -65,55 +86,41 @@
           "pitcher_name": "Cristopher Sanchez",
           "strikeout_line": 5.5,
           "consensus_odds": {
-            "over": 125,
-            "under": -166,
-            "over_formatted": "+125",
-            "under_formatted": "-166"
+            "over": 127,
+            "under": -174,
+            "over_formatted": "+127",
+            "under_formatted": "-174"
           },
           "sportsbooks": [
             "BetRivers",
-            "MyBookie.ag",
             "DraftKings",
-            "BetMGM",
-            "BetOnline.ag"
+            "MyBookie.ag"
           ],
-          "sportsbook_count": 5,
+          "sportsbook_count": 3,
           "individual_odds": {
             "MyBookie.ag": {
               "over": 119,
               "under": -165
             },
-            "BetOnline.ag": {
-              "over": 126,
-              "under": -164
-            },
             "DraftKings": {
-              "over": 120,
-              "under": -155
-            },
-            "BetMGM": {
-              "over": 130,
+              "over": 125,
               "under": -165
             },
             "BetRivers": {
-              "over": 130,
-              "under": -180
+              "over": 138,
+              "under": -195
             }
           },
           "raw_odds": {
             "over_odds": [
               119,
-              126,
-              120,
-              130,
-              130
+              125,
+              138
             ],
             "under_odds": [
               -165,
-              -164,
-              -155,
               -165,
-              -180
+              -195
             ]
           }
         },
@@ -121,10 +128,10 @@
           "pitcher_name": "Cristopher Sanchez",
           "strikeout_line": 6.5,
           "consensus_odds": {
-            "over": 265,
-            "under": -420,
-            "over_formatted": "+265",
-            "under_formatted": "-420"
+            "over": 280,
+            "under": -455,
+            "over_formatted": "+280",
+            "under_formatted": "-455"
           },
           "sportsbooks": [
             "BetRivers"
@@ -132,16 +139,16 @@
           "sportsbook_count": 1,
           "individual_odds": {
             "BetRivers": {
-              "over": 265,
-              "under": -420
+              "over": 280,
+              "under": -455
             }
           },
           "raw_odds": {
             "over_odds": [
-              265
+              280
             ],
             "under_odds": [
-              -420
+              -455
             ]
           }
         },
@@ -149,10 +156,10 @@
           "pitcher_name": "Cristopher Sanchez",
           "strikeout_line": 3.5,
           "consensus_odds": {
-            "over": -420,
-            "under": 255,
-            "over_formatted": "-420",
-            "under_formatted": "+255"
+            "over": -385,
+            "under": 250,
+            "over_formatted": "-385",
+            "under_formatted": "+250"
           },
           "sportsbooks": [
             "BetRivers"
@@ -160,16 +167,16 @@
           "sportsbook_count": 1,
           "individual_odds": {
             "BetRivers": {
-              "over": -420,
-              "under": 255
+              "over": -385,
+              "under": 250
             }
           },
           "raw_odds": {
             "over_odds": [
-              -420
+              -385
             ],
             "under_odds": [
-              255
+              250
             ]
           }
         },
@@ -177,69 +184,76 @@
           "pitcher_name": "Dylan Cease",
           "strikeout_line": 6.5,
           "consensus_odds": {
-            "over": 102,
-            "under": -135,
-            "over_formatted": "+102",
-            "under_formatted": "-135"
+            "over": -107,
+            "under": -123,
+            "over_formatted": "-107",
+            "under_formatted": "-123"
           },
           "sportsbooks": [
+            "FanDuel",
+            "BetOnline.ag",
             "BetRivers",
-            "MyBookie.ag",
             "DraftKings",
             "BetMGM",
-            "BetOnline.ag",
-            "FanDuel",
-            "Fanatics"
+            "Bovada",
+            "Fanatics",
+            "MyBookie.ag"
           ],
-          "sportsbook_count": 7,
+          "sportsbook_count": 8,
           "individual_odds": {
             "FanDuel": {
               "over": -102,
               "under": -125
             },
             "MyBookie.ag": {
-              "over": -104,
-              "under": -133
+              "over": -111,
+              "under": -124
             },
             "Fanatics": {
-              "over": 110,
-              "under": -145
+              "over": -115,
+              "under": -115
             },
             "BetOnline.ag": {
-              "over": 103,
-              "under": -133
+              "over": -108,
+              "under": -120
             },
             "DraftKings": {
-              "over": 105,
-              "under": -135
+              "over": -110,
+              "under": -120
             },
             "BetMGM": {
-              "over": 100,
-              "under": -135
+              "over": -115,
+              "under": -115
             },
             "BetRivers": {
+              "over": 104,
+              "under": -141
+            },
+            "Bovada": {
               "over": 100,
-              "under": -137
+              "under": -130
             }
           },
           "raw_odds": {
             "over_odds": [
               -102,
-              -104,
-              110,
-              103,
-              105,
-              100,
+              -111,
+              -115,
+              -108,
+              -110,
+              -115,
+              104,
               100
             ],
             "under_odds": [
               -125,
-              -133,
-              -145,
-              -133,
-              -135,
-              -135,
-              -137
+              -124,
+              -115,
+              -120,
+              -120,
+              -115,
+              -141,
+              -130
             ]
           }
         },
@@ -247,10 +261,10 @@
           "pitcher_name": "Dylan Cease",
           "strikeout_line": 7.5,
           "consensus_odds": {
-            "over": 190,
-            "under": -278,
-            "over_formatted": "+190",
-            "under_formatted": "-278"
+            "over": 200,
+            "under": -295,
+            "over_formatted": "+200",
+            "under_formatted": "-295"
           },
           "sportsbooks": [
             "BetRivers"
@@ -258,16 +272,16 @@
           "sportsbook_count": 1,
           "individual_odds": {
             "BetRivers": {
-              "over": 190,
-              "under": -278
+              "over": 200,
+              "under": -295
             }
           },
           "raw_odds": {
             "over_odds": [
-              190
+              200
             ],
             "under_odds": [
-              -278
+              -295
             ]
           }
         },
@@ -275,10 +289,10 @@
           "pitcher_name": "Dylan Cease",
           "strikeout_line": 4.5,
           "consensus_odds": {
-            "over": -420,
-            "under": 270,
-            "over_formatted": "-420",
-            "under_formatted": "+270"
+            "over": -400,
+            "under": 260,
+            "over_formatted": "-400",
+            "under_formatted": "+260"
           },
           "sportsbooks": [
             "BetRivers"
@@ -286,16 +300,16 @@
           "sportsbook_count": 1,
           "individual_odds": {
             "BetRivers": {
-              "over": -420,
-              "under": 270
+              "over": -400,
+              "under": 260
             }
           },
           "raw_odds": {
             "over_odds": [
-              -420
+              -400
             ],
             "under_odds": [
-              270
+              260
             ]
           }
         },
@@ -303,10 +317,10 @@
           "pitcher_name": "Dylan Cease",
           "strikeout_line": 5.5,
           "consensus_odds": {
-            "over": -200,
-            "under": 140,
-            "over_formatted": "-200",
-            "under_formatted": "+140"
+            "over": -186,
+            "under": 135,
+            "over_formatted": "-186",
+            "under_formatted": "+135"
           },
           "sportsbooks": [
             "BetRivers"
@@ -314,16 +328,16 @@
           "sportsbook_count": 1,
           "individual_odds": {
             "BetRivers": {
-              "over": -200,
-              "under": 140
+              "over": -186,
+              "under": 135
             }
           },
           "raw_odds": {
             "over_odds": [
-              -200
+              -186
             ],
             "under_odds": [
-              140
+              135
             ]
           }
         }
@@ -341,46 +355,46 @@
           "pitcher_name": "Janson Junk",
           "strikeout_line": 3.5,
           "consensus_odds": {
-            "over": -139,
-            "under": 105,
-            "over_formatted": "-139",
-            "under_formatted": "+105"
+            "over": -138,
+            "under": 104,
+            "over_formatted": "-138",
+            "under_formatted": "+104"
           },
           "sportsbooks": [
+            "FanDuel",
+            "BetOnline.ag",
             "BetRivers",
-            "MyBookie.ag",
             "DraftKings",
             "BetMGM",
-            "BetOnline.ag",
             "Bovada",
-            "FanDuel",
-            "Fanatics"
+            "Fanatics",
+            "MyBookie.ag"
           ],
           "sportsbook_count": 8,
           "individual_odds": {
             "FanDuel": {
-              "over": -138,
+              "over": -136,
               "under": 108
             },
             "BetOnline.ag": {
-              "over": -130,
-              "under": 100
+              "over": -125,
+              "under": -103
             },
             "DraftKings": {
-              "over": -130,
-              "under": 100
+              "over": -125,
+              "under": -105
             },
             "MyBookie.ag": {
-              "over": -133,
-              "under": -104
+              "over": -128,
+              "under": -107
             },
             "BetMGM": {
               "over": -155,
               "under": 115
             },
             "Fanatics": {
-              "over": -125,
-              "under": -105
+              "over": -130,
+              "under": 100
             },
             "Bovada": {
               "over": -160,
@@ -393,22 +407,22 @@
           },
           "raw_odds": {
             "over_odds": [
-              -138,
-              -130,
-              -130,
-              -133,
-              -155,
+              -136,
               -125,
+              -125,
+              -128,
+              -155,
+              -130,
               -160,
               -148
             ],
             "under_odds": [
               108,
-              100,
-              100,
-              -104,
-              115,
+              -103,
               -105,
+              -107,
+              115,
+              100,
               120,
               108
             ]
@@ -418,9 +432,9 @@
           "pitcher_name": "Janson Junk",
           "strikeout_line": 4.5,
           "consensus_odds": {
-            "over": 145,
+            "over": 148,
             "under": -205,
-            "over_formatted": "+145",
+            "over_formatted": "+148",
             "under_formatted": "-205"
           },
           "sportsbooks": [
@@ -429,13 +443,13 @@
           "sportsbook_count": 1,
           "individual_odds": {
             "BetRivers": {
-              "over": 145,
+              "over": 148,
               "under": -205
             }
           },
           "raw_odds": {
             "over_odds": [
-              145
+              148
             ],
             "under_odds": [
               -205
@@ -446,10 +460,10 @@
           "pitcher_name": "Janson Junk",
           "strikeout_line": 2.5,
           "consensus_odds": {
-            "over": -375,
-            "under": 235,
-            "over_formatted": "-375",
-            "under_formatted": "+235"
+            "over": -360,
+            "under": 240,
+            "over_formatted": "-360",
+            "under_formatted": "+240"
           },
           "sportsbooks": [
             "BetRivers"
@@ -457,16 +471,16 @@
           "sportsbook_count": 1,
           "individual_odds": {
             "BetRivers": {
-              "over": -375,
-              "under": 235
+              "over": -360,
+              "under": 240
             }
           },
           "raw_odds": {
             "over_odds": [
-              -375
+              -360
             ],
             "under_odds": [
-              235
+              240
             ]
           }
         },
@@ -508,12 +522,12 @@
             "under_formatted": "-162"
           },
           "sportsbooks": [
-            "BetRivers",
-            "MyBookie.ag",
-            "DraftKings",
-            "BetOnline.ag",
             "FanDuel",
-            "Fanatics"
+            "BetOnline.ag",
+            "BetRivers",
+            "DraftKings",
+            "Fanatics",
+            "MyBookie.ag"
           ],
           "sportsbook_count": 6,
           "individual_odds": {
@@ -636,9 +650,9 @@
           "strikeout_line": 2.5,
           "consensus_odds": {
             "over": -455,
-            "under": 285,
+            "under": 280,
             "over_formatted": "-455",
-            "under_formatted": "+285"
+            "under_formatted": "+280"
           },
           "sportsbooks": [
             "BetRivers"
@@ -647,7 +661,7 @@
           "individual_odds": {
             "BetRivers": {
               "over": -455,
-              "under": 285
+              "under": 280
             }
           },
           "raw_odds": {
@@ -655,7 +669,7 @@
               -455
             ],
             "under_odds": [
-              285
+              280
             ]
           }
         }
@@ -673,48 +687,153 @@
           "pitcher_name": "Jack Flaherty",
           "strikeout_line": 5.5,
           "consensus_odds": {
-            "over": -134,
-            "under": 101,
-            "over_formatted": "-134",
-            "under_formatted": "+101"
+            "over": -117,
+            "under": -113,
+            "over_formatted": "-117",
+            "under_formatted": "-113"
           },
           "sportsbooks": [
-            "DraftKings",
             "FanDuel",
             "BetOnline.ag",
+            "BetRivers",
+            "DraftKings",
+            "BetMGM",
+            "Bovada",
             "MyBookie.ag"
           ],
-          "sportsbook_count": 4,
+          "sportsbook_count": 7,
           "individual_odds": {
             "FanDuel": {
-              "over": -128,
-              "under": 100
+              "over": -120,
+              "under": -106
             },
             "MyBookie.ag": {
-              "over": -135,
-              "under": -102
+              "over": -117,
+              "under": -117
             },
             "BetOnline.ag": {
-              "over": -132,
-              "under": 102
+              "over": -114,
+              "under": -114
             },
             "DraftKings": {
-              "over": -140,
-              "under": 105
+              "over": -120,
+              "under": -110
+            },
+            "BetMGM": {
+              "over": -110,
+              "under": -120
+            },
+            "BetRivers": {
+              "over": -129,
+              "under": -106
+            },
+            "Bovada": {
+              "over": -110,
+              "under": -120
             }
           },
           "raw_odds": {
             "over_odds": [
-              -128,
-              -135,
-              -132,
-              -140
+              -120,
+              -117,
+              -114,
+              -120,
+              -110,
+              -129,
+              -110
             ],
             "under_odds": [
-              100,
-              -102,
-              102,
-              105
+              -106,
+              -117,
+              -114,
+              -110,
+              -120,
+              -106,
+              -120
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Jack Flaherty",
+          "strikeout_line": 7.5,
+          "consensus_odds": {
+            "over": 295,
+            "under": -500,
+            "over_formatted": "+295",
+            "under_formatted": "-500"
+          },
+          "sportsbooks": [
+            "BetRivers"
+          ],
+          "sportsbook_count": 1,
+          "individual_odds": {
+            "BetRivers": {
+              "over": 295,
+              "under": -500
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              295
+            ],
+            "under_odds": [
+              -500
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Jack Flaherty",
+          "strikeout_line": 6.5,
+          "consensus_odds": {
+            "over": 155,
+            "under": -220,
+            "over_formatted": "+155",
+            "under_formatted": "-220"
+          },
+          "sportsbooks": [
+            "BetRivers"
+          ],
+          "sportsbook_count": 1,
+          "individual_odds": {
+            "BetRivers": {
+              "over": 155,
+              "under": -220
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              155
+            ],
+            "under_odds": [
+              -220
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Jack Flaherty",
+          "strikeout_line": 4.5,
+          "consensus_odds": {
+            "over": -275,
+            "under": 185,
+            "over_formatted": "-275",
+            "under_formatted": "+185"
+          },
+          "sportsbooks": [
+            "BetRivers"
+          ],
+          "sportsbook_count": 1,
+          "individual_odds": {
+            "BetRivers": {
+              "over": -275,
+              "under": 185
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -275
+            ],
+            "under_odds": [
+              185
             ]
           }
         },
@@ -722,48 +841,104 @@
           "pitcher_name": "MacKenzie Gore",
           "strikeout_line": 6.5,
           "consensus_odds": {
-            "over": -142,
-            "under": 107,
-            "over_formatted": "-142",
-            "under_formatted": "+107"
+            "over": -138,
+            "under": 105,
+            "over_formatted": "-138",
+            "under_formatted": "+105"
           },
           "sportsbooks": [
             "FanDuel",
-            "Fanatics",
             "BetOnline.ag",
+            "BetRivers",
+            "DraftKings",
+            "BetMGM",
+            "Bovada",
+            "Fanatics",
             "MyBookie.ag"
           ],
-          "sportsbook_count": 4,
+          "sportsbook_count": 8,
           "individual_odds": {
             "FanDuel": {
-              "over": -138,
-              "under": 108
+              "over": -142,
+              "under": 112
             },
             "MyBookie.ag": {
-              "over": -143,
-              "under": 103
+              "over": -140,
+              "under": 101
             },
             "Fanatics": {
-              "over": -145,
-              "under": 110
+              "over": -140,
+              "under": 105
             },
             "BetOnline.ag": {
               "over": -141,
               "under": 108
+            },
+            "DraftKings": {
+              "over": -130,
+              "under": 100
+            },
+            "BetMGM": {
+              "over": -135,
+              "under": 105
+            },
+            "BetRivers": {
+              "over": -134,
+              "under": 100
+            },
+            "Bovada": {
+              "over": -145,
+              "under": 110
             }
           },
           "raw_odds": {
             "over_odds": [
-              -138,
-              -143,
-              -145,
-              -141
+              -142,
+              -140,
+              -140,
+              -141,
+              -130,
+              -135,
+              -134,
+              -145
             ],
             "under_odds": [
+              112,
+              101,
+              105,
               108,
-              103,
-              110,
-              108
+              100,
+              105,
+              100,
+              110
+            ]
+          }
+        },
+        {
+          "pitcher_name": "MacKenzie Gore",
+          "strikeout_line": 5.5,
+          "consensus_odds": {
+            "over": -275,
+            "under": 188,
+            "over_formatted": "-275",
+            "under_formatted": "+188"
+          },
+          "sportsbooks": [
+            "BetRivers"
+          ],
+          "sportsbook_count": 1,
+          "individual_odds": {
+            "BetRivers": {
+              "over": -275,
+              "under": 188
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -275
+            ],
+            "under_odds": [
+              188
             ]
           }
         },
@@ -771,27 +946,55 @@
           "pitcher_name": "MacKenzie Gore",
           "strikeout_line": 7.5,
           "consensus_odds": {
-            "over": 120,
-            "under": -155,
-            "over_formatted": "+120",
-            "under_formatted": "-155"
+            "over": 140,
+            "under": -195,
+            "over_formatted": "+140",
+            "under_formatted": "-195"
           },
           "sportsbooks": [
-            "DraftKings"
+            "BetRivers"
           ],
           "sportsbook_count": 1,
           "individual_odds": {
-            "DraftKings": {
-              "over": 120,
-              "under": -155
+            "BetRivers": {
+              "over": 140,
+              "under": -195
             }
           },
           "raw_odds": {
             "over_odds": [
-              120
+              140
             ],
             "under_odds": [
-              -155
+              -195
+            ]
+          }
+        },
+        {
+          "pitcher_name": "MacKenzie Gore",
+          "strikeout_line": 8.5,
+          "consensus_odds": {
+            "over": 260,
+            "under": -420,
+            "over_formatted": "+260",
+            "under_formatted": "-420"
+          },
+          "sportsbooks": [
+            "BetRivers"
+          ],
+          "sportsbook_count": 1,
+          "individual_odds": {
+            "BetRivers": {
+              "over": 260,
+              "under": -420
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              260
+            ],
+            "under_odds": [
+              -420
             ]
           }
         }
@@ -809,18 +1012,18 @@
           "pitcher_name": "Jose Berrios",
           "strikeout_line": 5.5,
           "consensus_odds": {
-            "over": 106,
-            "under": -139,
-            "over_formatted": "+106",
-            "under_formatted": "-139"
+            "over": 111,
+            "under": -146,
+            "over_formatted": "+111",
+            "under_formatted": "-146"
           },
           "sportsbooks": [
-            "BetRivers",
-            "MyBookie.ag",
-            "DraftKings",
-            "BetOnline.ag",
             "FanDuel",
-            "Fanatics"
+            "BetOnline.ag",
+            "BetRivers",
+            "DraftKings",
+            "Fanatics",
+            "MyBookie.ag"
           ],
           "sportsbook_count": 6,
           "individual_odds": {
@@ -829,42 +1032,42 @@
               "under": -136
             },
             "BetOnline.ag": {
-              "over": 110,
-              "under": -143
+              "over": 120,
+              "under": -156
             },
             "DraftKings": {
               "over": 110,
               "under": -140
             },
             "MyBookie.ag": {
-              "over": 105,
-              "under": -145
+              "over": 114,
+              "under": -158
             },
             "Fanatics": {
-              "over": 110,
-              "under": -145
+              "over": 120,
+              "under": -160
             },
             "BetRivers": {
-              "over": -107,
-              "under": -127
+              "over": -105,
+              "under": -130
             }
           },
           "raw_odds": {
             "over_odds": [
               108,
+              120,
               110,
-              110,
-              105,
-              110,
-              -107
+              114,
+              120,
+              -105
             ],
             "under_odds": [
               -136,
-              -143,
+              -156,
               -140,
-              -145,
-              -145,
-              -127
+              -158,
+              -160,
+              -130
             ]
           }
         },
@@ -872,10 +1075,10 @@
           "pitcher_name": "Jose Berrios",
           "strikeout_line": 4.5,
           "consensus_odds": {
-            "over": -181,
-            "under": 135,
-            "over_formatted": "-181",
-            "under_formatted": "+135"
+            "over": -187,
+            "under": 140,
+            "over_formatted": "-187",
+            "under_formatted": "+140"
           },
           "sportsbooks": [
             "BetRivers",
@@ -885,26 +1088,26 @@
           "sportsbook_count": 3,
           "individual_odds": {
             "BetMGM": {
-              "over": -155,
-              "under": 120
+              "over": -175,
+              "under": 135
             },
             "Bovada": {
               "over": -165,
               "under": 125
             },
             "BetRivers": {
-              "over": -235,
+              "over": -230,
               "under": 163
             }
           },
           "raw_odds": {
             "over_odds": [
-              -155,
+              -175,
               -165,
-              -235
+              -230
             ],
             "under_odds": [
-              120,
+              135,
               125,
               163
             ]
@@ -914,10 +1117,10 @@
           "pitcher_name": "Jose Berrios",
           "strikeout_line": 6.5,
           "consensus_odds": {
-            "over": 190,
-            "under": -278,
-            "over_formatted": "+190",
-            "under_formatted": "-278"
+            "over": 195,
+            "under": -286,
+            "over_formatted": "+195",
+            "under_formatted": "-286"
           },
           "sportsbooks": [
             "BetRivers"
@@ -925,16 +1128,16 @@
           "sportsbook_count": 1,
           "individual_odds": {
             "BetRivers": {
-              "over": 190,
-              "under": -278
+              "over": 195,
+              "under": -286
             }
           },
           "raw_odds": {
             "over_odds": [
-              190
+              195
             ],
             "under_odds": [
-              -278
+              -286
             ]
           }
         },
@@ -970,37 +1173,38 @@
           "pitcher_name": "Will Warren",
           "strikeout_line": 4.5,
           "consensus_odds": {
-            "over": -113,
-            "under": -116,
-            "over_formatted": "-113",
-            "under_formatted": "-116"
+            "over": -116,
+            "under": -114,
+            "over_formatted": "-116",
+            "under_formatted": "-114"
           },
           "sportsbooks": [
-            "MyBookie.ag",
+            "FanDuel",
+            "BetOnline.ag",
+            "BetRivers",
             "DraftKings",
             "BetMGM",
-            "BetOnline.ag",
             "Bovada",
-            "FanDuel",
-            "Fanatics"
+            "Fanatics",
+            "MyBookie.ag"
           ],
-          "sportsbook_count": 7,
+          "sportsbook_count": 8,
           "individual_odds": {
             "FanDuel": {
               "over": -115,
               "under": -111
             },
             "BetOnline.ag": {
-              "over": -103,
-              "under": -125
+              "over": -114,
+              "under": -114
             },
             "DraftKings": {
               "over": -115,
               "under": -115
             },
             "MyBookie.ag": {
-              "over": -107,
-              "under": -128
+              "over": -117,
+              "under": -117
             },
             "BetMGM": {
               "over": -110,
@@ -1013,26 +1217,88 @@
             "Bovada": {
               "over": -130,
               "under": 100
+            },
+            "BetRivers": {
+              "over": -114,
+              "under": -120
             }
           },
           "raw_odds": {
             "over_odds": [
               -115,
-              -103,
+              -114,
               -115,
-              -107,
+              -117,
               -110,
               -115,
-              -130
+              -130,
+              -114
             ],
             "under_odds": [
               -111,
-              -125,
+              -114,
               -115,
-              -128,
+              -117,
               -120,
               -115,
-              100
+              100,
+              -120
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Will Warren",
+          "strikeout_line": 3.5,
+          "consensus_odds": {
+            "over": -265,
+            "under": 180,
+            "over_formatted": "-265",
+            "under_formatted": "+180"
+          },
+          "sportsbooks": [
+            "BetRivers"
+          ],
+          "sportsbook_count": 1,
+          "individual_odds": {
+            "BetRivers": {
+              "over": -265,
+              "under": 180
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -265
+            ],
+            "under_odds": [
+              180
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Will Warren",
+          "strikeout_line": 5.5,
+          "consensus_odds": {
+            "over": 188,
+            "under": -275,
+            "over_formatted": "+188",
+            "under_formatted": "-275"
+          },
+          "sportsbooks": [
+            "BetRivers"
+          ],
+          "sportsbook_count": 1,
+          "individual_odds": {
+            "BetRivers": {
+              "over": 188,
+              "under": -275
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              188
+            ],
+            "under_odds": [
+              -275
             ]
           }
         }
@@ -1050,55 +1316,76 @@
           "pitcher_name": "Nick Martinez",
           "strikeout_line": 4.5,
           "consensus_odds": {
-            "over": -107,
-            "under": -123,
-            "over_formatted": "-107",
-            "under_formatted": "-123"
+            "over": 111,
+            "under": -147,
+            "over_formatted": "+111",
+            "under_formatted": "-147"
           },
           "sportsbooks": [
-            "MyBookie.ag",
-            "BetMGM",
-            "BetOnline.ag",
             "FanDuel",
-            "Fanatics"
+            "BetOnline.ag",
+            "BetRivers",
+            "DraftKings",
+            "BetMGM",
+            "Bovada",
+            "Fanatics",
+            "MyBookie.ag"
           ],
-          "sportsbook_count": 5,
+          "sportsbook_count": 8,
           "individual_odds": {
             "BetOnline.ag": {
-              "over": -114,
-              "under": -114
+              "over": 113,
+              "under": -147
+            },
+            "DraftKings": {
+              "over": 120,
+              "under": -160
             },
             "FanDuel": {
-              "over": -115,
-              "under": -111
+              "over": 102,
+              "under": -130
             },
             "MyBookie.ag": {
-              "over": -117,
-              "under": -117
+              "over": 108,
+              "under": -149
             },
             "BetMGM": {
-              "over": 105,
-              "under": -135
+              "over": 115,
+              "under": -150
             },
             "Fanatics": {
-              "over": 105,
-              "under": -140
+              "over": 120,
+              "under": -160
+            },
+            "Bovada": {
+              "over": 110,
+              "under": -145
+            },
+            "BetRivers": {
+              "over": 100,
+              "under": -136
             }
           },
           "raw_odds": {
             "over_odds": [
-              -114,
-              -115,
-              -117,
-              105,
-              105
+              113,
+              120,
+              102,
+              108,
+              115,
+              120,
+              110,
+              100
             ],
             "under_odds": [
-              -114,
-              -111,
-              -117,
-              -135,
-              -140
+              -147,
+              -160,
+              -130,
+              -149,
+              -150,
+              -160,
+              -145,
+              -136
             ]
           }
         }
@@ -1117,33 +1404,26 @@
           "strikeout_line": 3.5,
           "consensus_odds": {
             "over": -135,
-            "under": 102,
+            "under": 105,
             "over_formatted": "-135",
-            "under_formatted": "+102"
+            "under_formatted": "+105"
           },
           "sportsbooks": [
-            "DraftKings",
-            "Fanatics"
+            "Bovada"
           ],
-          "sportsbook_count": 2,
+          "sportsbook_count": 1,
           "individual_odds": {
-            "DraftKings": {
-              "over": -140,
+            "Bovada": {
+              "over": -135,
               "under": 105
-            },
-            "Fanatics": {
-              "over": -130,
-              "under": 100
             }
           },
           "raw_odds": {
             "over_odds": [
-              -140,
-              -130
+              -135
             ],
             "under_odds": [
-              105,
-              100
+              105
             ]
           }
         },
@@ -1151,41 +1431,69 @@
           "pitcher_name": "Jacob Misiorowski",
           "strikeout_line": 4.5,
           "consensus_odds": {
-            "over": -166,
-            "under": 128,
-            "over_formatted": "-166",
-            "under_formatted": "+128"
+            "over": -170,
+            "under": 129,
+            "over_formatted": "-170",
+            "under_formatted": "+129"
           },
           "sportsbooks": [
-            "BetMGM",
             "FanDuel",
-            "BetOnline.ag"
+            "BetOnline.ag",
+            "BetRivers",
+            "DraftKings",
+            "BetMGM",
+            "Bovada",
+            "MyBookie.ag"
           ],
-          "sportsbook_count": 3,
+          "sportsbook_count": 7,
           "individual_odds": {
             "FanDuel": {
-              "over": -162,
-              "under": 126
+              "over": -170,
+              "under": 132
             },
             "BetOnline.ag": {
-              "over": -161,
-              "under": 123
-            },
-            "BetMGM": {
               "over": -175,
               "under": 135
+            },
+            "DraftKings": {
+              "over": -155,
+              "under": 120
+            },
+            "MyBookie.ag": {
+              "over": -177,
+              "under": 127
+            },
+            "BetMGM": {
+              "over": -190,
+              "under": 145
+            },
+            "BetRivers": {
+              "over": -157,
+              "under": 114
+            },
+            "Bovada": {
+              "over": -170,
+              "under": 130
             }
           },
           "raw_odds": {
             "over_odds": [
-              -162,
-              -161,
-              -175
+              -170,
+              -175,
+              -155,
+              -177,
+              -190,
+              -157,
+              -170
             ],
             "under_odds": [
-              126,
-              123,
-              135
+              132,
+              135,
+              120,
+              127,
+              145,
+              114,
+              130
             ]
           }
         },
@@ -1193,27 +1501,90 @@
           "pitcher_name": "Jacob Misiorowski",
           "strikeout_line": 5.5,
           "consensus_odds": {
-            "over": 120,
-            "under": -160,
-            "over_formatted": "+120",
-            "under_formatted": "-160"
+            "over": 127,
+            "under": -172,
+            "over_formatted": "+127",
+            "under_formatted": "-172"
           },
           "sportsbooks": [
+            "BetRivers",
             "Fanatics"
           ],
-          "sportsbook_count": 1,
+          "sportsbook_count": 2,
           "individual_odds": {
             "Fanatics": {
-              "over": 120,
-              "under": -160
+              "over": 125,
+              "under": -165
+            },
+            "BetRivers": {
+              "over": 130,
+              "under": -180
             }
           },
           "raw_odds": {
             "over_odds": [
-              120
+              125,
+              130
             ],
             "under_odds": [
-              -160
+              -165,
+              -180
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Jacob Misiorowski",
+          "strikeout_line": 3.5,
+          "consensus_odds": {
+            "over": -335,
+            "under": 225,
+            "over_formatted": "-335",
+            "under_formatted": "+225"
+          },
+          "sportsbooks": [
+            "BetRivers"
+          ],
+          "sportsbook_count": 1,
+          "individual_odds": {
+            "BetRivers": {
+              "over": -335,
+              "under": 225
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -335
+            ],
+            "under_odds": [
+              225
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Jacob Misiorowski",
+          "strikeout_line": 6.5,
+          "consensus_odds": {
+            "over": 255,
+            "under": -400,
+            "over_formatted": "+255",
+            "under_formatted": "-400"
+          },
+          "sportsbooks": [
+            "BetRivers"
+          ],
+          "sportsbook_count": 1,
+          "individual_odds": {
+            "BetRivers": {
+              "over": 255,
+              "under": -400
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              255
+            ],
+            "under_odds": [
+              -400
             ]
           }
         }
@@ -1231,20 +1602,20 @@
           "pitcher_name": "Didier Fuentes",
           "strikeout_line": 4.5,
           "consensus_odds": {
-            "over": -105,
+            "over": -104,
             "under": -126,
-            "over_formatted": "-105",
+            "over_formatted": "-104",
             "under_formatted": "-126"
           },
           "sportsbooks": [
+            "FanDuel",
+            "BetOnline.ag",
             "BetRivers",
-            "MyBookie.ag",
             "DraftKings",
             "BetMGM",
-            "BetOnline.ag",
             "Bovada",
-            "FanDuel",
-            "Fanatics"
+            "Fanatics",
+            "MyBookie.ag"
           ],
           "sportsbook_count": 8,
           "individual_odds": {
@@ -1273,12 +1644,12 @@
               "under": -130
             },
             "Bovada": {
-              "over": 100,
-              "under": -130
+              "over": 105,
+              "under": -135
             },
             "BetRivers": {
-              "over": -122,
-              "under": -112
+              "over": -124,
+              "under": -109
             }
           },
           "raw_odds": {
@@ -1289,8 +1660,8 @@
               -105,
               100,
               100,
-              100,
-              -122
+              105,
+              -124
             ],
             "under_odds": [
               -116,
@@ -1299,8 +1670,8 @@
               -131,
               -130,
               -130,
-              -130,
-              -112
+              -135,
+              -109
             ]
           }
         },
@@ -1308,9 +1679,9 @@
           "pitcher_name": "Didier Fuentes",
           "strikeout_line": 6.5,
           "consensus_odds": {
-            "over": 340,
+            "over": 330,
             "under": -590,
-            "over_formatted": "+340",
+            "over_formatted": "+330",
             "under_formatted": "-590"
           },
           "sportsbooks": [
@@ -1319,13 +1690,13 @@
           "sportsbook_count": 1,
           "individual_odds": {
             "BetRivers": {
-              "over": 340,
+              "over": 330,
               "under": -590
             }
           },
           "raw_odds": {
             "over_odds": [
-              340
+              330
             ],
             "under_odds": [
               -590
@@ -1336,9 +1707,9 @@
           "pitcher_name": "Didier Fuentes",
           "strikeout_line": 3.5,
           "consensus_odds": {
-            "over": -265,
+            "over": -275,
             "under": 185,
-            "over_formatted": "-265",
+            "over_formatted": "-275",
             "under_formatted": "+185"
           },
           "sportsbooks": [
@@ -1347,13 +1718,13 @@
           "sportsbook_count": 1,
           "individual_odds": {
             "BetRivers": {
-              "over": -265,
+              "over": -275,
               "under": 185
             }
           },
           "raw_odds": {
             "over_odds": [
-              -265
+              -275
             ],
             "under_odds": [
               185
@@ -1364,10 +1735,10 @@
           "pitcher_name": "Didier Fuentes",
           "strikeout_line": 5.5,
           "consensus_odds": {
-            "over": 170,
-            "under": -245,
-            "over_formatted": "+170",
-            "under_formatted": "-245"
+            "over": 165,
+            "under": -235,
+            "over_formatted": "+165",
+            "under_formatted": "-235"
           },
           "sportsbooks": [
             "BetRivers"
@@ -1375,16 +1746,16 @@
           "sportsbook_count": 1,
           "individual_odds": {
             "BetRivers": {
-              "over": 170,
-              "under": -245
+              "over": 165,
+              "under": -235
             }
           },
           "raw_odds": {
             "over_odds": [
-              170
+              165
             ],
             "under_odds": [
-              -245
+              -235
             ]
           }
         },
@@ -1392,20 +1763,20 @@
           "pitcher_name": "Yusei Kikuchi",
           "strikeout_line": 5.5,
           "consensus_odds": {
-            "over": -108,
-            "under": -123,
-            "over_formatted": "-108",
-            "under_formatted": "-123"
+            "over": -113,
+            "under": -117,
+            "over_formatted": "-113",
+            "under_formatted": "-117"
           },
           "sportsbooks": [
+            "FanDuel",
+            "BetOnline.ag",
             "BetRivers",
-            "MyBookie.ag",
             "DraftKings",
             "BetMGM",
-            "BetOnline.ag",
             "Bovada",
-            "FanDuel",
-            "Fanatics"
+            "Fanatics",
+            "MyBookie.ag"
           ],
           "sportsbook_count": 8,
           "individual_odds": {
@@ -1414,54 +1785,54 @@
               "under": -115
             },
             "BetOnline.ag": {
-              "over": -105,
-              "under": -123
+              "over": -120,
+              "under": -108
             },
             "DraftKings": {
               "over": -105,
               "under": -125
             },
             "MyBookie.ag": {
-              "over": -109,
-              "under": -127
+              "over": -124,
+              "under": -111
             },
             "BetMGM": {
               "over": -115,
               "under": -115
             },
             "Fanatics": {
-              "over": -110,
-              "under": -120
+              "over": -115,
+              "under": -115
             },
             "Bovada": {
               "over": -110,
               "under": -120
             },
             "BetRivers": {
-              "over": 104,
-              "under": -141
+              "over": -103,
+              "under": -132
             }
           },
           "raw_odds": {
             "over_odds": [
               -111,
+              -120,
               -105,
-              -105,
-              -109,
+              -124,
+              -115,
               -115,
               -110,
-              -110,
-              104
+              -103
             ],
             "under_odds": [
               -115,
-              -123,
+              -108,
               -125,
-              -127,
+              -111,
+              -115,
               -115,
               -120,
-              -120,
-              -141
+              -132
             ]
           }
         },
@@ -1469,10 +1840,10 @@
           "pitcher_name": "Yusei Kikuchi",
           "strikeout_line": 4.5,
           "consensus_odds": {
-            "over": -205,
-            "under": 148,
-            "over_formatted": "-205",
-            "under_formatted": "+148"
+            "over": -225,
+            "under": 160,
+            "over_formatted": "-225",
+            "under_formatted": "+160"
           },
           "sportsbooks": [
             "BetRivers"
@@ -1480,16 +1851,16 @@
           "sportsbook_count": 1,
           "individual_odds": {
             "BetRivers": {
-              "over": -205,
-              "under": 148
+              "over": -225,
+              "under": 160
             }
           },
           "raw_odds": {
             "over_odds": [
-              -205
+              -225
             ],
             "under_odds": [
-              148
+              160
             ]
           }
         },
@@ -1497,10 +1868,10 @@
           "pitcher_name": "Yusei Kikuchi",
           "strikeout_line": 3.5,
           "consensus_odds": {
-            "over": -500,
-            "under": 310,
-            "over_formatted": "-500",
-            "under_formatted": "+310"
+            "over": -560,
+            "under": 325,
+            "over_formatted": "-560",
+            "under_formatted": "+325"
           },
           "sportsbooks": [
             "BetRivers"
@@ -1508,16 +1879,16 @@
           "sportsbook_count": 1,
           "individual_odds": {
             "BetRivers": {
-              "over": -500,
-              "under": 310
+              "over": -560,
+              "under": 325
             }
           },
           "raw_odds": {
             "over_odds": [
-              -500
+              -560
             ],
             "under_odds": [
-              310
+              325
             ]
           }
         },
@@ -1525,10 +1896,10 @@
           "pitcher_name": "Yusei Kikuchi",
           "strikeout_line": 6.5,
           "consensus_odds": {
-            "over": 210,
-            "under": -315,
-            "over_formatted": "+210",
-            "under_formatted": "-315"
+            "over": 200,
+            "under": -295,
+            "over_formatted": "+200",
+            "under_formatted": "-295"
           },
           "sportsbooks": [
             "BetRivers"
@@ -1536,16 +1907,16 @@
           "sportsbook_count": 1,
           "individual_odds": {
             "BetRivers": {
-              "over": 210,
-              "under": -315
+              "over": 200,
+              "under": -295
             }
           },
           "raw_odds": {
             "over_odds": [
-              210
+              200
             ],
             "under_odds": [
-              -315
+              -295
             ]
           }
         }
@@ -1563,76 +1934,76 @@
           "pitcher_name": "Shota Imanaga",
           "strikeout_line": 4.5,
           "consensus_odds": {
-            "over": -149,
-            "under": 113,
-            "over_formatted": "-149",
-            "under_formatted": "+113"
+            "over": -142,
+            "under": 107,
+            "over_formatted": "-142",
+            "under_formatted": "+107"
           },
           "sportsbooks": [
+            "FanDuel",
+            "BetOnline.ag",
             "BetRivers",
-            "MyBookie.ag",
             "DraftKings",
             "BetMGM",
-            "BetOnline.ag",
             "Bovada",
-            "FanDuel",
-            "Fanatics"
+            "Fanatics",
+            "MyBookie.ag"
           ],
           "sportsbook_count": 8,
           "individual_odds": {
             "FanDuel": {
-              "over": -138,
-              "under": 108
+              "over": -140,
+              "under": 110
             },
             "BetOnline.ag": {
-              "over": -149,
-              "under": 115
+              "over": -141,
+              "under": 108
             },
             "DraftKings": {
-              "over": -145,
+              "over": -140,
               "under": 110
             },
             "MyBookie.ag": {
-              "over": -152,
-              "under": 109
+              "over": -143,
+              "under": 103
             },
             "BetMGM": {
-              "over": -150,
-              "under": 115
+              "over": -145,
+              "under": 110
             },
             "Fanatics": {
-              "over": -160,
-              "under": 120
-            },
-            "BetRivers": {
-              "over": -141,
+              "over": -140,
               "under": 105
             },
+            "BetRivers": {
+              "over": -139,
+              "under": 102
+            },
             "Bovada": {
-              "over": -160,
-              "under": 120
+              "over": -145,
+              "under": 110
             }
           },
           "raw_odds": {
             "over_odds": [
-              -138,
-              -149,
-              -145,
-              -152,
-              -150,
-              -160,
+              -140,
               -141,
-              -160
+              -140,
+              -143,
+              -145,
+              -140,
+              -139,
+              -145
             ],
             "under_odds": [
-              108,
-              115,
               110,
-              109,
-              115,
-              120,
+              108,
+              110,
+              103,
+              110,
               105,
-              120
+              102,
+              110
             ]
           }
         },
@@ -1640,10 +2011,10 @@
           "pitcher_name": "Shota Imanaga",
           "strikeout_line": 5.5,
           "consensus_odds": {
-            "over": 150,
-            "under": -215,
-            "over_formatted": "+150",
-            "under_formatted": "-215"
+            "over": 155,
+            "under": -220,
+            "over_formatted": "+155",
+            "under_formatted": "-220"
           },
           "sportsbooks": [
             "BetRivers"
@@ -1651,16 +2022,16 @@
           "sportsbook_count": 1,
           "individual_odds": {
             "BetRivers": {
-              "over": 150,
-              "under": -215
+              "over": 155,
+              "under": -220
             }
           },
           "raw_odds": {
             "over_odds": [
-              150
+              155
             ],
             "under_odds": [
-              -215
+              -220
             ]
           }
         },
@@ -1668,10 +2039,10 @@
           "pitcher_name": "Shota Imanaga",
           "strikeout_line": 3.5,
           "consensus_odds": {
-            "over": -345,
-            "under": 225,
-            "over_formatted": "-345",
-            "under_formatted": "+225"
+            "over": -335,
+            "under": 220,
+            "over_formatted": "-335",
+            "under_formatted": "+220"
           },
           "sportsbooks": [
             "BetRivers"
@@ -1679,16 +2050,44 @@
           "sportsbook_count": 1,
           "individual_odds": {
             "BetRivers": {
-              "over": -345,
-              "under": 225
+              "over": -335,
+              "under": 220
             }
           },
           "raw_odds": {
             "over_odds": [
-              -345
+              -335
             ],
             "under_odds": [
-              225
+              220
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Shota Imanaga",
+          "strikeout_line": 6.5,
+          "consensus_odds": {
+            "over": 320,
+            "under": -560,
+            "over_formatted": "+320",
+            "under_formatted": "-560"
+          },
+          "sportsbooks": [
+            "BetRivers"
+          ],
+          "sportsbook_count": 1,
+          "individual_odds": {
+            "BetRivers": {
+              "over": 320,
+              "under": -560
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              320
+            ],
+            "under_odds": [
+              -560
             ]
           }
         },
@@ -1702,14 +2101,14 @@
             "under_formatted": "-155"
           },
           "sportsbooks": [
+            "FanDuel",
+            "BetOnline.ag",
             "BetRivers",
-            "MyBookie.ag",
             "DraftKings",
             "BetMGM",
-            "BetOnline.ag",
             "Bovada",
-            "FanDuel",
-            "Fanatics"
+            "Fanatics",
+            "MyBookie.ag"
           ],
           "sportsbook_count": 8,
           "individual_odds": {
@@ -1718,28 +2117,28 @@
               "under": -156
             },
             "BetOnline.ag": {
-              "over": 118,
-              "under": -154
+              "over": 117,
+              "under": -152
             },
             "DraftKings": {
-              "over": 120,
-              "under": -155
+              "over": 125,
+              "under": -160
             },
             "MyBookie.ag": {
-              "over": 112,
-              "under": -156
+              "over": 111,
+              "under": -154
             },
             "BetMGM": {
-              "over": 115,
-              "under": -150
+              "over": 110,
+              "under": -145
             },
             "Fanatics": {
               "over": 120,
               "under": -160
             },
             "BetRivers": {
-              "over": 114,
-              "under": -157
+              "over": 120,
+              "under": -165
             },
             "Bovada": {
               "over": 115,
@@ -1749,22 +2148,22 @@
           "raw_odds": {
             "over_odds": [
               122,
-              118,
+              117,
+              125,
+              111,
+              110,
               120,
-              112,
-              115,
               120,
-              114,
               115
             ],
             "under_odds": [
               -156,
-              -154,
-              -155,
-              -156,
-              -150,
+              -152,
               -160,
-              -157,
+              -154,
+              -145,
+              -160,
+              -165,
               -150
             ]
           }
@@ -1773,10 +2172,10 @@
           "pitcher_name": "Tanner Bibee",
           "strikeout_line": 4.5,
           "consensus_odds": {
-            "over": -190,
-            "under": 135,
-            "over_formatted": "-190",
-            "under_formatted": "+135"
+            "over": -180,
+            "under": 128,
+            "over_formatted": "-180",
+            "under_formatted": "+128"
           },
           "sportsbooks": [
             "BetRivers"
@@ -1784,16 +2183,16 @@
           "sportsbook_count": 1,
           "individual_odds": {
             "BetRivers": {
-              "over": -190,
-              "under": 135
+              "over": -180,
+              "under": 128
             }
           },
           "raw_odds": {
             "over_odds": [
-              -190
+              -180
             ],
             "under_odds": [
-              135
+              128
             ]
           }
         },
@@ -1801,10 +2200,10 @@
           "pitcher_name": "Tanner Bibee",
           "strikeout_line": 3.5,
           "consensus_odds": {
-            "over": -480,
-            "under": 290,
-            "over_formatted": "-480",
-            "under_formatted": "+290"
+            "over": -455,
+            "under": 275,
+            "over_formatted": "-455",
+            "under_formatted": "+275"
           },
           "sportsbooks": [
             "BetRivers"
@@ -1812,16 +2211,16 @@
           "sportsbook_count": 1,
           "individual_odds": {
             "BetRivers": {
-              "over": -480,
-              "under": 290
+              "over": -455,
+              "under": 275
             }
           },
           "raw_odds": {
             "over_odds": [
-              -480
+              -455
             ],
             "under_odds": [
-              290
+              275
             ]
           }
         },
@@ -1829,10 +2228,10 @@
           "pitcher_name": "Tanner Bibee",
           "strikeout_line": 6.5,
           "consensus_odds": {
-            "over": 230,
-            "under": -360,
-            "over_formatted": "+230",
-            "under_formatted": "-360"
+            "over": 250,
+            "under": -385,
+            "over_formatted": "+250",
+            "under_formatted": "-385"
           },
           "sportsbooks": [
             "BetRivers"
@@ -1840,16 +2239,16 @@
           "sportsbook_count": 1,
           "individual_odds": {
             "BetRivers": {
-              "over": 230,
-              "under": -360
+              "over": 250,
+              "under": -385
             }
           },
           "raw_odds": {
             "over_odds": [
-              230
+              250
             ],
             "under_odds": [
-              -360
+              -385
             ]
           }
         }
@@ -1867,19 +2266,19 @@
           "pitcher_name": "Nathan Eovaldi",
           "strikeout_line": 4.5,
           "consensus_odds": {
-            "over": -129,
-            "under": -101,
-            "over_formatted": "-129",
-            "under_formatted": "-101"
+            "over": -130,
+            "under": -102,
+            "over_formatted": "-130",
+            "under_formatted": "-102"
           },
           "sportsbooks": [
+            "FanDuel",
+            "BetOnline.ag",
             "BetRivers",
-            "MyBookie.ag",
             "DraftKings",
             "BetMGM",
-            "BetOnline.ag",
-            "FanDuel",
-            "Fanatics"
+            "Fanatics",
+            "MyBookie.ag"
           ],
           "sportsbook_count": 7,
           "individual_odds": {
@@ -1888,16 +2287,16 @@
               "under": -102
             },
             "BetOnline.ag": {
-              "over": -135,
-              "under": 105
+              "over": -130,
+              "under": 100
             },
             "DraftKings": {
-              "over": -120,
-              "under": -105
+              "over": -130,
+              "under": 100
             },
             "MyBookie.ag": {
-              "over": -138,
-              "under": 100
+              "over": -133,
+              "under": -104
             },
             "BetMGM": {
               "over": -125,
@@ -1908,28 +2307,28 @@
               "under": -105
             },
             "BetRivers": {
-              "over": -137,
-              "under": 102
+              "over": -141,
+              "under": 104
             }
           },
           "raw_odds": {
             "over_odds": [
               -124,
-              -135,
-              -120,
-              -138,
+              -130,
+              -130,
+              -133,
               -125,
               -125,
-              -137
+              -141
             ],
             "under_odds": [
               -102,
-              105,
-              -105,
               100,
+              100,
+              -104,
               -105,
               -105,
-              102
+              104
             ]
           }
         },
@@ -1938,9 +2337,9 @@
           "strikeout_line": 3.5,
           "consensus_odds": {
             "over": -335,
-            "under": 215,
+            "under": 220,
             "over_formatted": "-335",
-            "under_formatted": "+215"
+            "under_formatted": "+220"
           },
           "sportsbooks": [
             "BetRivers"
@@ -1949,7 +2348,7 @@
           "individual_odds": {
             "BetRivers": {
               "over": -335,
-              "under": 215
+              "under": 220
             }
           },
           "raw_odds": {
@@ -1957,7 +2356,7 @@
               -335
             ],
             "under_odds": [
-              215
+              220
             ]
           }
         },
@@ -1993,10 +2392,10 @@
           "pitcher_name": "Nathan Eovaldi",
           "strikeout_line": 5.5,
           "consensus_odds": {
-            "over": 155,
-            "under": -220,
-            "over_formatted": "+155",
-            "under_formatted": "-220"
+            "over": 150,
+            "under": -215,
+            "over_formatted": "+150",
+            "under_formatted": "-215"
           },
           "sportsbooks": [
             "BetRivers"
@@ -2004,16 +2403,16 @@
           "sportsbook_count": 1,
           "individual_odds": {
             "BetRivers": {
-              "over": 155,
-              "under": -220
+              "over": 150,
+              "under": -215
             }
           },
           "raw_odds": {
             "over_odds": [
-              155
+              150
             ],
             "under_odds": [
-              -220
+              -215
             ]
           }
         },
@@ -2021,75 +2420,75 @@
           "pitcher_name": "Tomoyuki Sugano",
           "strikeout_line": 3.5,
           "consensus_odds": {
-            "over": 120,
-            "under": -161,
-            "over_formatted": "+120",
-            "under_formatted": "-161"
+            "over": 117,
+            "under": -156,
+            "over_formatted": "+117",
+            "under_formatted": "-156"
           },
           "sportsbooks": [
+            "FanDuel",
+            "BetOnline.ag",
             "BetRivers",
-            "MyBookie.ag",
             "DraftKings",
             "BetMGM",
-            "BetOnline.ag",
             "Bovada",
-            "FanDuel",
-            "Fanatics"
+            "Fanatics",
+            "MyBookie.ag"
           ],
           "sportsbook_count": 8,
           "individual_odds": {
             "FanDuel": {
-              "over": 126,
-              "under": -162
+              "over": 124,
+              "under": -160
             },
             "BetOnline.ag": {
-              "over": 120,
-              "under": -156
+              "over": 117,
+              "under": -152
             },
             "DraftKings": {
-              "over": 125,
-              "under": -165
+              "over": 120,
+              "under": -160
             },
             "MyBookie.ag": {
-              "over": 112,
-              "under": -156
+              "over": 111,
+              "under": -154
             },
             "BetMGM": {
-              "over": 115,
-              "under": -155
+              "over": 110,
+              "under": -145
             },
             "Bovada": {
-              "over": 115,
-              "under": -150
+              "over": 110,
+              "under": -145
             },
             "Fanatics": {
-              "over": 125,
-              "under": -165
+              "over": 120,
+              "under": -160
             },
             "BetRivers": {
-              "over": 125,
+              "over": 128,
               "under": -177
             }
           },
           "raw_odds": {
             "over_odds": [
-              126,
+              124,
+              117,
               120,
-              125,
-              112,
-              115,
-              115,
-              125,
-              125
+              111,
+              110,
+              110,
+              120,
+              128
             ],
             "under_odds": [
-              -162,
-              -156,
-              -165,
-              -156,
-              -155,
-              -150,
-              -165,
+              -160,
+              -152,
+              -160,
+              -154,
+              -145,
+              -145,
+              -160,
               -177
             ]
           }
@@ -2098,10 +2497,10 @@
           "pitcher_name": "Tomoyuki Sugano",
           "strikeout_line": 2.5,
           "consensus_odds": {
-            "over": -205,
-            "under": 145,
-            "over_formatted": "-205",
-            "under_formatted": "+145"
+            "over": -200,
+            "under": 143,
+            "over_formatted": "-200",
+            "under_formatted": "+143"
           },
           "sportsbooks": [
             "BetRivers"
@@ -2109,16 +2508,16 @@
           "sportsbook_count": 1,
           "individual_odds": {
             "BetRivers": {
-              "over": -205,
-              "under": 145
+              "over": -200,
+              "under": 143
             }
           },
           "raw_odds": {
             "over_odds": [
-              -205
+              -200
             ],
             "under_odds": [
-              145
+              143
             ]
           }
         },
@@ -2127,9 +2526,9 @@
           "strikeout_line": 4.5,
           "consensus_odds": {
             "over": 295,
-            "under": -480,
+            "under": -500,
             "over_formatted": "+295",
-            "under_formatted": "-480"
+            "under_formatted": "-500"
           },
           "sportsbooks": [
             "BetRivers"
@@ -2138,7 +2537,7 @@
           "individual_odds": {
             "BetRivers": {
               "over": 295,
-              "under": -480
+              "under": -500
             }
           },
           "raw_odds": {
@@ -2146,7 +2545,7 @@
               295
             ],
             "under_odds": [
-              -480
+              -500
             ]
           }
         }
@@ -2170,63 +2569,63 @@
             "under_formatted": "+124"
           },
           "sportsbooks": [
-            "MyBookie.ag",
+            "FanDuel",
+            "BetOnline.ag",
             "DraftKings",
             "BetMGM",
-            "BetOnline.ag",
             "Bovada",
-            "FanDuel",
-            "Fanatics"
+            "Fanatics",
+            "MyBookie.ag"
           ],
           "sportsbook_count": 7,
           "individual_odds": {
             "FanDuel": {
               "over": -154,
-              "under": 120
+              "under": 122
             },
             "BetOnline.ag": {
               "over": -161,
-              "under": 124
+              "under": 123
             },
             "DraftKings": {
-              "over": -165,
-              "under": 125
+              "over": -160,
+              "under": 120
             },
             "MyBookie.ag": {
-              "over": -163,
+              "over": -162,
               "under": 117
             },
             "BetMGM": {
-              "over": -185,
+              "over": -175,
               "under": 135
             },
             "Bovada": {
-              "over": -170,
-              "under": 130
+              "over": -180,
+              "under": 135
             },
             "Fanatics": {
-              "over": -150,
-              "under": 115
+              "over": -160,
+              "under": 120
             }
           },
           "raw_odds": {
             "over_odds": [
               -154,
               -161,
-              -165,
-              -163,
-              -185,
-              -170,
-              -150
+              -160,
+              -162,
+              -175,
+              -180,
+              -160
             ],
             "under_odds": [
+              122,
+              123,
               120,
-              124,
-              125,
               117,
               135,
-              130,
-              115
+              135,
+              120
             ]
           }
         },
@@ -2234,26 +2633,26 @@
           "pitcher_name": "Hunter Brown",
           "strikeout_line": 6.5,
           "consensus_odds": {
-            "over": -144,
+            "over": -145,
             "under": 109,
-            "over_formatted": "-144",
+            "over_formatted": "-145",
             "under_formatted": "+109"
           },
           "sportsbooks": [
+            "FanDuel",
+            "BetOnline.ag",
             "BetRivers",
-            "MyBookie.ag",
             "DraftKings",
             "BetMGM",
-            "BetOnline.ag",
             "Bovada",
-            "FanDuel",
-            "Fanatics"
+            "Fanatics",
+            "MyBookie.ag"
           ],
           "sportsbook_count": 8,
           "individual_odds": {
             "FanDuel": {
-              "over": -130,
-              "under": 102
+              "over": -138,
+              "under": 108
             },
             "BetOnline.ag": {
               "over": -149,
@@ -2264,12 +2663,12 @@
               "under": 115
             },
             "MyBookie.ag": {
-              "over": -158,
-              "under": 114
+              "over": -152,
+              "under": 109
             },
             "BetMGM": {
-              "over": -135,
-              "under": 100
+              "over": -140,
+              "under": 105
             },
             "Bovada": {
               "over": -150,
@@ -2286,21 +2685,21 @@
           },
           "raw_odds": {
             "over_odds": [
-              -130,
+              -138,
               -149,
               -155,
-              -158,
-              -135,
+              -152,
+              -140,
               -150,
               -140,
               -141
             ],
             "under_odds": [
-              102,
+              108,
               115,
               115,
-              114,
-              100,
+              109,
+              105,
               115,
               105,
               104
@@ -2311,10 +2710,10 @@
           "pitcher_name": "Hunter Brown",
           "strikeout_line": 8.5,
           "consensus_odds": {
-            "over": 265,
-            "under": -435,
-            "over_formatted": "+265",
-            "under_formatted": "-435"
+            "over": 270,
+            "under": -420,
+            "over_formatted": "+270",
+            "under_formatted": "-420"
           },
           "sportsbooks": [
             "BetRivers"
@@ -2322,16 +2721,16 @@
           "sportsbook_count": 1,
           "individual_odds": {
             "BetRivers": {
-              "over": 265,
-              "under": -435
+              "over": 270,
+              "under": -420
             }
           },
           "raw_odds": {
             "over_odds": [
-              265
+              270
             ],
             "under_odds": [
-              -435
+              -420
             ]
           }
         },
@@ -2411,8 +2810,8 @@
             "under_formatted": "-176"
           },
           "sportsbooks": [
-            "BetRivers",
-            "FanDuel"
+            "FanDuel",
+            "BetRivers"
           ],
           "sportsbook_count": 2,
           "individual_odds": {
@@ -2440,25 +2839,25 @@
           "pitcher_name": "Landen Roupp",
           "strikeout_line": 3.5,
           "consensus_odds": {
-            "over": -165,
-            "under": 124,
-            "over_formatted": "-165",
-            "under_formatted": "+124"
+            "over": -161,
+            "under": 120,
+            "over_formatted": "-161",
+            "under_formatted": "+120"
           },
           "sportsbooks": [
+            "BetOnline.ag",
             "BetRivers",
-            "MyBookie.ag",
             "DraftKings",
             "BetMGM",
             "Bovada",
-            "BetOnline.ag",
-            "Fanatics"
+            "Fanatics",
+            "MyBookie.ag"
           ],
           "sportsbook_count": 7,
           "individual_odds": {
             "BetOnline.ag": {
-              "over": -167,
-              "under": 128
+              "over": -161,
+              "under": 123
             },
             "DraftKings": {
               "over": -160,
@@ -2469,12 +2868,12 @@
               "under": 121
             },
             "BetMGM": {
-              "over": -165,
-              "under": 130
+              "over": -155,
+              "under": 120
             },
             "Bovada": {
-              "over": -170,
-              "under": 130
+              "over": -160,
+              "under": 120
             },
             "Fanatics": {
               "over": -160,
@@ -2487,20 +2886,20 @@
           },
           "raw_odds": {
             "over_odds": [
-              -167,
+              -161,
               -160,
               -168,
-              -165,
-              -170,
+              -155,
+              -160,
               -160,
               -162
             ],
             "under_odds": [
-              128,
+              123,
               120,
               121,
-              130,
-              130,
+              120,
+              120,
               120,
               117
             ]
@@ -2566,45 +2965,40 @@
           "pitcher_name": "Merrill Kelly",
           "strikeout_line": 5.5,
           "consensus_odds": {
-            "over": -144,
-            "under": 109,
-            "over_formatted": "-144",
-            "under_formatted": "+109"
+            "over": -149,
+            "under": 112,
+            "over_formatted": "-149",
+            "under_formatted": "+112"
           },
           "sportsbooks": [
-            "BetRivers",
-            "MyBookie.ag",
-            "DraftKings",
-            "Bovada",
-            "BetOnline.ag",
             "FanDuel",
-            "Fanatics"
+            "BetOnline.ag",
+            "BetRivers",
+            "Bovada",
+            "Fanatics",
+            "MyBookie.ag"
           ],
-          "sportsbook_count": 7,
+          "sportsbook_count": 6,
           "individual_odds": {
             "FanDuel": {
               "over": -144,
               "under": 114
             },
             "BetOnline.ag": {
-              "over": -143,
-              "under": 110
-            },
-            "DraftKings": {
-              "over": -145,
-              "under": 110
+              "over": -147,
+              "under": 114
             },
             "MyBookie.ag": {
-              "over": -145,
-              "under": 105
+              "over": -150,
+              "under": 108
             },
             "Bovada": {
-              "over": -145,
-              "under": 110
+              "over": -160,
+              "under": 120
             },
             "Fanatics": {
-              "over": -150,
-              "under": 115
+              "over": -160,
+              "under": 120
             },
             "BetRivers": {
               "over": -136,
@@ -2614,21 +3008,54 @@
           "raw_odds": {
             "over_odds": [
               -144,
-              -143,
-              -145,
-              -145,
-              -145,
+              -147,
               -150,
+              -160,
+              -160,
               -136
             ],
             "under_odds": [
               114,
-              110,
-              110,
-              105,
-              110,
-              115,
+              114,
+              108,
+              120,
+              120,
               100
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Merrill Kelly",
+          "strikeout_line": 6.5,
+          "consensus_odds": {
+            "over": 134,
+            "under": -185,
+            "over_formatted": "+134",
+            "under_formatted": "-185"
+          },
+          "sportsbooks": [
+            "BetRivers",
+            "DraftKings"
+          ],
+          "sportsbook_count": 2,
+          "individual_odds": {
+            "DraftKings": {
+              "over": 120,
+              "under": -160
+            },
+            "BetRivers": {
+              "over": 150,
+              "under": -215
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              120,
+              150
+            ],
+            "under_odds": [
+              -160,
+              -215
             ]
           }
         },
@@ -2657,34 +3084,6 @@
             ],
             "under_odds": [
               200
-            ]
-          }
-        },
-        {
-          "pitcher_name": "Merrill Kelly",
-          "strikeout_line": 6.5,
-          "consensus_odds": {
-            "over": 150,
-            "under": -215,
-            "over_formatted": "+150",
-            "under_formatted": "-215"
-          },
-          "sportsbooks": [
-            "BetRivers"
-          ],
-          "sportsbook_count": 1,
-          "individual_odds": {
-            "BetRivers": {
-              "over": 150,
-              "under": -215
-            }
-          },
-          "raw_odds": {
-            "over_odds": [
-              150
-            ],
-            "under_odds": [
-              -215
             ]
           }
         },
@@ -2736,70 +3135,98 @@
             "under_formatted": "-106"
           },
           "sportsbooks": [
+            "FanDuel",
+            "BetOnline.ag",
             "BetRivers",
-            "MyBookie.ag",
             "DraftKings",
             "BetMGM",
-            "BetOnline.ag",
             "Bovada",
-            "FanDuel",
-            "Fanatics"
+            "Fanatics",
+            "MyBookie.ag"
           ],
           "sportsbook_count": 8,
           "individual_odds": {
             "FanDuel": {
-              "over": -116,
-              "under": -110
+              "over": -118,
+              "under": -108
             },
             "BetOnline.ag": {
               "over": -135,
               "under": 105
             },
             "DraftKings": {
-              "over": -125,
-              "under": -105
+              "over": -120,
+              "under": -110
             },
             "MyBookie.ag": {
               "over": -138,
               "under": 100
             },
             "BetMGM": {
-              "over": -115,
-              "under": -115
+              "over": -125,
+              "under": -105
             },
             "Bovada": {
               "over": -135,
               "under": 105
             },
             "Fanatics": {
-              "over": -125,
-              "under": -105
+              "over": -115,
+              "under": -115
             },
             "BetRivers": {
-              "over": -112,
-              "under": -122
+              "over": -114,
+              "under": -120
             }
           },
           "raw_odds": {
             "over_odds": [
-              -116,
+              -118,
               -135,
-              -125,
+              -120,
               -138,
-              -115,
-              -135,
               -125,
-              -112
+              -135,
+              -115,
+              -114
             ],
             "under_odds": [
+              -108,
+              105,
               -110,
-              105,
-              -105,
               100,
-              -115,
-              105,
               -105,
-              -122
+              105,
+              -115,
+              -120
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Logan Gilbert",
+          "strikeout_line": 4.5,
+          "consensus_odds": {
+            "over": -560,
+            "under": 325,
+            "over_formatted": "-560",
+            "under_formatted": "+325"
+          },
+          "sportsbooks": [
+            "BetRivers"
+          ],
+          "sportsbook_count": 1,
+          "individual_odds": {
+            "BetRivers": {
+              "over": -560,
+              "under": 325
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -560
+            ],
+            "under_odds": [
+              325
             ]
           }
         },
@@ -2807,9 +3234,9 @@
           "pitcher_name": "Logan Gilbert",
           "strikeout_line": 7.5,
           "consensus_odds": {
-            "over": 180,
+            "over": 175,
             "under": -250,
-            "over_formatted": "+180",
+            "over_formatted": "+175",
             "under_formatted": "-250"
           },
           "sportsbooks": [
@@ -2818,13 +3245,13 @@
           "sportsbook_count": 1,
           "individual_odds": {
             "BetRivers": {
-              "over": 180,
+              "over": 175,
               "under": -250
             }
           },
           "raw_odds": {
             "over_odds": [
-              180
+              175
             ],
             "under_odds": [
               -250
@@ -2833,12 +3260,12 @@
         },
         {
           "pitcher_name": "Logan Gilbert",
-          "strikeout_line": 5.5,
+          "strikeout_line": 8.5,
           "consensus_odds": {
-            "over": -235,
-            "under": 163,
-            "over_formatted": "-235",
-            "under_formatted": "+163"
+            "over": 340,
+            "under": -590,
+            "over_formatted": "+340",
+            "under_formatted": "-590"
           },
           "sportsbooks": [
             "BetRivers"
@@ -2846,16 +3273,44 @@
           "sportsbook_count": 1,
           "individual_odds": {
             "BetRivers": {
-              "over": -235,
-              "under": 163
+              "over": 340,
+              "under": -590
             }
           },
           "raw_odds": {
             "over_odds": [
-              -235
+              340
             ],
             "under_odds": [
-              163
+              -590
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Logan Gilbert",
+          "strikeout_line": 5.5,
+          "consensus_odds": {
+            "over": -240,
+            "under": 165,
+            "over_formatted": "-240",
+            "under_formatted": "+165"
+          },
+          "sportsbooks": [
+            "BetRivers"
+          ],
+          "sportsbook_count": 1,
+          "individual_odds": {
+            "BetRivers": {
+              "over": -240,
+              "under": 165
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -240
+            ],
+            "under_odds": [
+              165
             ]
           }
         },
@@ -2863,76 +3318,76 @@
           "pitcher_name": "Noah Cameron",
           "strikeout_line": 4.5,
           "consensus_odds": {
-            "over": -161,
-            "under": 122,
-            "over_formatted": "-161",
-            "under_formatted": "+122"
+            "over": -154,
+            "under": 116,
+            "over_formatted": "-154",
+            "under_formatted": "+116"
           },
           "sportsbooks": [
+            "FanDuel",
+            "BetOnline.ag",
             "BetRivers",
-            "MyBookie.ag",
             "DraftKings",
             "BetMGM",
-            "BetOnline.ag",
             "Bovada",
-            "FanDuel",
-            "Fanatics"
+            "Fanatics",
+            "MyBookie.ag"
           ],
           "sportsbook_count": 8,
           "individual_odds": {
             "FanDuel": {
-              "over": -166,
-              "under": 130
+              "over": -154,
+              "under": 120
             },
             "BetOnline.ag": {
-              "over": -164,
-              "under": 125
+              "over": -149,
+              "under": 115
             },
             "DraftKings": {
               "over": -150,
               "under": 115
             },
             "MyBookie.ag": {
-              "over": -165,
-              "under": 119
+              "over": -152,
+              "under": 109
             },
             "BetMGM": {
-              "over": -165,
-              "under": 125
+              "over": -150,
+              "under": 115
             },
             "Bovada": {
-              "over": -170,
-              "under": 130
-            },
-            "Fanatics": {
               "over": -160,
               "under": 120
             },
-            "BetRivers": {
-              "over": -150,
+            "Fanatics": {
+              "over": -145,
               "under": 110
+            },
+            "BetRivers": {
+              "over": -175,
+              "under": 123
             }
           },
           "raw_odds": {
             "over_odds": [
-              -166,
-              -164,
+              -154,
+              -149,
               -150,
-              -165,
-              -165,
-              -170,
+              -152,
+              -150,
               -160,
-              -150
+              -145,
+              -175
             ],
             "under_odds": [
-              130,
-              125,
-              115,
-              119,
-              125,
-              130,
               120,
-              110
+              115,
+              115,
+              109,
+              115,
+              120,
+              110,
+              123
             ]
           }
         },
@@ -2940,10 +3395,10 @@
           "pitcher_name": "Noah Cameron",
           "strikeout_line": 3.5,
           "consensus_odds": {
-            "over": -345,
-            "under": 230,
-            "over_formatted": "-345",
-            "under_formatted": "+230"
+            "over": -400,
+            "under": 260,
+            "over_formatted": "-400",
+            "under_formatted": "+260"
           },
           "sportsbooks": [
             "BetRivers"
@@ -2951,16 +3406,16 @@
           "sportsbook_count": 1,
           "individual_odds": {
             "BetRivers": {
-              "over": -345,
-              "under": 230
+              "over": -400,
+              "under": 260
             }
           },
           "raw_odds": {
             "over_odds": [
-              -345
+              -400
             ],
             "under_odds": [
-              230
+              260
             ]
           }
         },
@@ -2968,10 +3423,10 @@
           "pitcher_name": "Noah Cameron",
           "strikeout_line": 6.5,
           "consensus_odds": {
-            "over": 280,
-            "under": -455,
-            "over_formatted": "+280",
-            "under_formatted": "-455"
+            "over": 250,
+            "under": -385,
+            "over_formatted": "+250",
+            "under_formatted": "-385"
           },
           "sportsbooks": [
             "BetRivers"
@@ -2979,16 +3434,16 @@
           "sportsbook_count": 1,
           "individual_odds": {
             "BetRivers": {
-              "over": 280,
-              "under": -455
+              "over": 250,
+              "under": -385
             }
           },
           "raw_odds": {
             "over_odds": [
-              280
+              250
             ],
             "under_odds": [
-              -455
+              -385
             ]
           }
         },
@@ -2996,10 +3451,10 @@
           "pitcher_name": "Noah Cameron",
           "strikeout_line": 5.5,
           "consensus_odds": {
-            "over": 138,
-            "under": -195,
-            "over_formatted": "+138",
-            "under_formatted": "-195"
+            "over": 123,
+            "under": -175,
+            "over_formatted": "+123",
+            "under_formatted": "-175"
           },
           "sportsbooks": [
             "BetRivers"
@@ -3007,16 +3462,16 @@
           "sportsbook_count": 1,
           "individual_odds": {
             "BetRivers": {
-              "over": 138,
-              "under": -195
+              "over": 123,
+              "under": -175
             }
           },
           "raw_odds": {
             "over_odds": [
-              138
+              123
             ],
             "under_odds": [
-              -195
+              -175
             ]
           }
         }
@@ -3034,20 +3489,20 @@
           "pitcher_name": "Clayton Kershaw",
           "strikeout_line": 4.5,
           "consensus_odds": {
-            "over": -118,
-            "under": -112,
-            "over_formatted": "-118",
-            "under_formatted": "-112"
+            "over": -117,
+            "under": -113,
+            "over_formatted": "-117",
+            "under_formatted": "-113"
           },
           "sportsbooks": [
+            "FanDuel",
+            "BetOnline.ag",
             "BetRivers",
-            "MyBookie.ag",
             "DraftKings",
             "BetMGM",
-            "BetOnline.ag",
             "Bovada",
-            "FanDuel",
-            "Fanatics"
+            "Fanatics",
+            "MyBookie.ag"
           ],
           "sportsbook_count": 8,
           "individual_odds": {
@@ -3060,12 +3515,12 @@
               "under": -114
             },
             "DraftKings": {
-              "over": -115,
-              "under": -110
+              "over": -110,
+              "under": -120
             },
             "MyBookie.ag": {
-              "over": -120,
-              "under": -120
+              "over": -117,
+              "under": -117
             },
             "BetMGM": {
               "over": -120,
@@ -3080,30 +3535,30 @@
               "under": -115
             },
             "BetRivers": {
-              "over": -125,
-              "under": -109
+              "over": -122,
+              "under": -112
             }
           },
           "raw_odds": {
             "over_odds": [
               -116,
               -114,
+              -110,
+              -117,
+              -120,
+              -120,
               -115,
-              -120,
-              -120,
-              -120,
-              -115,
-              -125
+              -122
             ],
             "under_odds": [
               -110,
               -114,
-              -110,
               -120,
+              -117,
               -110,
               -110,
               -115,
-              -109
+              -112
             ]
           }
         },
@@ -3111,10 +3566,10 @@
           "pitcher_name": "Clayton Kershaw",
           "strikeout_line": 3.5,
           "consensus_odds": {
-            "over": -275,
-            "under": 188,
-            "over_formatted": "-275",
-            "under_formatted": "+188"
+            "over": -265,
+            "under": 185,
+            "over_formatted": "-265",
+            "under_formatted": "+185"
           },
           "sportsbooks": [
             "BetRivers"
@@ -3122,16 +3577,16 @@
           "sportsbook_count": 1,
           "individual_odds": {
             "BetRivers": {
-              "over": -275,
-              "under": 188
+              "over": -265,
+              "under": 185
             }
           },
           "raw_odds": {
             "over_odds": [
-              -275
+              -265
             ],
             "under_odds": [
-              188
+              185
             ]
           }
         },
@@ -3139,10 +3594,10 @@
           "pitcher_name": "Clayton Kershaw",
           "strikeout_line": 5.5,
           "consensus_odds": {
-            "over": 165,
-            "under": -235,
-            "over_formatted": "+165",
-            "under_formatted": "-235"
+            "over": 170,
+            "under": -240,
+            "over_formatted": "+170",
+            "under_formatted": "-240"
           },
           "sportsbooks": [
             "BetRivers"
@@ -3150,16 +3605,72 @@
           "sportsbook_count": 1,
           "individual_odds": {
             "BetRivers": {
-              "over": 165,
-              "under": -235
+              "over": 170,
+              "under": -240
             }
           },
           "raw_odds": {
             "over_odds": [
-              165
+              170
             ],
             "under_odds": [
-              -235
+              -240
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Clayton Kershaw",
+          "strikeout_line": 2.5,
+          "consensus_odds": {
+            "over": -670,
+            "under": 370,
+            "over_formatted": "-670",
+            "under_formatted": "+370"
+          },
+          "sportsbooks": [
+            "BetRivers"
+          ],
+          "sportsbook_count": 1,
+          "individual_odds": {
+            "BetRivers": {
+              "over": -670,
+              "under": 370
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -670
+            ],
+            "under_odds": [
+              370
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Clayton Kershaw",
+          "strikeout_line": 6.5,
+          "consensus_odds": {
+            "over": 340,
+            "under": -590,
+            "over_formatted": "+340",
+            "under_formatted": "-590"
+          },
+          "sportsbooks": [
+            "BetRivers"
+          ],
+          "sportsbook_count": 1,
+          "individual_odds": {
+            "BetRivers": {
+              "over": 340,
+              "under": -590
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              340
+            ],
+            "under_odds": [
+              -590
             ]
           }
         }
