@@ -1,24 +1,266 @@
 {
   "metadata": {
-    "generated_at": "2025-10-04T23:04:22.018584-04:00",
-    "generated_at_formatted": "Saturday, October 04, 2025 at 11:04 PM EDT",
-    "date": "2025-10-04",
+    "generated_at": "2025-10-05T06:14:29.242871-04:00",
+    "generated_at_formatted": "Sunday, October 05, 2025 at 06:14 AM EDT",
+    "date": "2025-10-05",
     "timezone": "US/Eastern"
   },
   "summary": {
-    "total_games": 1,
-    "total_pitchers": 0,
-    "games_with_props": 0
+    "total_games": 2,
+    "total_pitchers": 5,
+    "games_with_props": 2
   },
   "games": [
     {
-      "event_id": "2982bffa333acd5bca617c82dfb2117c",
+      "event_id": "3bffad45dbe2dc102b8b001f0746e330",
+      "away_team": "New York Yankees",
+      "home_team": "Toronto Blue Jays",
+      "matchup": "New York Yankees @ Toronto Blue Jays",
+      "game_time": "2025-10-05T16:09:00-04:00",
+      "game_time_formatted": "04:09 PM EDT",
+      "pitchers": [
+        {
+          "pitcher_name": "Max Fried",
+          "strikeout_line": 4.5,
+          "consensus_odds": {
+            "over": -157,
+            "under": 117,
+            "over_formatted": "-157",
+            "under_formatted": "+117"
+          },
+          "sportsbooks": [
+            "BetOnline.ag",
+            "BetMGM",
+            "Fanatics",
+            "FanDuel",
+            "MyBookie.ag"
+          ],
+          "sportsbook_count": 5,
+          "individual_odds": {
+            "FanDuel": {
+              "over": -168,
+              "under": 128
+            },
+            "Fanatics": {
+              "over": -145,
+              "under": 110
+            },
+            "BetMGM": {
+              "over": -160,
+              "under": 120
+            },
+            "BetOnline.ag": {
+              "under": 119,
+              "over": -154
+            },
+            "MyBookie.ag": {
+              "over": -159,
+              "under": 110
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -168,
+              -145,
+              -160,
+              -154,
+              -159
+            ],
+            "under_odds": [
+              128,
+              110,
+              120,
+              119,
+              110
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Max Fried",
+          "strikeout_line": 5.5,
+          "consensus_odds": {
+            "over": 125,
+            "under": -168,
+            "over_formatted": "+125",
+            "under_formatted": "-168"
+          },
+          "sportsbooks": [
+            "DraftKings"
+          ],
+          "sportsbook_count": 1,
+          "individual_odds": {
+            "DraftKings": {
+              "over": 125,
+              "under": -168
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              125
+            ],
+            "under_odds": [
+              -168
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Trey Yesavage",
+          "strikeout_line": 4.5,
+          "consensus_odds": {
+            "over": -112,
+            "under": -120,
+            "over_formatted": "-112",
+            "under_formatted": "-120"
+          },
+          "sportsbooks": [
+            "BetOnline.ag",
+            "BetMGM",
+            "Fanatics",
+            "FanDuel",
+            "MyBookie.ag",
+            "DraftKings"
+          ],
+          "sportsbook_count": 6,
+          "individual_odds": {
+            "FanDuel": {
+              "over": -118,
+              "under": -112
+            },
+            "Fanatics": {
+              "over": -110,
+              "under": -120
+            },
+            "BetMGM": {
+              "over": -110,
+              "under": -120
+            },
+            "BetOnline.ag": {
+              "under": -125,
+              "over": -103
+            },
+            "MyBookie.ag": {
+              "over": -109,
+              "under": -131
+            },
+            "DraftKings": {
+              "over": -120,
+              "under": -111
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -118,
+              -110,
+              -110,
+              -103,
+              -109,
+              -120
+            ],
+            "under_odds": [
+              -112,
+              -120,
+              -120,
+              -125,
+              -131,
+              -111
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "event_id": "7cc8e6828fa333b10707cfc557ad2952",
       "away_team": "Detroit Tigers",
       "home_team": "Seattle Mariners",
       "matchup": "Detroit Tigers @ Seattle Mariners",
-      "game_time": "2025-10-04T20:39:00-04:00",
-      "game_time_formatted": "08:39 PM EDT",
-      "pitchers": []
+      "game_time": "2025-10-05T20:04:00-04:00",
+      "game_time_formatted": "08:04 PM EDT",
+      "pitchers": [
+        {
+          "pitcher_name": "Luis Castillo",
+          "strikeout_line": 5.5,
+          "consensus_odds": {
+            "over": -121,
+            "under": -108,
+            "over_formatted": "-121",
+            "under_formatted": "-108"
+          },
+          "sportsbooks": [
+            "Fanatics",
+            "DraftKings",
+            "FanDuel"
+          ],
+          "sportsbook_count": 3,
+          "individual_odds": {
+            "FanDuel": {
+              "over": -118,
+              "under": -112
+            },
+            "DraftKings": {
+              "over": -119,
+              "under": -108
+            },
+            "Fanatics": {
+              "over": -125,
+              "under": -105
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -118,
+              -119,
+              -125
+            ],
+            "under_odds": [
+              -112,
+              -108,
+              -105
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Tarik Skubal",
+          "strikeout_line": 8.5,
+          "consensus_odds": {
+            "over": -128,
+            "under": -102,
+            "over_formatted": "-128",
+            "under_formatted": "-102"
+          },
+          "sportsbooks": [
+            "Fanatics",
+            "DraftKings",
+            "FanDuel"
+          ],
+          "sportsbook_count": 3,
+          "individual_odds": {
+            "FanDuel": {
+              "over": -118,
+              "under": -112
+            },
+            "DraftKings": {
+              "over": -142,
+              "under": 111
+            },
+            "Fanatics": {
+              "over": -125,
+              "under": -105
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -118,
+              -142,
+              -125
+            ],
+            "under_odds": [
+              -112,
+              111,
+              -105
+            ]
+          }
+        }
+      ]
     }
   ]
 }
