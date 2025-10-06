@@ -1,24 +1,357 @@
 {
   "metadata": {
-    "generated_at": "2025-10-05T22:58:59.877093-04:00",
-    "generated_at_formatted": "Sunday, October 05, 2025 at 10:58 PM EDT",
-    "date": "2025-10-05",
+    "generated_at": "2025-10-06T06:17:08.273761-04:00",
+    "generated_at_formatted": "Monday, October 06, 2025 at 06:17 AM EDT",
+    "date": "2025-10-06",
     "timezone": "US/Eastern"
   },
   "summary": {
-    "total_games": 1,
-    "total_pitchers": 0,
-    "games_with_props": 0
+    "total_games": 2,
+    "total_pitchers": 6,
+    "games_with_props": 2
   },
   "games": [
     {
-      "event_id": "7cc8e6828fa333b10707cfc557ad2952",
-      "away_team": "Detroit Tigers",
-      "home_team": "Seattle Mariners",
-      "matchup": "Detroit Tigers @ Seattle Mariners",
-      "game_time": "2025-10-05T20:04:00-04:00",
-      "game_time_formatted": "08:04 PM EDT",
-      "pitchers": []
+      "event_id": "af54ad2f285a65fcbee7198bfa6417d6",
+      "away_team": "Los Angeles Dodgers",
+      "home_team": "Philadelphia Phillies",
+      "matchup": "Los Angeles Dodgers @ Philadelphia Phillies",
+      "game_time": "2025-10-06T18:09:00-04:00",
+      "game_time_formatted": "06:09 PM EDT",
+      "pitchers": [
+        {
+          "pitcher_name": "Blake Snell",
+          "strikeout_line": 7.5,
+          "consensus_odds": {
+            "over": -108,
+            "under": -122,
+            "over_formatted": "-108",
+            "under_formatted": "-122"
+          },
+          "sportsbooks": [
+            "DraftKings",
+            "BetMGM",
+            "FanDuel",
+            "Fanatics",
+            "Bovada",
+            "BetRivers",
+            "BetOnline.ag",
+            "MyBookie.ag"
+          ],
+          "sportsbook_count": 8,
+          "individual_odds": {
+            "FanDuel": {
+              "over": -112,
+              "under": -118
+            },
+            "BetMGM": {
+              "over": -105,
+              "under": -125
+            },
+            "BetOnline.ag": {
+              "over": -105,
+              "under": -123
+            },
+            "Fanatics": {
+              "over": -105,
+              "under": -125
+            },
+            "MyBookie.ag": {
+              "over": -111,
+              "under": -129
+            },
+            "DraftKings": {
+              "over": -103,
+              "under": -123
+            },
+            "Bovada": {
+              "over": -115,
+              "under": -115
+            },
+            "BetRivers": {
+              "over": -112,
+              "under": -121
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -112,
+              -105,
+              -105,
+              -105,
+              -111,
+              -103,
+              -115,
+              -112
+            ],
+            "under_odds": [
+              -118,
+              -125,
+              -123,
+              -125,
+              -129,
+              -123,
+              -115,
+              -121
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Jesus Luzardo",
+          "strikeout_line": 6.5,
+          "consensus_odds": {
+            "over": 118,
+            "under": -158,
+            "over_formatted": "+118",
+            "under_formatted": "-158"
+          },
+          "sportsbooks": [
+            "DraftKings",
+            "Fanatics",
+            "FanDuel",
+            "BetRivers",
+            "BetOnline.ag",
+            "MyBookie.ag"
+          ],
+          "sportsbook_count": 6,
+          "individual_odds": {
+            "FanDuel": {
+              "over": 120,
+              "under": -162
+            },
+            "BetOnline.ag": {
+              "under": -159,
+              "over": 122
+            },
+            "Fanatics": {
+              "over": 120,
+              "under": -160
+            },
+            "MyBookie.ag": {
+              "over": 113,
+              "under": -164
+            },
+            "DraftKings": {
+              "over": 121,
+              "under": -154
+            },
+            "BetRivers": {
+              "over": 112,
+              "under": -152
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              120,
+              122,
+              120,
+              113,
+              121,
+              112
+            ],
+            "under_odds": [
+              -162,
+              -159,
+              -160,
+              -164,
+              -154,
+              -152
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Jesus Luzardo",
+          "strikeout_line": 5.5,
+          "consensus_odds": {
+            "over": -140,
+            "under": 110,
+            "over_formatted": "-140",
+            "under_formatted": "+110"
+          },
+          "sportsbooks": [
+            "BetMGM"
+          ],
+          "sportsbook_count": 1,
+          "individual_odds": {
+            "BetMGM": {
+              "over": -140,
+              "under": 110
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -140
+            ],
+            "under_odds": [
+              110
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "event_id": "0aa60bdef2232854d1e0ed3696d910ce",
+      "away_team": "Chicago Cubs",
+      "home_team": "Milwaukee Brewers",
+      "matchup": "Chicago Cubs @ Milwaukee Brewers",
+      "game_time": "2025-10-06T21:09:00-04:00",
+      "game_time_formatted": "09:09 PM EDT",
+      "pitchers": [
+        {
+          "pitcher_name": "Aaron Ashby",
+          "strikeout_line": 1.5,
+          "consensus_odds": {
+            "over": -185,
+            "under": 142,
+            "over_formatted": "-185",
+            "under_formatted": "+142"
+          },
+          "sportsbooks": [
+            "Bovada",
+            "BetMGM",
+            "Fanatics"
+          ],
+          "sportsbook_count": 3,
+          "individual_odds": {
+            "BetMGM": {
+              "over": -185,
+              "under": 140
+            },
+            "Fanatics": {
+              "over": -180,
+              "under": 140
+            },
+            "Bovada": {
+              "over": -190,
+              "under": 145
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -185,
+              -180,
+              -190
+            ],
+            "under_odds": [
+              140,
+              140,
+              145
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Aaron Ashby",
+          "strikeout_line": 2.5,
+          "consensus_odds": {
+            "over": 138,
+            "under": -187,
+            "over_formatted": "+138",
+            "under_formatted": "-187"
+          },
+          "sportsbooks": [
+            "BetOnline.ag",
+            "DraftKings",
+            "MyBookie.ag"
+          ],
+          "sportsbook_count": 3,
+          "individual_odds": {
+            "BetOnline.ag": {
+              "under": -185,
+              "over": 141
+            },
+            "DraftKings": {
+              "over": 145,
+              "under": -186
+            },
+            "MyBookie.ag": {
+              "over": 129,
+              "under": -189
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              141,
+              145,
+              129
+            ],
+            "under_odds": [
+              -185,
+              -186,
+              -189
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Shota Imanaga",
+          "strikeout_line": 3.5,
+          "consensus_odds": {
+            "over": 107,
+            "under": -141,
+            "over_formatted": "+107",
+            "under_formatted": "-141"
+          },
+          "sportsbooks": [
+            "DraftKings",
+            "BetMGM",
+            "FanDuel",
+            "Fanatics",
+            "Bovada",
+            "BetOnline.ag",
+            "MyBookie.ag"
+          ],
+          "sportsbook_count": 7,
+          "individual_odds": {
+            "FanDuel": {
+              "over": 104,
+              "under": -138
+            },
+            "BetMGM": {
+              "over": 100,
+              "under": -130
+            },
+            "BetOnline.ag": {
+              "over": 110,
+              "under": -143
+            },
+            "DraftKings": {
+              "over": 107,
+              "under": -136
+            },
+            "MyBookie.ag": {
+              "over": 103,
+              "under": -148
+            },
+            "Fanatics": {
+              "over": 110,
+              "under": -145
+            },
+            "Bovada": {
+              "over": 115,
+              "under": -150
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              104,
+              100,
+              110,
+              107,
+              103,
+              110,
+              115
+            ],
+            "under_odds": [
+              -138,
+              -130,
+              -143,
+              -136,
+              -148,
+              -145,
+              -150
+            ]
+          }
+        }
+      ]
     }
   ]
 }
