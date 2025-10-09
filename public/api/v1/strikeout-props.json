@@ -1,22 +1,144 @@
 {
   "metadata": {
-    "generated_at": "2025-10-08T22:56:56.041739-04:00",
-    "generated_at_formatted": "Wednesday, October 08, 2025 at 10:56 PM EDT",
-    "date": "2025-10-08",
+    "generated_at": "2025-10-09T06:17:20.569835-04:00",
+    "generated_at_formatted": "Thursday, October 09, 2025 at 06:17 AM EDT",
+    "date": "2025-10-09",
     "timezone": "US/Eastern"
   },
   "summary": {
-    "total_games": 1,
-    "total_pitchers": 0,
-    "games_with_props": 0
+    "total_games": 2,
+    "total_pitchers": 2,
+    "games_with_props": 1
   },
   "games": [
     {
-      "event_id": "305424d42f72ab3f0bdc618a8c955577",
+      "event_id": "4d248975f3d8899d0359737a61e4443c",
       "away_team": "Philadelphia Phillies",
       "home_team": "Los Angeles Dodgers",
       "matchup": "Philadelphia Phillies @ Los Angeles Dodgers",
-      "game_time": "2025-10-08T21:08:00-04:00",
+      "game_time": "2025-10-09T18:09:00-04:00",
+      "game_time_formatted": "06:09 PM EDT",
+      "pitchers": [
+        {
+          "pitcher_name": "Cristopher Sanchez",
+          "strikeout_line": 5.5,
+          "consensus_odds": {
+            "over": -123,
+            "under": -109,
+            "over_formatted": "-123",
+            "under_formatted": "-109"
+          },
+          "sportsbooks": [
+            "Fanatics",
+            "FanDuel",
+            "BetOnline.ag",
+            "MyBookie.ag",
+            "DraftKings"
+          ],
+          "sportsbook_count": 5,
+          "individual_odds": {
+            "FanDuel": {
+              "over": -130,
+              "under": -104
+            },
+            "BetOnline.ag": {
+              "over": -120,
+              "under": -108
+            },
+            "MyBookie.ag": {
+              "over": -126,
+              "under": -114
+            },
+            "Fanatics": {
+              "over": -120,
+              "under": -110
+            },
+            "DraftKings": {
+              "over": -119,
+              "under": -107
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -130,
+              -120,
+              -126,
+              -120,
+              -119
+            ],
+            "under_odds": [
+              -104,
+              -108,
+              -114,
+              -110,
+              -107
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Tyler Glasnow",
+          "strikeout_line": 6.5,
+          "consensus_odds": {
+            "over": 126,
+            "under": -169,
+            "over_formatted": "+126",
+            "under_formatted": "-169"
+          },
+          "sportsbooks": [
+            "Fanatics",
+            "FanDuel",
+            "BetOnline.ag",
+            "MyBookie.ag",
+            "DraftKings"
+          ],
+          "sportsbook_count": 5,
+          "individual_odds": {
+            "FanDuel": {
+              "over": 124,
+              "under": -168
+            },
+            "BetOnline.ag": {
+              "over": 141,
+              "under": -185
+            },
+            "MyBookie.ag": {
+              "over": 129,
+              "under": -189
+            },
+            "Fanatics": {
+              "over": 120,
+              "under": -160
+            },
+            "DraftKings": {
+              "over": 116,
+              "under": -148
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              124,
+              141,
+              129,
+              120,
+              116
+            ],
+            "under_odds": [
+              -168,
+              -185,
+              -189,
+              -160,
+              -148
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "event_id": "c59e3df5b73b1a8381ef74d79d200598",
+      "away_team": "Milwaukee Brewers",
+      "home_team": "Chicago Cubs",
+      "matchup": "Milwaukee Brewers @ Chicago Cubs",
+      "game_time": "2025-10-09T21:08:00-04:00",
       "game_time_formatted": "09:08 PM EDT",
       "pitchers": []
     }
