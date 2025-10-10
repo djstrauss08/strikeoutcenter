@@ -1,24 +1,165 @@
 {
   "metadata": {
-    "generated_at": "2025-10-09T22:57:36.149837-04:00",
-    "generated_at_formatted": "Thursday, October 09, 2025 at 10:57 PM EDT",
-    "date": "2025-10-09",
+    "generated_at": "2025-10-10T06:16:53.873673-04:00",
+    "generated_at_formatted": "Friday, October 10, 2025 at 06:16 AM EDT",
+    "date": "2025-10-10",
     "timezone": "US/Eastern"
   },
   "summary": {
     "total_games": 1,
-    "total_pitchers": 0,
-    "games_with_props": 0
+    "total_pitchers": 3,
+    "games_with_props": 1
   },
   "games": [
     {
-      "event_id": "c59e3df5b73b1a8381ef74d79d200598",
-      "away_team": "Milwaukee Brewers",
-      "home_team": "Chicago Cubs",
-      "matchup": "Milwaukee Brewers @ Chicago Cubs",
-      "game_time": "2025-10-09T21:10:32-04:00",
-      "game_time_formatted": "09:10 PM EDT",
-      "pitchers": []
+      "event_id": "f562340921f19d6c164ea5095fcb60b0",
+      "away_team": "Detroit Tigers",
+      "home_team": "Seattle Mariners",
+      "matchup": "Detroit Tigers @ Seattle Mariners",
+      "game_time": "2025-10-10T20:09:00-04:00",
+      "game_time_formatted": "08:09 PM EDT",
+      "pitchers": [
+        {
+          "pitcher_name": "George Kirby",
+          "strikeout_line": 5.5,
+          "consensus_odds": {
+            "over": -130,
+            "under": -102,
+            "over_formatted": "-130",
+            "under_formatted": "-102"
+          },
+          "sportsbooks": [
+            "FanDuel",
+            "DraftKings",
+            "Fanatics",
+            "MyBookie.ag",
+            "BetOnline.ag"
+          ],
+          "sportsbook_count": 5,
+          "individual_odds": {
+            "FanDuel": {
+              "over": -136,
+              "under": 102
+            },
+            "MyBookie.ag": {
+              "over": -134,
+              "under": -107
+            },
+            "Fanatics": {
+              "over": -115,
+              "under": -115
+            },
+            "BetOnline.ag": {
+              "over": -128,
+              "under": -101
+            },
+            "DraftKings": {
+              "over": -138,
+              "under": 108
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -136,
+              -134,
+              -115,
+              -128,
+              -138
+            ],
+            "under_odds": [
+              102,
+              -107,
+              -115,
+              -101,
+              108
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Tarik Skubal",
+          "strikeout_line": 8.5,
+          "consensus_odds": {
+            "over": -160,
+            "under": 122,
+            "over_formatted": "-160",
+            "under_formatted": "+122"
+          },
+          "sportsbooks": [
+            "FanDuel",
+            "DraftKings",
+            "BetMGM"
+          ],
+          "sportsbook_count": 3,
+          "individual_odds": {
+            "FanDuel": {
+              "over": -172,
+              "under": 126
+            },
+            "DraftKings": {
+              "over": -160,
+              "under": 125
+            },
+            "BetMGM": {
+              "over": -150,
+              "under": 115
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -172,
+              -160,
+              -150
+            ],
+            "under_odds": [
+              126,
+              125,
+              115
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Tarik Skubal",
+          "strikeout_line": 9.5,
+          "consensus_odds": {
+            "over": 114,
+            "under": -153,
+            "over_formatted": "+114",
+            "under_formatted": "-153"
+          },
+          "sportsbooks": [
+            "BetOnline.ag",
+            "Fanatics",
+            "MyBookie.ag"
+          ],
+          "sportsbook_count": 3,
+          "individual_odds": {
+            "MyBookie.ag": {
+              "over": 109,
+              "under": -157
+            },
+            "Fanatics": {
+              "over": 115,
+              "under": -150
+            },
+            "BetOnline.ag": {
+              "over": 117,
+              "under": -152
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              109,
+              115,
+              117
+            ],
+            "under_odds": [
+              -157,
+              -150,
+              -152
+            ]
+          }
+        }
+      ]
     }
   ]
 }
