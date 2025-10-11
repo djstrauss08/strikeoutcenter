@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2025-10-11T14:18:26.892220-04:00",
-    "generated_at_formatted": "Saturday, October 11, 2025 at 02:18 PM EDT",
+    "generated_at": "2025-10-11T16:14:43.986158-04:00",
+    "generated_at_formatted": "Saturday, October 11, 2025 at 04:14 PM EDT",
     "date": "2025-10-11",
     "timezone": "US/Eastern"
   },
   "summary": {
     "total_games": 1,
-    "total_pitchers": 2,
+    "total_pitchers": 3,
     "games_with_props": 1
   },
   "games": [
@@ -23,34 +23,34 @@
           "pitcher_name": "Drew Pomeranz",
           "strikeout_line": 0.5,
           "consensus_odds": {
-            "over": -258,
-            "under": 195,
-            "over_formatted": "-258",
-            "under_formatted": "+195"
+            "over": -232,
+            "under": 178,
+            "over_formatted": "-232",
+            "under_formatted": "+178"
           },
           "sportsbooks": [
-            "Fanatics",
-            "DraftKings"
+            "DraftKings",
+            "Fanatics"
           ],
           "sportsbook_count": 2,
           "individual_odds": {
             "DraftKings": {
-              "over": -267,
-              "under": 205
+              "over": -258,
+              "under": 198
             },
             "Fanatics": {
-              "over": -250,
-              "under": 185
+              "over": -210,
+              "under": 160
             }
           },
           "raw_odds": {
             "over_odds": [
-              -267,
-              -250
+              -258,
+              -210
             ],
             "under_odds": [
-              205,
-              185
+              198,
+              160
             ]
           }
         },
@@ -58,48 +58,111 @@
           "pitcher_name": "Drew Pomeranz",
           "strikeout_line": 1.5,
           "consensus_odds": {
-            "over": 195,
-            "under": -268,
-            "over_formatted": "+195",
-            "under_formatted": "-268"
+            "over": 208,
+            "under": -291,
+            "over_formatted": "+208",
+            "under_formatted": "-291"
           },
           "sportsbooks": [
-            "BetOnline.ag",
             "Bovada",
+            "BetOnline.ag",
             "MyBookie.ag",
             "BetMGM"
           ],
           "sportsbook_count": 4,
           "individual_odds": {
             "BetMGM": {
-              "over": 180,
-              "under": -235
+              "over": 185,
+              "under": -250
             },
             "BetOnline.ag": {
-              "over": 199,
-              "under": -270
+              "over": 220,
+              "under": -303
             },
             "Bovada": {
-              "over": 225,
-              "under": -310
+              "over": 235,
+              "under": -330
             },
             "MyBookie.ag": {
-              "over": 181,
-              "under": -265
+              "over": 198,
+              "under": -290
             }
           },
           "raw_odds": {
             "over_odds": [
-              180,
-              199,
-              225,
-              181
+              185,
+              220,
+              235,
+              198
             ],
             "under_odds": [
-              -235,
-              -270,
-              -310,
-              -265
+              -250,
+              -303,
+              -330,
+              -290
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Trevor Megill",
+          "strikeout_line": 1.5,
+          "consensus_odds": {
+            "over": 163,
+            "under": -219,
+            "over_formatted": "+163",
+            "under_formatted": "-219"
+          },
+          "sportsbooks": [
+            "Bovada",
+            "BetMGM",
+            "BetOnline.ag",
+            "MyBookie.ag",
+            "DraftKings",
+            "Fanatics"
+          ],
+          "sportsbook_count": 6,
+          "individual_odds": {
+            "DraftKings": {
+              "over": 161,
+              "under": -208
+            },
+            "Fanatics": {
+              "over": 165,
+              "under": -225
+            },
+            "BetMGM": {
+              "over": 160,
+              "under": -210
+            },
+            "BetOnline.ag": {
+              "under": -227,
+              "over": 171
+            },
+            "Bovada": {
+              "over": 165,
+              "under": -220
+            },
+            "MyBookie.ag": {
+              "over": 158,
+              "under": -224
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              161,
+              165,
+              160,
+              171,
+              165,
+              158
+            ],
+            "under_odds": [
+              -208,
+              -225,
+              -210,
+              -227,
+              -220,
+              -224
             ]
           }
         }
