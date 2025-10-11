@@ -1,14 +1,14 @@
 {
   "metadata": {
-    "generated_at": "2025-10-11T12:16:34.287316-04:00",
-    "generated_at_formatted": "Saturday, October 11, 2025 at 12:16 PM EDT",
+    "generated_at": "2025-10-11T14:18:26.892220-04:00",
+    "generated_at_formatted": "Saturday, October 11, 2025 at 02:18 PM EDT",
     "date": "2025-10-11",
     "timezone": "US/Eastern"
   },
   "summary": {
     "total_games": 1,
-    "total_pitchers": 0,
-    "games_with_props": 0
+    "total_pitchers": 2,
+    "games_with_props": 1
   },
   "games": [
     {
@@ -18,7 +18,92 @@
       "matchup": "Chicago Cubs @ Milwaukee Brewers",
       "game_time": "2025-10-11T20:08:00-04:00",
       "game_time_formatted": "08:08 PM EDT",
-      "pitchers": []
+      "pitchers": [
+        {
+          "pitcher_name": "Drew Pomeranz",
+          "strikeout_line": 0.5,
+          "consensus_odds": {
+            "over": -258,
+            "under": 195,
+            "over_formatted": "-258",
+            "under_formatted": "+195"
+          },
+          "sportsbooks": [
+            "Fanatics",
+            "DraftKings"
+          ],
+          "sportsbook_count": 2,
+          "individual_odds": {
+            "DraftKings": {
+              "over": -267,
+              "under": 205
+            },
+            "Fanatics": {
+              "over": -250,
+              "under": 185
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -267,
+              -250
+            ],
+            "under_odds": [
+              205,
+              185
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Drew Pomeranz",
+          "strikeout_line": 1.5,
+          "consensus_odds": {
+            "over": 195,
+            "under": -268,
+            "over_formatted": "+195",
+            "under_formatted": "-268"
+          },
+          "sportsbooks": [
+            "BetOnline.ag",
+            "Bovada",
+            "MyBookie.ag",
+            "BetMGM"
+          ],
+          "sportsbook_count": 4,
+          "individual_odds": {
+            "BetMGM": {
+              "over": 180,
+              "under": -235
+            },
+            "BetOnline.ag": {
+              "over": 199,
+              "under": -270
+            },
+            "Bovada": {
+              "over": 225,
+              "under": -310
+            },
+            "MyBookie.ag": {
+              "over": 181,
+              "under": -265
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              180,
+              199,
+              225,
+              181
+            ],
+            "under_odds": [
+              -235,
+              -270,
+              -310,
+              -265
+            ]
+          }
+        }
+      ]
     }
   ]
 }
