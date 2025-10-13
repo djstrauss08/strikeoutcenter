@@ -1,24 +1,245 @@
 {
   "metadata": {
-    "generated_at": "2025-10-12T23:06:47.530366-04:00",
-    "generated_at_formatted": "Sunday, October 12, 2025 at 11:06 PM EDT",
-    "date": "2025-10-12",
+    "generated_at": "2025-10-13T06:19:15.001802-04:00",
+    "generated_at_formatted": "Monday, October 13, 2025 at 06:19 AM EDT",
+    "date": "2025-10-13",
     "timezone": "US/Eastern"
   },
   "summary": {
-    "total_games": 1,
-    "total_pitchers": 0,
-    "games_with_props": 0
+    "total_games": 2,
+    "total_pitchers": 4,
+    "games_with_props": 2
   },
   "games": [
     {
-      "event_id": "17226152bd2a54f70cad6e780016bbcd",
+      "event_id": "f5dfe87abc7b0865f49c6f73a19e7f09",
       "away_team": "Seattle Mariners",
       "home_team": "Toronto Blue Jays",
       "matchup": "Seattle Mariners @ Toronto Blue Jays",
-      "game_time": "2025-10-12T20:04:45-04:00",
-      "game_time_formatted": "08:04 PM EDT",
-      "pitchers": []
+      "game_time": "2025-10-13T17:04:00-04:00",
+      "game_time_formatted": "05:04 PM EDT",
+      "pitchers": [
+        {
+          "pitcher_name": "Logan Gilbert",
+          "strikeout_line": 4.5,
+          "consensus_odds": {
+            "over": -143,
+            "under": 108,
+            "over_formatted": "-143",
+            "under_formatted": "+108"
+          },
+          "sportsbooks": [
+            "Fanatics",
+            "BetOnline.ag",
+            "DraftKings",
+            "FanDuel",
+            "MyBookie.ag",
+            "BetMGM"
+          ],
+          "sportsbook_count": 6,
+          "individual_odds": {
+            "FanDuel": {
+              "over": -160,
+              "under": 122
+            },
+            "DraftKings": {
+              "over": -160,
+              "under": 125
+            },
+            "BetMGM": {
+              "over": -135,
+              "under": 105
+            },
+            "Fanatics": {
+              "over": -140,
+              "under": 105
+            },
+            "BetOnline.ag": {
+              "over": -130,
+              "under": 100
+            },
+            "MyBookie.ag": {
+              "over": -135,
+              "under": -106
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -160,
+              -160,
+              -135,
+              -140,
+              -130,
+              -135
+            ],
+            "under_odds": [
+              122,
+              125,
+              105,
+              105,
+              100,
+              -106
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Trey Yesavage",
+          "strikeout_line": 5.5,
+          "consensus_odds": {
+            "over": -103,
+            "under": -129,
+            "over_formatted": "-103",
+            "under_formatted": "-129"
+          },
+          "sportsbooks": [
+            "Fanatics",
+            "BetOnline.ag",
+            "DraftKings",
+            "FanDuel",
+            "MyBookie.ag",
+            "BetMGM"
+          ],
+          "sportsbook_count": 6,
+          "individual_odds": {
+            "FanDuel": {
+              "over": 102,
+              "under": -136
+            },
+            "DraftKings": {
+              "over": -107,
+              "under": -119
+            },
+            "BetMGM": {
+              "over": -110,
+              "under": -118
+            },
+            "Fanatics": {
+              "over": 110,
+              "under": -145
+            },
+            "BetOnline.ag": {
+              "over": -103,
+              "under": -125
+            },
+            "MyBookie.ag": {
+              "over": -109,
+              "under": -131
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              102,
+              -107,
+              -110,
+              110,
+              -103,
+              -109
+            ],
+            "under_odds": [
+              -136,
+              -119,
+              -118,
+              -145,
+              -125,
+              -131
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "event_id": "94ca295fd7d55ef58d64855d88c227a8",
+      "away_team": "Los Angeles Dodgers",
+      "home_team": "Milwaukee Brewers",
+      "matchup": "Los Angeles Dodgers @ Milwaukee Brewers",
+      "game_time": "2025-10-13T20:08:00-04:00",
+      "game_time_formatted": "08:08 PM EDT",
+      "pitchers": [
+        {
+          "pitcher_name": "Blake Snell",
+          "strikeout_line": 7.5,
+          "consensus_odds": {
+            "over": 108,
+            "under": -144,
+            "over_formatted": "+108",
+            "under_formatted": "-144"
+          },
+          "sportsbooks": [
+            "Fanatics",
+            "BetOnline.ag",
+            "DraftKings",
+            "FanDuel",
+            "MyBookie.ag"
+          ],
+          "sportsbook_count": 5,
+          "individual_odds": {
+            "FanDuel": {
+              "over": 118,
+              "under": -158
+            },
+            "DraftKings": {
+              "over": 116,
+              "under": -148
+            },
+            "MyBookie.ag": {
+              "over": -106,
+              "under": -135
+            },
+            "Fanatics": {
+              "over": 115,
+              "under": -150
+            },
+            "BetOnline.ag": {
+              "over": 100,
+              "under": -130
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              118,
+              116,
+              -106,
+              115,
+              100
+            ],
+            "under_odds": [
+              -158,
+              -148,
+              -135,
+              -150,
+              -130
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Blake Snell",
+          "strikeout_line": 6.5,
+          "consensus_odds": {
+            "over": -145,
+            "under": 110,
+            "over_formatted": "-145",
+            "under_formatted": "+110"
+          },
+          "sportsbooks": [
+            "BetMGM"
+          ],
+          "sportsbook_count": 1,
+          "individual_odds": {
+            "BetMGM": {
+              "over": -145,
+              "under": 110
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -145
+            ],
+            "under_odds": [
+              110
+            ]
+          }
+        }
+      ]
     }
   ]
 }
