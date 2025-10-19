@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2025-10-19T16:16:12.221771-04:00",
-    "generated_at_formatted": "Sunday, October 19, 2025 at 04:16 PM EDT",
+    "generated_at": "2025-10-19T18:13:40.103559-04:00",
+    "generated_at_formatted": "Sunday, October 19, 2025 at 06:13 PM EDT",
     "date": "2025-10-19",
     "timezone": "US/Eastern"
   },
@@ -11,21 +11,21 @@
       "strikeout_line": 3.5,
       "consensus_odds": {
         "over": -180,
-        "under": 132,
+        "under": 133,
         "over_formatted": "-180",
-        "under_formatted": "+132"
+        "under_formatted": "+133"
       },
       "sportsbooks": [
-        "BetRivers",
         "MyBookie.ag",
         "FanDuel",
-        "BetOnline.ag"
+        "BetOnline.ag",
+        "BetRivers"
       ],
       "sportsbook_count": 4,
       "individual_odds": {
         "FanDuel": {
           "over": -172,
-          "under": 128
+          "under": 132
         },
         "BetOnline.ag": {
           "under": 140,
@@ -48,7 +48,7 @@
           -180
         ],
         "under_odds": [
-          128,
+          132,
           140,
           132,
           130
@@ -66,40 +66,54 @@
       "strikeout_line": 4.5,
       "consensus_odds": {
         "over": 124,
-        "under": -163,
+        "under": -164,
         "over_formatted": "+124",
-        "under_formatted": "-163"
+        "under_formatted": "-164"
       },
       "sportsbooks": [
-        "BetRivers",
         "Fanatics",
+        "BetRivers",
+        "BetMGM",
+        "Bovada",
         "DraftKings"
       ],
-      "sportsbook_count": 3,
+      "sportsbook_count": 5,
       "individual_odds": {
         "DraftKings": {
-          "over": 126,
-          "under": -161
+          "over": 120,
+          "under": -154
         },
         "Fanatics": {
           "over": 125,
           "under": -165
         },
+        "BetMGM": {
+          "over": 125,
+          "under": -165
+        },
+        "Bovada": {
+          "over": 130,
+          "under": -170
+        },
         "BetRivers": {
           "over": 120,
-          "under": -162
+          "under": -165
         }
       },
       "raw_odds": {
         "over_odds": [
-          126,
+          120,
           125,
+          125,
+          130,
           120
         ],
         "under_odds": [
-          -161,
+          -154,
           -165,
-          -162
+          -165,
+          -170,
+          -165
         ]
       },
       "game_info": {
@@ -147,9 +161,9 @@
       "pitcher_name": "Logan Gilbert",
       "strikeout_line": 5.5,
       "consensus_odds": {
-        "over": 245,
+        "over": 250,
         "under": -385,
-        "over_formatted": "+245",
+        "over_formatted": "+250",
         "under_formatted": "-385"
       },
       "sportsbooks": [
@@ -158,13 +172,13 @@
       "sportsbook_count": 1,
       "individual_odds": {
         "BetRivers": {
-          "over": 245,
+          "over": 250,
           "under": -385
         }
       },
       "raw_odds": {
         "over_odds": [
-          245
+          250
         ],
         "under_odds": [
           -385
@@ -181,55 +195,41 @@
       "pitcher_name": "Trey Yesavage",
       "strikeout_line": 4.5,
       "consensus_odds": {
-        "over": -162,
-        "under": 120,
-        "over_formatted": "-162",
-        "under_formatted": "+120"
+        "over": -171,
+        "under": 126,
+        "over_formatted": "-171",
+        "under_formatted": "+126"
       },
       "sportsbooks": [
-        "BetRivers",
         "Fanatics",
-        "BetOnline.ag",
         "FanDuel",
-        "MyBookie.ag"
+        "BetRivers"
       ],
-      "sportsbook_count": 5,
+      "sportsbook_count": 3,
       "individual_odds": {
         "FanDuel": {
-          "over": -154,
-          "under": 116
+          "over": -160,
+          "under": 118
         },
         "Fanatics": {
           "over": -160,
           "under": 120
         },
-        "BetOnline.ag": {
-          "over": -152,
-          "under": 117
-        },
-        "MyBookie.ag": {
-          "over": -154,
-          "under": 111
-        },
         "BetRivers": {
           "over": -195,
-          "under": 138
+          "under": 140
         }
       },
       "raw_odds": {
         "over_odds": [
-          -154,
           -160,
-          -152,
-          -154,
+          -160,
           -195
         ],
         "under_odds": [
-          116,
+          118,
           120,
-          117,
-          111,
-          138
+          140
         ]
       },
       "game_info": {
@@ -243,30 +243,40 @@
       "pitcher_name": "Trey Yesavage",
       "strikeout_line": 5.5,
       "consensus_odds": {
-        "over": 118,
-        "under": -155,
-        "over_formatted": "+118",
-        "under_formatted": "-155"
+        "over": 117,
+        "under": -154,
+        "over_formatted": "+117",
+        "under_formatted": "-154"
       },
       "sportsbooks": [
         "BetRivers",
+        "BetMGM",
+        "MyBookie.ag",
         "Bovada",
         "DraftKings",
-        "BetMGM"
+        "BetOnline.ag"
       ],
-      "sportsbook_count": 4,
+      "sportsbook_count": 6,
       "individual_odds": {
         "DraftKings": {
           "over": 124,
           "under": -159
         },
         "BetMGM": {
-          "over": 120,
-          "under": -155
+          "over": 115,
+          "under": -150
+        },
+        "BetOnline.ag": {
+          "under": -159,
+          "over": 122
+        },
+        "MyBookie.ag": {
+          "over": 116,
+          "under": -160
         },
         "Bovada": {
-          "over": 120,
-          "under": -160
+          "over": 115,
+          "under": -150
         },
         "BetRivers": {
           "over": 108,
@@ -276,14 +286,18 @@
       "raw_odds": {
         "over_odds": [
           124,
-          120,
-          120,
+          115,
+          122,
+          116,
+          115,
           108
         ],
         "under_odds": [
           -159,
-          -155,
+          -150,
+          -159,
           -160,
+          -150,
           -148
         ]
       },
