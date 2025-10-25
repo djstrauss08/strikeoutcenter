@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2025-10-25T06:14:36.648972-04:00",
-    "generated_at_formatted": "Saturday, October 25, 2025 at 06:14 AM EDT",
+    "generated_at": "2025-10-25T10:13:10.536702-04:00",
+    "generated_at_formatted": "Saturday, October 25, 2025 at 10:13 AM EDT",
     "date": "2025-10-25",
     "timezone": "US/Eastern"
   },
   "summary": {
     "total_games": 1,
-    "total_pitchers": 2,
+    "total_pitchers": 7,
     "games_with_props": 1
   },
   "games": [
@@ -23,31 +23,41 @@
           "pitcher_name": "Kevin Gausman",
           "strikeout_line": 5.5,
           "consensus_odds": {
-            "over": 100,
-            "under": -133,
-            "over_formatted": "+100",
-            "under_formatted": "-133"
+            "over": 103,
+            "under": -137,
+            "over_formatted": "+103",
+            "under_formatted": "-137"
           },
           "sportsbooks": [
-            "DraftKings",
-            "FanDuel",
             "Fanatics",
+            "FanDuel",
+            "DraftKings",
+            "BetRivers",
+            "BetMGM",
             "MyBookie.ag",
             "BetOnline.ag"
           ],
-          "sportsbook_count": 5,
+          "sportsbook_count": 7,
           "individual_odds": {
             "FanDuel": {
               "over": -104,
               "under": -125
             },
+            "BetRivers": {
+              "over": -105,
+              "under": -130
+            },
             "DraftKings": {
-              "over": -103,
-              "under": -124
+              "over": 107,
+              "under": -136
+            },
+            "BetMGM": {
+              "over": 105,
+              "under": -140
             },
             "Fanatics": {
-              "over": -105,
-              "under": -125
+              "over": 105,
+              "under": -140
             },
             "MyBookie.ag": {
               "over": 103,
@@ -61,17 +71,77 @@
           "raw_odds": {
             "over_odds": [
               -104,
-              -103,
               -105,
+              107,
+              105,
+              105,
               103,
               110
             ],
             "under_odds": [
               -125,
-              -124,
-              -125,
+              -130,
+              -136,
+              -140,
+              -140,
               -148,
               -143
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Kevin Gausman",
+          "strikeout_line": 4.5,
+          "consensus_odds": {
+            "over": -225,
+            "under": 155,
+            "over_formatted": "-225",
+            "under_formatted": "+155"
+          },
+          "sportsbooks": [
+            "BetRivers"
+          ],
+          "sportsbook_count": 1,
+          "individual_odds": {
+            "BetRivers": {
+              "over": -225,
+              "under": 155
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -225
+            ],
+            "under_odds": [
+              155
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Kevin Gausman",
+          "strikeout_line": 6.5,
+          "consensus_odds": {
+            "over": 190,
+            "under": -278,
+            "over_formatted": "+190",
+            "under_formatted": "-278"
+          },
+          "sportsbooks": [
+            "BetRivers"
+          ],
+          "sportsbook_count": 1,
+          "individual_odds": {
+            "BetRivers": {
+              "over": 190,
+              "under": -278
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              190
+            ],
+            "under_odds": [
+              -278
             ]
           }
         },
@@ -79,55 +149,153 @@
           "pitcher_name": "Yoshinobu Yamamoto",
           "strikeout_line": 5.5,
           "consensus_odds": {
-            "over": -163,
-            "under": 122,
-            "over_formatted": "-163",
-            "under_formatted": "+122"
+            "over": -150,
+            "under": 113,
+            "over_formatted": "-150",
+            "under_formatted": "+113"
           },
           "sportsbooks": [
-            "DraftKings",
-            "FanDuel",
             "Fanatics",
+            "FanDuel",
+            "DraftKings",
+            "BetRivers",
+            "BetMGM",
             "MyBookie.ag",
             "BetOnline.ag"
           ],
-          "sportsbook_count": 5,
+          "sportsbook_count": 7,
           "individual_odds": {
             "FanDuel": {
-              "over": -168,
-              "under": 124
+              "over": -158,
+              "under": 118
+            },
+            "BetRivers": {
+              "over": -141,
+              "under": 104
             },
             "DraftKings": {
-              "over": -164,
-              "under": 128
+              "over": -147,
+              "under": 116
             },
-            "Fanatics": {
+            "BetMGM": {
               "over": -150,
               "under": 115
             },
+            "Fanatics": {
+              "over": -145,
+              "under": 110
+            },
             "MyBookie.ag": {
-              "over": -169,
-              "under": 117
+              "over": -159,
+              "under": 110
             },
             "BetOnline.ag": {
-              "over": -164,
-              "under": 126
+              "over": -154,
+              "under": 118
             }
           },
           "raw_odds": {
             "over_odds": [
-              -168,
-              -164,
+              -158,
+              -141,
+              -147,
               -150,
-              -169,
-              -164
+              -145,
+              -159,
+              -154
             ],
             "under_odds": [
-              124,
-              128,
+              118,
+              104,
+              116,
               115,
-              117,
-              126
+              110,
+              110,
+              118
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Yoshinobu Yamamoto",
+          "strikeout_line": 6.5,
+          "consensus_odds": {
+            "over": 143,
+            "under": -200,
+            "over_formatted": "+143",
+            "under_formatted": "-200"
+          },
+          "sportsbooks": [
+            "BetRivers"
+          ],
+          "sportsbook_count": 1,
+          "individual_odds": {
+            "BetRivers": {
+              "over": 143,
+              "under": -200
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              143
+            ],
+            "under_odds": [
+              -200
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Yoshinobu Yamamoto",
+          "strikeout_line": 4.5,
+          "consensus_odds": {
+            "over": -315,
+            "under": 215,
+            "over_formatted": "-315",
+            "under_formatted": "+215"
+          },
+          "sportsbooks": [
+            "BetRivers"
+          ],
+          "sportsbook_count": 1,
+          "individual_odds": {
+            "BetRivers": {
+              "over": -315,
+              "under": 215
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -315
+            ],
+            "under_odds": [
+              215
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Yoshinobu Yamamoto",
+          "strikeout_line": 7.5,
+          "consensus_odds": {
+            "over": 290,
+            "under": -480,
+            "over_formatted": "+290",
+            "under_formatted": "-480"
+          },
+          "sportsbooks": [
+            "BetRivers"
+          ],
+          "sportsbook_count": 1,
+          "individual_odds": {
+            "BetRivers": {
+              "over": 290,
+              "under": -480
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              290
+            ],
+            "under_odds": [
+              -480
             ]
           }
         }
