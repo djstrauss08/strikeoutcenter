@@ -1,24 +1,95 @@
 {
   "metadata": {
-    "generated_at": "2025-10-27T23:04:26.090554-04:00",
-    "generated_at_formatted": "Monday, October 27, 2025 at 11:04 PM EDT",
-    "date": "2025-10-27",
+    "generated_at": "2025-10-28T06:18:17.808800-04:00",
+    "generated_at_formatted": "Tuesday, October 28, 2025 at 06:18 AM EDT",
+    "date": "2025-10-28",
     "timezone": "US/Eastern"
   },
   "summary": {
     "total_games": 1,
-    "total_pitchers": 0,
-    "games_with_props": 0
+    "total_pitchers": 2,
+    "games_with_props": 1
   },
   "games": [
     {
-      "event_id": "b078aaba43b6b1148f4b351ae40f8b1e",
+      "event_id": "537a54714d14f61ab628f75f7d8b69dd",
       "away_team": "Toronto Blue Jays",
       "home_team": "Los Angeles Dodgers",
       "matchup": "Toronto Blue Jays @ Los Angeles Dodgers",
-      "game_time": "2025-10-27T20:06:00-04:00",
-      "game_time_formatted": "08:06 PM EDT",
-      "pitchers": []
+      "game_time": "2025-10-28T20:08:00-04:00",
+      "game_time_formatted": "08:08 PM EDT",
+      "pitchers": [
+        {
+          "pitcher_name": "Shane Bieber",
+          "strikeout_line": 4.5,
+          "consensus_odds": {
+            "over": -131,
+            "under": 100,
+            "over_formatted": "-131",
+            "under_formatted": "+100"
+          },
+          "sportsbooks": [
+            "FanDuel",
+            "DraftKings"
+          ],
+          "sportsbook_count": 2,
+          "individual_odds": {
+            "DraftKings": {
+              "over": -132,
+              "under": 103
+            },
+            "FanDuel": {
+              "over": -130,
+              "under": -102
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -132,
+              -130
+            ],
+            "under_odds": [
+              103,
+              -102
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Shohei Ohtani",
+          "strikeout_line": 6.5,
+          "consensus_odds": {
+            "over": -108,
+            "under": -120,
+            "over_formatted": "-108",
+            "under_formatted": "-120"
+          },
+          "sportsbooks": [
+            "FanDuel",
+            "DraftKings"
+          ],
+          "sportsbook_count": 2,
+          "individual_odds": {
+            "DraftKings": {
+              "over": -117,
+              "under": -109
+            },
+            "FanDuel": {
+              "over": 100,
+              "under": -132
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -117,
+              100
+            ],
+            "under_odds": [
+              -109,
+              -132
+            ]
+          }
+        }
+      ]
     }
   ]
 }

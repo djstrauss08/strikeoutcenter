@@ -1,9 +1,92 @@
 {
   "metadata": {
-    "generated_at": "2025-10-27T23:04:26.090554-04:00",
-    "generated_at_formatted": "Monday, October 27, 2025 at 11:04 PM EDT",
-    "date": "2025-10-27",
+    "generated_at": "2025-10-28T06:18:17.808800-04:00",
+    "generated_at_formatted": "Tuesday, October 28, 2025 at 06:18 AM EDT",
+    "date": "2025-10-28",
     "timezone": "US/Eastern"
   },
-  "pitchers": []
+  "pitchers": [
+    {
+      "pitcher_name": "Shane Bieber",
+      "strikeout_line": 4.5,
+      "consensus_odds": {
+        "over": -131,
+        "under": 100,
+        "over_formatted": "-131",
+        "under_formatted": "+100"
+      },
+      "sportsbooks": [
+        "FanDuel",
+        "DraftKings"
+      ],
+      "sportsbook_count": 2,
+      "individual_odds": {
+        "DraftKings": {
+          "over": -132,
+          "under": 103
+        },
+        "FanDuel": {
+          "over": -130,
+          "under": -102
+        }
+      },
+      "raw_odds": {
+        "over_odds": [
+          -132,
+          -130
+        ],
+        "under_odds": [
+          103,
+          -102
+        ]
+      },
+      "game_info": {
+        "matchup": "Toronto Blue Jays @ Los Angeles Dodgers",
+        "game_time": "08:08 PM EDT",
+        "away_team": "Toronto Blue Jays",
+        "home_team": "Los Angeles Dodgers"
+      }
+    },
+    {
+      "pitcher_name": "Shohei Ohtani",
+      "strikeout_line": 6.5,
+      "consensus_odds": {
+        "over": -108,
+        "under": -120,
+        "over_formatted": "-108",
+        "under_formatted": "-120"
+      },
+      "sportsbooks": [
+        "FanDuel",
+        "DraftKings"
+      ],
+      "sportsbook_count": 2,
+      "individual_odds": {
+        "DraftKings": {
+          "over": -117,
+          "under": -109
+        },
+        "FanDuel": {
+          "over": 100,
+          "under": -132
+        }
+      },
+      "raw_odds": {
+        "over_odds": [
+          -117,
+          100
+        ],
+        "under_odds": [
+          -109,
+          -132
+        ]
+      },
+      "game_info": {
+        "matchup": "Toronto Blue Jays @ Los Angeles Dodgers",
+        "game_time": "08:08 PM EDT",
+        "away_team": "Toronto Blue Jays",
+        "home_team": "Los Angeles Dodgers"
+      }
+    }
+  ]
 }
