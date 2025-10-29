@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2025-10-29T14:24:14.768605-04:00",
-    "generated_at_formatted": "Wednesday, October 29, 2025 at 02:24 PM EDT",
+    "generated_at": "2025-10-29T16:18:16.884220-04:00",
+    "generated_at_formatted": "Wednesday, October 29, 2025 at 04:18 PM EDT",
     "date": "2025-10-29",
     "timezone": "US/Eastern"
   },
@@ -10,21 +10,22 @@
       "pitcher_name": "Blake Snell",
       "strikeout_line": 6.5,
       "consensus_odds": {
-        "over": -107,
-        "under": -123,
-        "over_formatted": "-107",
-        "under_formatted": "-123"
+        "over": -103,
+        "under": -127,
+        "over_formatted": "-103",
+        "under_formatted": "-127"
       },
       "sportsbooks": [
-        "DraftKings",
-        "BetOnline.ag",
         "FanDuel",
-        "Fanatics",
-        "BetMGM",
         "BetRivers",
-        "MyBookie.ag"
+        "BetMGM",
+        "BetOnline.ag",
+        "DraftKings",
+        "MyBookie.ag",
+        "Bovada",
+        "Fanatics"
       ],
-      "sportsbook_count": 7,
+      "sportsbook_count": 8,
       "individual_odds": {
         "DraftKings": {
           "over": -105,
@@ -35,12 +36,12 @@
           "under": -125
         },
         "Fanatics": {
-          "over": -105,
-          "under": -125
+          "over": 100,
+          "under": -130
         },
         "BetMGM": {
-          "over": -110,
-          "under": -115
+          "over": 100,
+          "under": -130
         },
         "BetOnline.ag": {
           "over": 100,
@@ -51,28 +52,34 @@
           "under": -133
         },
         "BetRivers": {
-          "over": -120,
-          "under": -114
+          "over": -117,
+          "under": -115
+        },
+        "Bovada": {
+          "over": 105,
+          "under": -135
         }
       },
       "raw_odds": {
         "over_odds": [
           -105,
           -108,
-          -105,
-          -110,
+          100,
+          100,
           100,
           -104,
-          -120
+          -117,
+          105
         ],
         "under_odds": [
           -122,
           -125,
-          -125,
-          -115,
+          -130,
+          -130,
           -130,
           -133,
-          -114
+          -115,
+          -135
         ]
       },
       "game_info": {
@@ -86,10 +93,10 @@
       "pitcher_name": "Blake Snell",
       "strikeout_line": 7.5,
       "consensus_odds": {
-        "over": 163,
-        "under": -235,
-        "over_formatted": "+163",
-        "under_formatted": "-235"
+        "over": 170,
+        "under": -240,
+        "over_formatted": "+170",
+        "under_formatted": "-240"
       },
       "sportsbooks": [
         "BetRivers"
@@ -97,16 +104,16 @@
       "sportsbook_count": 1,
       "individual_odds": {
         "BetRivers": {
-          "over": 163,
-          "under": -235
+          "over": 170,
+          "under": -240
         }
       },
       "raw_odds": {
         "over_odds": [
-          163
+          170
         ],
         "under_odds": [
-          -235
+          -240
         ]
       },
       "game_info": {
@@ -121,9 +128,9 @@
       "strikeout_line": 5.5,
       "consensus_odds": {
         "over": -245,
-        "under": 175,
+        "under": 170,
         "over_formatted": "-245",
-        "under_formatted": "+175"
+        "under_formatted": "+170"
       },
       "sportsbooks": [
         "BetRivers"
@@ -132,7 +139,7 @@
       "individual_odds": {
         "BetRivers": {
           "over": -245,
-          "under": 175
+          "under": 170
         }
       },
       "raw_odds": {
@@ -140,7 +147,69 @@
           -245
         ],
         "under_odds": [
-          175
+          170
+        ]
+      },
+      "game_info": {
+        "matchup": "Toronto Blue Jays @ Los Angeles Dodgers",
+        "game_time": "08:00 PM EDT",
+        "away_team": "Toronto Blue Jays",
+        "home_team": "Los Angeles Dodgers"
+      }
+    },
+    {
+      "pitcher_name": "Trey Yesavage",
+      "strikeout_line": 5.5,
+      "consensus_odds": {
+        "over": 121,
+        "under": -161,
+        "over_formatted": "+121",
+        "under_formatted": "-161"
+      },
+      "sportsbooks": [
+        "BetRivers",
+        "BetOnline.ag",
+        "DraftKings",
+        "MyBookie.ag",
+        "Fanatics"
+      ],
+      "sportsbook_count": 5,
+      "individual_odds": {
+        "DraftKings": {
+          "over": 123,
+          "under": -157
+        },
+        "Fanatics": {
+          "over": 125,
+          "under": -165
+        },
+        "BetOnline.ag": {
+          "over": 120,
+          "under": -156
+        },
+        "MyBookie.ag": {
+          "over": 114,
+          "under": -158
+        },
+        "BetRivers": {
+          "over": 123,
+          "under": -167
+        }
+      },
+      "raw_odds": {
+        "over_odds": [
+          123,
+          125,
+          120,
+          114,
+          123
+        ],
+        "under_odds": [
+          -157,
+          -165,
+          -156,
+          -158,
+          -167
         ]
       },
       "game_info": {
@@ -154,69 +223,48 @@
       "pitcher_name": "Trey Yesavage",
       "strikeout_line": 4.5,
       "consensus_odds": {
-        "over": -157,
-        "under": 118,
-        "over_formatted": "-157",
-        "under_formatted": "+118"
+        "over": -156,
+        "under": 117,
+        "over_formatted": "-156",
+        "under_formatted": "+117"
       },
       "sportsbooks": [
-        "DraftKings",
-        "BetOnline.ag",
         "FanDuel",
-        "Fanatics",
+        "Bovada",
         "BetMGM",
-        "BetRivers",
-        "MyBookie.ag"
+        "BetRivers"
       ],
-      "sportsbook_count": 7,
+      "sportsbook_count": 4,
       "individual_odds": {
-        "DraftKings": {
-          "over": -162,
-          "under": 127
-        },
         "FanDuel": {
           "over": -162,
           "under": 122
-        },
-        "Fanatics": {
-          "over": -150,
-          "under": 115
         },
         "BetMGM": {
           "over": -150,
           "under": 115
         },
-        "BetOnline.ag": {
-          "over": -161,
-          "under": 123
-        },
-        "MyBookie.ag": {
-          "over": -162,
-          "under": 117
-        },
         "BetRivers": {
-          "over": -150,
-          "under": 110
+          "over": -152,
+          "under": 112
+        },
+        "Bovada": {
+          "over": -160,
+          "under": 120
         }
       },
       "raw_odds": {
         "over_odds": [
           -162,
-          -162,
           -150,
-          -150,
-          -161,
-          -162,
-          -150
+          -152,
+          -160
         ],
         "under_odds": [
-          127,
           122,
           115,
-          115,
-          123,
-          117,
-          110
+          112,
+          120
         ]
       },
       "game_info": {
@@ -285,40 +333,6 @@
         ],
         "under_odds": [
           -345
-        ]
-      },
-      "game_info": {
-        "matchup": "Toronto Blue Jays @ Los Angeles Dodgers",
-        "game_time": "08:00 PM EDT",
-        "away_team": "Toronto Blue Jays",
-        "home_team": "Los Angeles Dodgers"
-      }
-    },
-    {
-      "pitcher_name": "Trey Yesavage",
-      "strikeout_line": 5.5,
-      "consensus_odds": {
-        "over": 123,
-        "under": -167,
-        "over_formatted": "+123",
-        "under_formatted": "-167"
-      },
-      "sportsbooks": [
-        "BetRivers"
-      ],
-      "sportsbook_count": 1,
-      "individual_odds": {
-        "BetRivers": {
-          "over": 123,
-          "under": -167
-        }
-      },
-      "raw_odds": {
-        "over_odds": [
-          123
-        ],
-        "under_odds": [
-          -167
         ]
       },
       "game_info": {
