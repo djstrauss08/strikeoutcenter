@@ -1,9 +1,154 @@
 {
   "metadata": {
-    "generated_at": "2025-10-31T23:08:46.355012-04:00",
-    "generated_at_formatted": "Friday, October 31, 2025 at 11:08 PM EDT",
-    "date": "2025-10-31",
+    "generated_at": "2025-11-01T06:15:01.229788-04:00",
+    "generated_at_formatted": "Saturday, November 01, 2025 at 06:15 AM EDT",
+    "date": "2025-11-01",
     "timezone": "US/Eastern"
   },
-  "pitchers": []
+  "pitchers": [
+    {
+      "pitcher_name": "Max Scherzer",
+      "strikeout_line": 2.5,
+      "consensus_odds": {
+        "over": -173,
+        "under": 129,
+        "over_formatted": "-173",
+        "under_formatted": "+129"
+      },
+      "sportsbooks": [
+        "MyBookie.ag",
+        "BetOnline.ag",
+        "DraftKings",
+        "FanDuel"
+      ],
+      "sportsbook_count": 4,
+      "individual_odds": {
+        "DraftKings": {
+          "over": -176,
+          "under": 137
+        },
+        "FanDuel": {
+          "over": -178,
+          "under": 132
+        },
+        "BetOnline.ag": {
+          "over": -167,
+          "under": 128
+        },
+        "MyBookie.ag": {
+          "over": -172,
+          "under": 118
+        }
+      },
+      "raw_odds": {
+        "over_odds": [
+          -176,
+          -178,
+          -167,
+          -172
+        ],
+        "under_odds": [
+          137,
+          132,
+          128,
+          118
+        ]
+      },
+      "game_info": {
+        "matchup": "Los Angeles Dodgers @ Toronto Blue Jays",
+        "game_time": "07:00 PM EDT",
+        "away_team": "Los Angeles Dodgers",
+        "home_team": "Toronto Blue Jays"
+      }
+    },
+    {
+      "pitcher_name": "Max Scherzer",
+      "strikeout_line": 3.5,
+      "consensus_odds": {
+        "over": 125,
+        "under": -165,
+        "over_formatted": "+125",
+        "under_formatted": "-165"
+      },
+      "sportsbooks": [
+        "Fanatics"
+      ],
+      "sportsbook_count": 1,
+      "individual_odds": {
+        "Fanatics": {
+          "over": 125,
+          "under": -165
+        }
+      },
+      "raw_odds": {
+        "over_odds": [
+          125
+        ],
+        "under_odds": [
+          -165
+        ]
+      },
+      "game_info": {
+        "matchup": "Los Angeles Dodgers @ Toronto Blue Jays",
+        "game_time": "07:00 PM EDT",
+        "away_team": "Los Angeles Dodgers",
+        "home_team": "Toronto Blue Jays"
+      }
+    },
+    {
+      "pitcher_name": "Shohei Ohtani",
+      "strikeout_line": 4.5,
+      "consensus_odds": {
+        "over": 102,
+        "under": -136,
+        "over_formatted": "+102",
+        "under_formatted": "-136"
+      },
+      "sportsbooks": [
+        "MyBookie.ag",
+        "BetOnline.ag",
+        "DraftKings",
+        "Fanatics"
+      ],
+      "sportsbook_count": 4,
+      "individual_odds": {
+        "DraftKings": {
+          "over": -103,
+          "under": -124
+        },
+        "Fanatics": {
+          "over": 100,
+          "under": -130
+        },
+        "BetOnline.ag": {
+          "over": 110,
+          "under": -143
+        },
+        "MyBookie.ag": {
+          "over": 103,
+          "under": -148
+        }
+      },
+      "raw_odds": {
+        "over_odds": [
+          -103,
+          100,
+          110,
+          103
+        ],
+        "under_odds": [
+          -124,
+          -130,
+          -143,
+          -148
+        ]
+      },
+      "game_info": {
+        "matchup": "Los Angeles Dodgers @ Toronto Blue Jays",
+        "game_time": "07:00 PM EDT",
+        "away_team": "Los Angeles Dodgers",
+        "home_team": "Toronto Blue Jays"
+      }
+    }
+  ]
 }
