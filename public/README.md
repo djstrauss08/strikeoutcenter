@@ -2,7 +2,7 @@
 
 This directory contains the public JSON API endpoints for MLB strikeout props data.
 
-## Generated: Wednesday, February 04, 2026 at 01:43 PM EST
+## Generated: Wednesday, February 04, 2026 at 03:29 PM EST
 
 ## Files:
 - `index.html` - API documentation
