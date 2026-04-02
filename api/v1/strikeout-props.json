@@ -1,32 +1,260 @@
 {
   "metadata": {
-    "generated_at": "2026-04-01T21:59:06.060547-04:00",
-    "generated_at_formatted": "Wednesday, April 01, 2026 at 09:59 PM EDT",
-    "date": "2026-04-01",
+    "generated_at": "2026-04-02T00:34:25.592630-04:00",
+    "generated_at_formatted": "Thursday, April 02, 2026 at 12:34 AM EDT",
+    "date": "2026-04-02",
     "timezone": "US/Eastern"
   },
   "summary": {
-    "total_games": 2,
-    "total_pitchers": 0,
-    "games_with_props": 0
+    "total_games": 3,
+    "total_pitchers": 5,
+    "games_with_props": 2
   },
   "games": [
     {
-      "event_id": "cc33d68ceec04cd9b09a8c631d7574a0",
+      "event_id": "b69acd5d2b74c9782f22bd2463df8371",
       "away_team": "Minnesota Twins",
       "home_team": "Kansas City Royals",
       "matchup": "Minnesota Twins @ Kansas City Royals",
-      "game_time": "2026-04-01T19:40:36-04:00",
-      "game_time_formatted": "07:40 PM EDT",
-      "pitchers": []
+      "game_time": "2026-04-02T14:10:00-04:00",
+      "game_time_formatted": "02:10 PM EDT",
+      "pitchers": [
+        {
+          "pitcher_name": "Cole Ragans",
+          "strikeout_line": 6.5,
+          "consensus_odds": {
+            "over": -132,
+            "under": 102,
+            "over_formatted": "-132",
+            "under_formatted": "+102"
+          },
+          "sportsbooks": [
+            "FanDuel",
+            "BetOnline.ag",
+            "Fanatics",
+            "DraftKings"
+          ],
+          "sportsbook_count": 4,
+          "individual_odds": {
+            "BetOnline.ag": {
+              "over": -132,
+              "under": 102
+            },
+            "FanDuel": {
+              "over": -130,
+              "under": -102
+            },
+            "Fanatics": {
+              "over": -130,
+              "under": 100
+            },
+            "DraftKings": {
+              "over": -137,
+              "under": 107
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -132,
+              -130,
+              -130,
+              -137
+            ],
+            "under_odds": [
+              102,
+              -102,
+              100,
+              107
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Taj Bradley",
+          "strikeout_line": 3.5,
+          "consensus_odds": {
+            "over": -163,
+            "under": 125,
+            "over_formatted": "-163",
+            "under_formatted": "+125"
+          },
+          "sportsbooks": [
+            "FanDuel",
+            "BetOnline.ag",
+            "DraftKings"
+          ],
+          "sportsbook_count": 3,
+          "individual_odds": {
+            "BetOnline.ag": {
+              "over": -164,
+              "under": 125
+            },
+            "FanDuel": {
+              "over": -160,
+              "under": 120
+            },
+            "DraftKings": {
+              "over": -166,
+              "under": 129
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -164,
+              -160,
+              -166
+            ],
+            "under_odds": [
+              125,
+              120,
+              129
+            ]
+          }
+        }
+      ]
     },
     {
-      "event_id": "fd93ab95f0912b81f977d64ebcc5df42",
-      "away_team": "Cleveland Guardians",
-      "home_team": "Los Angeles Dodgers",
-      "matchup": "Cleveland Guardians @ Los Angeles Dodgers",
-      "game_time": "2026-04-01T20:20:22-04:00",
-      "game_time_formatted": "08:20 PM EDT",
+      "event_id": "e55dd97cbbe9b080f6059d380832d84f",
+      "away_team": "Atlanta Braves",
+      "home_team": "Arizona Diamondbacks",
+      "matchup": "Atlanta Braves @ Arizona Diamondbacks",
+      "game_time": "2026-04-02T21:40:00-04:00",
+      "game_time_formatted": "09:40 PM EDT",
+      "pitchers": [
+        {
+          "pitcher_name": "Reynaldo Lopez",
+          "strikeout_line": 4.5,
+          "consensus_odds": {
+            "over": 125,
+            "under": -161,
+            "over_formatted": "+125",
+            "under_formatted": "-161"
+          },
+          "sportsbooks": [
+            "BetOnline.ag",
+            "DraftKings"
+          ],
+          "sportsbook_count": 2,
+          "individual_odds": {
+            "BetOnline.ag": {
+              "over": 124,
+              "under": -161
+            },
+            "DraftKings": {
+              "over": 127,
+              "under": -162
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              124,
+              127
+            ],
+            "under_odds": [
+              -161,
+              -162
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Reynaldo Lopez",
+          "strikeout_line": 3.5,
+          "consensus_odds": {
+            "over": -179,
+            "under": 133,
+            "over_formatted": "-179",
+            "under_formatted": "+133"
+          },
+          "sportsbooks": [
+            "FanDuel",
+            "Bovada"
+          ],
+          "sportsbook_count": 2,
+          "individual_odds": {
+            "FanDuel": {
+              "over": -178,
+              "under": 132
+            },
+            "Bovada": {
+              "over": -180,
+              "under": 135
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -178,
+              -180
+            ],
+            "under_odds": [
+              132,
+              135
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Ryne Nelson",
+          "strikeout_line": 4.5,
+          "consensus_odds": {
+            "over": -109,
+            "under": -120,
+            "over_formatted": "-109",
+            "under_formatted": "-120"
+          },
+          "sportsbooks": [
+            "Bovada",
+            "BetOnline.ag",
+            "Fanatics",
+            "FanDuel",
+            "DraftKings"
+          ],
+          "sportsbook_count": 5,
+          "individual_odds": {
+            "BetOnline.ag": {
+              "over": -108,
+              "under": -120
+            },
+            "FanDuel": {
+              "over": -108,
+              "under": -122
+            },
+            "Fanatics": {
+              "over": -105,
+              "under": -125
+            },
+            "DraftKings": {
+              "over": -113,
+              "under": -113
+            },
+            "Bovada": {
+              "over": -110,
+              "under": -120
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -108,
+              -108,
+              -105,
+              -113,
+              -110
+            ],
+            "under_odds": [
+              -120,
+              -122,
+              -125,
+              -113,
+              -120
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "event_id": "c7e9785b27cff0b87f132c7c63daea75",
+      "away_team": "New York Mets",
+      "home_team": "San Francisco Giants",
+      "matchup": "New York Mets @ San Francisco Giants",
+      "game_time": "2026-04-02T21:45:00-04:00",
+      "game_time_formatted": "09:45 PM EDT",
       "pitchers": []
     }
   ]
