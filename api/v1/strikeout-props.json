@@ -1,70 +1,16 @@
 {
   "metadata": {
-    "generated_at": "2026-04-30T15:14:28.954264-04:00",
-    "generated_at_formatted": "Thursday, April 30, 2026 at 03:14 PM EDT",
+    "generated_at": "2026-04-30T16:55:59.425807-04:00",
+    "generated_at_formatted": "Thursday, April 30, 2026 at 04:55 PM EDT",
     "date": "2026-04-30",
     "timezone": "US/Eastern"
   },
   "summary": {
-    "total_games": 10,
-    "total_pitchers": 16,
+    "total_games": 4,
+    "total_pitchers": 12,
     "games_with_props": 3
   },
   "games": [
-    {
-      "event_id": "0abd6580f0a4c91cb98db1774d582be8",
-      "away_team": "Detroit Tigers",
-      "home_team": "Atlanta Braves",
-      "matchup": "Detroit Tigers @ Atlanta Braves",
-      "game_time": "2026-04-30T12:16:00-04:00",
-      "game_time_formatted": "12:16 PM EDT",
-      "pitchers": []
-    },
-    {
-      "event_id": "6f84f4f2e016877657f3d3ae23ce6760",
-      "away_team": "Houston Astros",
-      "home_team": "Baltimore Orioles",
-      "matchup": "Houston Astros @ Baltimore Orioles",
-      "game_time": "2026-04-30T12:36:00-04:00",
-      "game_time_formatted": "12:36 PM EDT",
-      "pitchers": []
-    },
-    {
-      "event_id": "75e319bc9e7b409bff4aedc4aeb21051",
-      "away_team": "San Francisco Giants",
-      "home_team": "Philadelphia Phillies",
-      "matchup": "San Francisco Giants @ Philadelphia Phillies",
-      "game_time": "2026-04-30T12:36:00-04:00",
-      "game_time_formatted": "12:36 PM EDT",
-      "pitchers": []
-    },
-    {
-      "event_id": "a43beaa62a7673615a11856370287f3b",
-      "away_team": "St. Louis Cardinals",
-      "home_team": "Pittsburgh Pirates",
-      "matchup": "St. Louis Cardinals @ Pittsburgh Pirates",
-      "game_time": "2026-04-30T12:36:00-04:00",
-      "game_time_formatted": "12:36 PM EDT",
-      "pitchers": []
-    },
-    {
-      "event_id": "d1e8ca71cf93b52520848723fb9b56a3",
-      "away_team": "Washington Nationals",
-      "home_team": "New York Mets",
-      "matchup": "Washington Nationals @ New York Mets",
-      "game_time": "2026-04-30T13:11:00-04:00",
-      "game_time_formatted": "01:11 PM EDT",
-      "pitchers": []
-    },
-    {
-      "event_id": "e5babd0fb427836d74e73a544af17f39",
-      "away_team": "Arizona Diamondbacks",
-      "home_team": "Milwaukee Brewers",
-      "matchup": "Arizona Diamondbacks @ Milwaukee Brewers",
-      "game_time": "2026-04-30T13:41:00-04:00",
-      "game_time_formatted": "01:41 PM EDT",
-      "pitchers": []
-    },
     {
       "event_id": "c31726958fc1b67f38d3673aa8931ab7",
       "away_team": "Kansas City Royals",
@@ -72,70 +18,173 @@
       "matchup": "Kansas City Royals @ Athletics",
       "game_time": "2026-04-30T15:06:00-04:00",
       "game_time_formatted": "03:06 PM EDT",
+      "pitchers": []
+    },
+    {
+      "event_id": "d90908eede84c449de24cbd9b202bcf7",
+      "away_team": "Houston Astros",
+      "home_team": "Baltimore Orioles",
+      "matchup": "Houston Astros @ Baltimore Orioles",
+      "game_time": "2026-04-30T15:58:00-04:00",
+      "game_time_formatted": "03:58 PM EDT",
       "pitchers": [
         {
-          "pitcher_name": "Jeffrey Springs",
-          "strikeout_line": 4.5,
+          "pitcher_name": "Lance McCullers Jr.",
+          "strikeout_line": 5.5,
           "consensus_odds": {
-            "over": 107,
-            "under": -141,
-            "over_formatted": "+107",
-            "under_formatted": "-141"
+            "over": -118,
+            "under": -112,
+            "over_formatted": "-118",
+            "under_formatted": "-112"
           },
           "sportsbooks": [
-            "BetOnline.ag",
-            "MyBookie.ag",
-            "BetRivers",
-            "Bovada",
-            "FanDuel"
+            "Fanatics",
+            "BetMGM",
+            "DraftKings"
           ],
-          "sportsbook_count": 5,
+          "sportsbook_count": 3,
           "individual_odds": {
-            "FanDuel": {
-              "over": 106,
-              "under": -140
+            "DraftKings": {
+              "over": 100,
+              "under": -130
             },
-            "BetOnline.ag": {
-              "over": 112,
-              "under": -145
+            "Fanatics": {
+              "over": -110,
+              "under": -120
             },
-            "BetRivers": {
-              "over": 105,
-              "under": -139
-            },
-            "MyBookie.ag": {
-              "over": 105,
-              "under": -145
-            },
-            "Bovada": {
-              "over": 105,
-              "under": -135
+            "BetMGM": {
+              "over": -150,
+              "under": 110
             }
           },
           "raw_odds": {
             "over_odds": [
-              106,
-              112,
-              105,
-              105,
-              105
+              100,
+              -110,
+              -150
             ],
             "under_odds": [
-              -140,
-              -145,
-              -139,
-              -145,
-              -135
+              -130,
+              -120,
+              110
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "event_id": "ed214f686a500c098b505d0dd09f23cd",
+      "away_team": "San Francisco Giants",
+      "home_team": "Philadelphia Phillies",
+      "matchup": "San Francisco Giants @ Philadelphia Phillies",
+      "game_time": "2026-04-30T17:36:00-04:00",
+      "game_time_formatted": "05:36 PM EDT",
+      "pitchers": [
+        {
+          "pitcher_name": "Adrian Houser",
+          "strikeout_line": 3.5,
+          "consensus_odds": {
+            "over": -122,
+            "under": -108,
+            "over_formatted": "-122",
+            "under_formatted": "-108"
+          },
+          "sportsbooks": [
+            "MyBookie.ag",
+            "Fanatics",
+            "FanDuel",
+            "BetOnline.ag",
+            "BetRivers",
+            "DraftKings",
+            "Bovada"
+          ],
+          "sportsbook_count": 7,
+          "individual_odds": {
+            "FanDuel": {
+              "over": -118,
+              "under": -112
+            },
+            "Fanatics": {
+              "over": -120,
+              "under": -110
+            },
+            "DraftKings": {
+              "over": -124,
+              "under": -103
+            },
+            "MyBookie.ag": {
+              "over": -136,
+              "under": -101
+            },
+            "BetOnline.ag": {
+              "over": -133,
+              "under": 103
+            },
+            "Bovada": {
+              "over": -120,
+              "under": -110
+            },
+            "BetRivers": {
+              "over": -103,
+              "under": -129
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -118,
+              -120,
+              -124,
+              -136,
+              -133,
+              -120,
+              -103
+            ],
+            "under_odds": [
+              -112,
+              -110,
+              -103,
+              -101,
+              103,
+              -110,
+              -129
             ]
           }
         },
         {
-          "pitcher_name": "Jeffrey Springs",
-          "strikeout_line": 5.5,
+          "pitcher_name": "Adrian Houser",
+          "strikeout_line": 2.5,
           "consensus_odds": {
-            "over": 230,
+            "over": -275,
+            "under": 195,
+            "over_formatted": "-275",
+            "under_formatted": "+195"
+          },
+          "sportsbooks": [
+            "BetRivers"
+          ],
+          "sportsbook_count": 1,
+          "individual_odds": {
+            "BetRivers": {
+              "over": -275,
+              "under": 195
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -275
+            ],
+            "under_odds": [
+              195
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Adrian Houser",
+          "strikeout_line": 4.5,
+          "consensus_odds": {
+            "over": 235,
             "under": -335,
-            "over_formatted": "+230",
+            "over_formatted": "+235",
             "under_formatted": "-335"
           },
           "sportsbooks": [
@@ -144,211 +193,130 @@
           "sportsbook_count": 1,
           "individual_odds": {
             "BetRivers": {
-              "over": 230,
+              "over": 235,
               "under": -335
             }
           },
           "raw_odds": {
             "over_odds": [
-              230
+              235
             ],
             "under_odds": [
               -335
             ]
           }
-        },
+        }
+      ]
+    },
+    {
+      "event_id": "788f4dc2e6058c5b7725dafd62fd9b9d",
+      "away_team": "Toronto Blue Jays",
+      "home_team": "Minnesota Twins",
+      "matchup": "Toronto Blue Jays @ Minnesota Twins",
+      "game_time": "2026-04-30T19:41:00-04:00",
+      "game_time_formatted": "07:41 PM EDT",
+      "pitchers": [
         {
-          "pitcher_name": "Jeffrey Springs",
-          "strikeout_line": 2.5,
-          "consensus_odds": {
-            "over": -625,
-            "under": 380,
-            "over_formatted": "-625",
-            "under_formatted": "+380"
-          },
-          "sportsbooks": [
-            "BetRivers"
-          ],
-          "sportsbook_count": 1,
-          "individual_odds": {
-            "BetRivers": {
-              "over": -625,
-              "under": 380
-            }
-          },
-          "raw_odds": {
-            "over_odds": [
-              -625
-            ],
-            "under_odds": [
-              380
-            ]
-          }
-        },
-        {
-          "pitcher_name": "Jeffrey Springs",
+          "pitcher_name": "Bailey Ober",
           "strikeout_line": 3.5,
           "consensus_odds": {
-            "over": -225,
-            "under": 163,
-            "over_formatted": "-225",
-            "under_formatted": "+163"
+            "over": -158,
+            "under": 119,
+            "over_formatted": "-158",
+            "under_formatted": "+119"
           },
           "sportsbooks": [
-            "BetRivers"
-          ],
-          "sportsbook_count": 1,
-          "individual_odds": {
-            "BetRivers": {
-              "over": -225,
-              "under": 163
-            }
-          },
-          "raw_odds": {
-            "over_odds": [
-              -225
-            ],
-            "under_odds": [
-              163
-            ]
-          }
-        },
-        {
-          "pitcher_name": "Noah Cameron",
-          "strikeout_line": 4.5,
-          "consensus_odds": {
-            "over": -128,
-            "under": -103,
-            "over_formatted": "-128",
-            "under_formatted": "-103"
-          },
-          "sportsbooks": [
-            "BetOnline.ag",
-            "BetMGM",
-            "BetRivers",
             "MyBookie.ag",
-            "Bovada",
-            "Fanatics",
             "FanDuel",
-            "DraftKings"
+            "BetOnline.ag",
+            "BetRivers",
+            "DraftKings",
+            "Bovada"
           ],
-          "sportsbook_count": 8,
+          "sportsbook_count": 6,
           "individual_odds": {
             "FanDuel": {
-              "over": -132,
-              "under": 100
+              "over": -160,
+              "under": 120
             },
             "BetOnline.ag": {
-              "over": -135,
-              "under": 104
-            },
-            "Fanatics": {
-              "over": -125,
-              "under": -105
+              "over": -154,
+              "under": 118
             },
             "DraftKings": {
-              "over": -110,
-              "under": -120
-            },
-            "BetMGM": {
-              "over": -115,
-              "under": -118
+              "over": -157,
+              "under": 123
             },
             "BetRivers": {
-              "over": -137,
-              "under": 104
+              "over": -162,
+              "under": 120
             },
             "MyBookie.ag": {
-              "over": -138,
-              "under": 100
+              "over": -156,
+              "under": 112
             },
             "Bovada": {
-              "over": -135,
-              "under": 105
+              "over": -160,
+              "under": 120
             }
           },
           "raw_odds": {
             "over_odds": [
-              -132,
-              -135,
-              -125,
-              -110,
-              -115,
-              -137,
-              -138,
-              -135
+              -160,
+              -154,
+              -157,
+              -162,
+              -156,
+              -160
             ],
             "under_odds": [
-              100,
-              104,
-              -105,
-              -120,
-              -118,
-              104,
-              100,
-              105
+              120,
+              118,
+              123,
+              120,
+              112,
+              120
             ]
           }
         },
         {
-          "pitcher_name": "Noah Cameron",
-          "strikeout_line": 3.5,
+          "pitcher_name": "Bailey Ober",
+          "strikeout_line": 4.5,
           "consensus_odds": {
-            "over": -335,
-            "under": 230,
-            "over_formatted": "-335",
-            "under_formatted": "+230"
+            "over": 144,
+            "under": -195,
+            "over_formatted": "+144",
+            "under_formatted": "-195"
           },
           "sportsbooks": [
+            "BetMGM",
             "BetRivers"
           ],
-          "sportsbook_count": 1,
+          "sportsbook_count": 2,
           "individual_odds": {
+            "BetMGM": {
+              "over": 140,
+              "under": -190
+            },
             "BetRivers": {
-              "over": -335,
-              "under": 230
+              "over": 148,
+              "under": -200
             }
           },
           "raw_odds": {
             "over_odds": [
-              -335
+              140,
+              148
             ],
             "under_odds": [
-              230
+              -190,
+              -200
             ]
           }
         },
         {
-          "pitcher_name": "Noah Cameron",
+          "pitcher_name": "Bailey Ober",
           "strikeout_line": 5.5,
-          "consensus_odds": {
-            "over": 155,
-            "under": -215,
-            "over_formatted": "+155",
-            "under_formatted": "-215"
-          },
-          "sportsbooks": [
-            "BetRivers"
-          ],
-          "sportsbook_count": 1,
-          "individual_odds": {
-            "BetRivers": {
-              "over": 155,
-              "under": -215
-            }
-          },
-          "raw_odds": {
-            "over_odds": [
-              155
-            ],
-            "under_odds": [
-              -215
-            ]
-          }
-        },
-        {
-          "pitcher_name": "Noah Cameron",
-          "strikeout_line": 6.5,
           "consensus_odds": {
             "over": 335,
             "under": -530,
@@ -373,261 +341,15 @@
               -530
             ]
           }
-        }
-      ]
-    },
-    {
-      "event_id": "d90908eede84c449de24cbd9b202bcf7",
-      "away_team": "Houston Astros",
-      "home_team": "Baltimore Orioles",
-      "matchup": "Houston Astros @ Baltimore Orioles",
-      "game_time": "2026-04-30T15:46:00-04:00",
-      "game_time_formatted": "03:46 PM EDT",
-      "pitchers": [
-        {
-          "pitcher_name": "Brandon Young",
-          "strikeout_line": 3.5,
-          "consensus_odds": {
-            "over": -133,
-            "under": 101,
-            "over_formatted": "-133",
-            "under_formatted": "+101"
-          },
-          "sportsbooks": [
-            "BetOnline.ag",
-            "MyBookie.ag",
-            "Bovada",
-            "Fanatics",
-            "FanDuel",
-            "DraftKings"
-          ],
-          "sportsbook_count": 6,
-          "individual_odds": {
-            "FanDuel": {
-              "over": -144,
-              "under": 108
-            },
-            "MyBookie.ag": {
-              "over": -133,
-              "under": -104
-            },
-            "DraftKings": {
-              "over": -122,
-              "under": -104
-            },
-            "Fanatics": {
-              "over": -130,
-              "under": 100
-            },
-            "BetOnline.ag": {
-              "over": -127,
-              "under": -102
-            },
-            "Bovada": {
-              "over": -145,
-              "under": 110
-            }
-          },
-          "raw_odds": {
-            "over_odds": [
-              -144,
-              -133,
-              -122,
-              -130,
-              -127,
-              -145
-            ],
-            "under_odds": [
-              108,
-              -104,
-              -104,
-              100,
-              -102,
-              110
-            ]
-          }
-        },
-        {
-          "pitcher_name": "Lance McCullers Jr.",
-          "strikeout_line": 4.5,
-          "consensus_odds": {
-            "over": -133,
-            "under": 101,
-            "over_formatted": "-133",
-            "under_formatted": "+101"
-          },
-          "sportsbooks": [
-            "BetOnline.ag",
-            "MyBookie.ag",
-            "Bovada",
-            "FanDuel",
-            "DraftKings"
-          ],
-          "sportsbook_count": 5,
-          "individual_odds": {
-            "FanDuel": {
-              "over": -122,
-              "under": -108
-            },
-            "MyBookie.ag": {
-              "over": -149,
-              "under": 108
-            },
-            "DraftKings": {
-              "over": -125,
-              "under": -102
-            },
-            "BetOnline.ag": {
-              "over": -147,
-              "under": 113
-            },
-            "Bovada": {
-              "over": -125,
-              "under": -105
-            }
-          },
-          "raw_odds": {
-            "over_odds": [
-              -122,
-              -149,
-              -125,
-              -147,
-              -125
-            ],
-            "under_odds": [
-              -108,
-              108,
-              -102,
-              113,
-              -105
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "event_id": "ed214f686a500c098b505d0dd09f23cd",
-      "away_team": "San Francisco Giants",
-      "home_team": "Philadelphia Phillies",
-      "matchup": "San Francisco Giants @ Philadelphia Phillies",
-      "game_time": "2026-04-30T17:36:00-04:00",
-      "game_time_formatted": "05:36 PM EDT",
-      "pitchers": []
-    },
-    {
-      "event_id": "788f4dc2e6058c5b7725dafd62fd9b9d",
-      "away_team": "Toronto Blue Jays",
-      "home_team": "Minnesota Twins",
-      "matchup": "Toronto Blue Jays @ Minnesota Twins",
-      "game_time": "2026-04-30T19:41:00-04:00",
-      "game_time_formatted": "07:41 PM EDT",
-      "pitchers": [
-        {
-          "pitcher_name": "Bailey Ober",
-          "strikeout_line": 3.5,
-          "consensus_odds": {
-            "over": -156,
-            "under": 117,
-            "over_formatted": "-156",
-            "under_formatted": "+117"
-          },
-          "sportsbooks": [
-            "BetOnline.ag",
-            "MyBookie.ag",
-            "BetRivers",
-            "Bovada",
-            "FanDuel",
-            "DraftKings"
-          ],
-          "sportsbook_count": 6,
-          "individual_odds": {
-            "FanDuel": {
-              "over": -160,
-              "under": 120
-            },
-            "BetOnline.ag": {
-              "over": -154,
-              "under": 119
-            },
-            "DraftKings": {
-              "over": -151,
-              "under": 118
-            },
-            "BetRivers": {
-              "over": -155,
-              "under": 115
-            },
-            "MyBookie.ag": {
-              "over": -156,
-              "under": 112
-            },
-            "Bovada": {
-              "over": -160,
-              "under": 120
-            }
-          },
-          "raw_odds": {
-            "over_odds": [
-              -160,
-              -154,
-              -151,
-              -155,
-              -156,
-              -160
-            ],
-            "under_odds": [
-              120,
-              119,
-              118,
-              115,
-              112,
-              120
-            ]
-          }
-        },
-        {
-          "pitcher_name": "Bailey Ober",
-          "strikeout_line": 4.5,
-          "consensus_odds": {
-            "over": 147,
-            "under": -200,
-            "over_formatted": "+147",
-            "under_formatted": "-200"
-          },
-          "sportsbooks": [
-            "BetMGM",
-            "BetRivers"
-          ],
-          "sportsbook_count": 2,
-          "individual_odds": {
-            "BetMGM": {
-              "over": 140,
-              "under": -190
-            },
-            "BetRivers": {
-              "over": 155,
-              "under": -210
-            }
-          },
-          "raw_odds": {
-            "over_odds": [
-              140,
-              155
-            ],
-            "under_odds": [
-              -190,
-              -210
-            ]
-          }
         },
         {
           "pitcher_name": "Bailey Ober",
           "strikeout_line": 2.5,
           "consensus_odds": {
-            "over": -420,
-            "under": 280,
-            "over_formatted": "-420",
-            "under_formatted": "+280"
+            "over": -455,
+            "under": 295,
+            "over_formatted": "-455",
+            "under_formatted": "+295"
           },
           "sportsbooks": [
             "BetRivers"
@@ -635,16 +357,16 @@
           "sportsbook_count": 1,
           "individual_odds": {
             "BetRivers": {
-              "over": -420,
-              "under": 280
+              "over": -455,
+              "under": 295
             }
           },
           "raw_odds": {
             "over_odds": [
-              -420
+              -455
             ],
             "under_odds": [
-              280
+              295
             ]
           }
         },
@@ -652,76 +374,104 @@
           "pitcher_name": "Kevin Gausman",
           "strikeout_line": 5.5,
           "consensus_odds": {
-            "over": -124,
-            "under": -106,
-            "over_formatted": "-124",
-            "under_formatted": "-106"
+            "over": -106,
+            "under": -125,
+            "over_formatted": "-106",
+            "under_formatted": "-125"
           },
           "sportsbooks": [
-            "BetOnline.ag",
-            "BetMGM",
-            "BetRivers",
             "MyBookie.ag",
-            "Bovada",
             "Fanatics",
             "FanDuel",
-            "DraftKings"
+            "BetOnline.ag",
+            "BetRivers",
+            "BetMGM",
+            "DraftKings",
+            "Bovada"
           ],
           "sportsbook_count": 8,
           "individual_odds": {
             "FanDuel": {
-              "over": -114,
-              "under": -114
+              "over": -108,
+              "under": -122
             },
             "BetOnline.ag": {
-              "over": -143,
-              "under": 110
+              "over": -106,
+              "under": -122
             },
             "Fanatics": {
-              "over": -125,
-              "under": -105
+              "over": -105,
+              "under": -125
             },
             "DraftKings": {
-              "over": -120,
-              "under": -106
+              "over": -105,
+              "under": -122
             },
             "BetMGM": {
-              "over": -110,
-              "under": -120
+              "over": 105,
+              "under": -140
             },
             "BetRivers": {
-              "over": -127,
-              "under": -105
+              "over": -108,
+              "under": -124
             },
             "MyBookie.ag": {
-              "over": -145,
-              "under": 105
+              "over": -110,
+              "under": -125
             },
             "Bovada": {
-              "over": -115,
-              "under": -115
+              "over": -110,
+              "under": -120
             }
           },
           "raw_odds": {
             "over_odds": [
-              -114,
-              -143,
-              -125,
-              -120,
-              -110,
-              -127,
-              -145,
-              -115
-            ],
-            "under_odds": [
-              -114,
-              110,
-              -105,
+              -108,
               -106,
-              -120,
+              -105,
               -105,
               105,
-              -115
+              -108,
+              -110,
+              -110
+            ],
+            "under_odds": [
+              -122,
+              -122,
+              -125,
+              -122,
+              -140,
+              -124,
+              -125,
+              -120
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Kevin Gausman",
+          "strikeout_line": 3.5,
+          "consensus_odds": {
+            "over": -625,
+            "under": 375,
+            "over_formatted": "-625",
+            "under_formatted": "+375"
+          },
+          "sportsbooks": [
+            "BetRivers"
+          ],
+          "sportsbook_count": 1,
+          "individual_odds": {
+            "BetRivers": {
+              "over": -625,
+              "under": 375
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -625
+            ],
+            "under_odds": [
+              375
             ]
           }
         },
@@ -729,10 +479,10 @@
           "pitcher_name": "Kevin Gausman",
           "strikeout_line": 6.5,
           "consensus_odds": {
-            "over": 163,
-            "under": -225,
-            "over_formatted": "+163",
-            "under_formatted": "-225"
+            "over": 195,
+            "under": -275,
+            "over_formatted": "+195",
+            "under_formatted": "-275"
           },
           "sportsbooks": [
             "BetRivers"
@@ -740,16 +490,16 @@
           "sportsbook_count": 1,
           "individual_odds": {
             "BetRivers": {
-              "over": 163,
-              "under": -225
+              "over": 195,
+              "under": -275
             }
           },
           "raw_odds": {
             "over_odds": [
-              163
+              195
             ],
             "under_odds": [
-              -225
+              -275
             ]
           }
         },
@@ -757,10 +507,10 @@
           "pitcher_name": "Kevin Gausman",
           "strikeout_line": 4.5,
           "consensus_odds": {
-            "over": -275,
-            "under": 195,
-            "over_formatted": "-275",
-            "under_formatted": "+195"
+            "over": -240,
+            "under": 175,
+            "over_formatted": "-240",
+            "under_formatted": "+175"
           },
           "sportsbooks": [
             "BetRivers"
@@ -768,16 +518,16 @@
           "sportsbook_count": 1,
           "individual_odds": {
             "BetRivers": {
-              "over": -275,
-              "under": 195
+              "over": -240,
+              "under": 175
             }
           },
           "raw_odds": {
             "over_odds": [
-              -275
+              -240
             ],
             "under_odds": [
-              195
+              175
             ]
           }
         }
