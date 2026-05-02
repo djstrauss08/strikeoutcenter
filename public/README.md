@@ -2,7 +2,7 @@
 
 This directory contains the public JSON API endpoints for MLB strikeout props data.
 
-## Generated: Saturday, May 02, 2026 at 06:46 AM EDT
+## Generated: Saturday, May 02, 2026 at 10:42 AM EDT
 
 ## Files:
 - `index.html` - API documentation
@@ -13,7 +13,7 @@ This directory contains the public JSON API endpoints for MLB strikeout props da
 
 ## Stats:
 - Total Games: 15
-- Total Pitchers: 38
+- Total Pitchers: 100
 - Games with Props: 15
 
 ## Usage:
