@@ -1,52 +1,16 @@
 {
   "metadata": {
-    "generated_at": "2026-06-14T17:06:30.675809-04:00",
-    "generated_at_formatted": "Sunday, June 14, 2026 at 05:06 PM EDT",
+    "generated_at": "2026-06-14T19:04:38.149014-04:00",
+    "generated_at_formatted": "Sunday, June 14, 2026 at 07:04 PM EDT",
     "date": "2026-06-14",
     "timezone": "US/Eastern"
   },
   "summary": {
-    "total_games": 6,
+    "total_games": 2,
     "total_pitchers": 2,
     "games_with_props": 1
   },
   "games": [
-    {
-      "event_id": "c9d537d84684524daf8ab45bb0a8041b",
-      "away_team": "New York Yankees",
-      "home_team": "Toronto Blue Jays",
-      "matchup": "New York Yankees @ Toronto Blue Jays",
-      "game_time": "2026-06-14T13:38:00-04:00",
-      "game_time_formatted": "01:38 PM EDT",
-      "pitchers": []
-    },
-    {
-      "event_id": "0ff8c6236a0db9cf5998b7c59561e6d9",
-      "away_team": "Arizona Diamondbacks",
-      "home_team": "Cincinnati Reds",
-      "matchup": "Arizona Diamondbacks @ Cincinnati Reds",
-      "game_time": "2026-06-14T13:41:30-04:00",
-      "game_time_formatted": "01:41 PM EDT",
-      "pitchers": []
-    },
-    {
-      "event_id": "0b9c33238f79994bad3620ba35498d00",
-      "away_team": "Colorado Rockies",
-      "home_team": "Athletics",
-      "matchup": "Colorado Rockies @ Athletics",
-      "game_time": "2026-06-14T15:06:00-04:00",
-      "game_time_formatted": "03:06 PM EDT",
-      "pitchers": []
-    },
-    {
-      "event_id": "69adbbbdb66c7af4b714b9edccc840af",
-      "away_team": "Chicago Cubs",
-      "home_team": "San Francisco Giants",
-      "matchup": "Chicago Cubs @ San Francisco Giants",
-      "game_time": "2026-06-14T15:11:00-04:00",
-      "game_time_formatted": "03:11 PM EDT",
-      "pitchers": []
-    },
     {
       "event_id": "c96fb2bd8508797146f034b0ef19da0e",
       "away_team": "Tampa Bay Rays",
@@ -68,62 +32,62 @@
           "pitcher_name": "Connelly Early",
           "strikeout_line": 5.5,
           "consensus_odds": {
-            "over": -103,
-            "under": -125,
-            "over_formatted": "-103",
-            "under_formatted": "-125"
+            "over": 105,
+            "under": -138,
+            "over_formatted": "+105",
+            "under_formatted": "-138"
           },
           "sportsbooks": [
-            "BetRivers",
             "FanDuel",
-            "BetMGM",
-            "DraftKings",
             "Bovada",
+            "BetRivers",
+            "DraftKings",
+            "BetMGM",
             "Fanatics"
           ],
           "sportsbook_count": 6,
           "individual_odds": {
             "FanDuel": {
-              "over": 100,
-              "under": -122
+              "over": 106,
+              "under": -130
             },
             "Fanatics": {
-              "over": 100,
-              "under": -130
+              "over": 110,
+              "under": -145
             },
             "DraftKings": {
-              "over": 105,
-              "under": -134
+              "over": 112,
+              "under": -143
             },
             "BetMGM": {
-              "over": -110,
-              "under": -118
+              "over": 100,
+              "under": -135
             },
             "Bovada": {
-              "over": 100,
-              "under": -130
+              "over": 110,
+              "under": -145
             },
             "BetRivers": {
-              "over": -115,
-              "under": -115
+              "over": -105,
+              "under": -129
             }
           },
           "raw_odds": {
             "over_odds": [
+              106,
+              110,
+              112,
               100,
-              100,
-              105,
-              -110,
-              100,
-              -115
+              110,
+              -105
             ],
             "under_odds": [
-              -122,
               -130,
-              -134,
-              -118,
-              -130,
-              -115
+              -145,
+              -143,
+              -135,
+              -145,
+              -129
             ]
           }
         },
@@ -131,55 +95,55 @@
           "pitcher_name": "Nathan Eovaldi",
           "strikeout_line": 4.5,
           "consensus_odds": {
-            "over": -157,
-            "under": 119,
-            "over_formatted": "-157",
-            "under_formatted": "+119"
+            "over": -153,
+            "under": 117,
+            "over_formatted": "-153",
+            "under_formatted": "+117"
           },
           "sportsbooks": [
-            "BetRivers",
             "FanDuel",
-            "BetMGM",
+            "Bovada",
+            "BetRivers",
             "DraftKings",
-            "Bovada"
+            "BetMGM"
           ],
           "sportsbook_count": 5,
           "individual_odds": {
             "FanDuel": {
-              "over": -158,
-              "under": 118
+              "over": -154,
+              "under": 116
             },
             "DraftKings": {
-              "over": -151,
-              "under": 118
+              "over": -145,
+              "under": 114
             },
             "BetMGM": {
               "over": -160,
               "under": 120
             },
             "Bovada": {
-              "over": -160,
-              "under": 120
+              "over": -150,
+              "under": 115
             },
             "BetRivers": {
-              "over": -157,
-              "under": 118
+              "over": -159,
+              "under": 120
             }
           },
           "raw_odds": {
             "over_odds": [
-              -158,
-              -151,
+              -154,
+              -145,
               -160,
-              -160,
-              -157
+              -150,
+              -159
             ],
             "under_odds": [
-              118,
-              118,
+              116,
+              114,
               120,
-              120,
-              118
+              115,
+              120
             ]
           }
         }
