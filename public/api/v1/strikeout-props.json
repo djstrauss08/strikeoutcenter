@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-07-16T07:36:07.325142-04:00",
-    "generated_at_formatted": "Thursday, July 16, 2026 at 07:36 AM EDT",
+    "generated_at": "2026-07-16T11:28:57.417208-04:00",
+    "generated_at_formatted": "Thursday, July 16, 2026 at 11:28 AM EDT",
     "date": "2026-07-16",
     "timezone": "US/Eastern"
   },
   "summary": {
     "total_games": 1,
-    "total_pitchers": 3,
+    "total_pitchers": 2,
     "games_with_props": 1
   },
   "games": [
@@ -23,30 +23,35 @@
           "pitcher_name": "Aaron Nola",
           "strikeout_line": 5.5,
           "consensus_odds": {
-            "over": 118,
-            "under": -157,
-            "over_formatted": "+118",
-            "under_formatted": "-157"
+            "over": 120,
+            "under": -158,
+            "over_formatted": "+120",
+            "under_formatted": "-158"
           },
           "sportsbooks": [
             "Bovada",
-            "BetRivers",
+            "FanDuel",
             "BetMGM",
-            "FanDuel"
+            "BetRivers",
+            "DraftKings"
           ],
-          "sportsbook_count": 4,
+          "sportsbook_count": 5,
           "individual_odds": {
             "FanDuel": {
               "over": 122,
               "under": -156
             },
             "BetMGM": {
-              "over": 105,
-              "under": -145
+              "over": 115,
+              "under": -155
             },
             "Bovada": {
               "over": 120,
               "under": -160
+            },
+            "DraftKings": {
+              "over": 119,
+              "under": -152
             },
             "BetRivers": {
               "over": 125,
@@ -56,43 +61,17 @@
           "raw_odds": {
             "over_odds": [
               122,
-              105,
+              115,
               120,
+              119,
               125
             ],
             "under_odds": [
               -156,
-              -145,
+              -155,
               -160,
+              -152,
               -167
-            ]
-          }
-        },
-        {
-          "pitcher_name": "Aaron Nola",
-          "strikeout_line": 4.5,
-          "consensus_odds": {
-            "over": -165,
-            "under": 129,
-            "over_formatted": "-165",
-            "under_formatted": "+129"
-          },
-          "sportsbooks": [
-            "DraftKings"
-          ],
-          "sportsbook_count": 1,
-          "individual_odds": {
-            "DraftKings": {
-              "over": -165,
-              "under": 129
-            }
-          },
-          "raw_odds": {
-            "over_odds": [
-              -165
-            ],
-            "under_odds": [
-              129
             ]
           }
         },
@@ -107,33 +86,33 @@
           },
           "sportsbooks": [
             "Bovada",
-            "DraftKings",
+            "FanDuel",
+            "Fanatics",
             "BetMGM",
             "BetRivers",
-            "FanDuel",
-            "Fanatics"
+            "DraftKings"
           ],
           "sportsbook_count": 6,
           "individual_odds": {
             "FanDuel": {
-              "over": 100,
-              "under": -128
+              "over": -102,
+              "under": -125
             },
             "Fanatics": {
-              "over": 100,
-              "under": -130
+              "over": 105,
+              "under": -140
             },
             "BetMGM": {
-              "over": 100,
-              "under": -135
+              "over": 105,
+              "under": -140
             },
             "Bovada": {
-              "over": 100,
-              "under": -130
+              "over": -105,
+              "under": -125
             },
             "DraftKings": {
-              "over": 106,
-              "under": -135
+              "over": 103,
+              "under": -131
             },
             "BetRivers": {
               "over": 100,
@@ -142,19 +121,19 @@
           },
           "raw_odds": {
             "over_odds": [
-              100,
-              100,
-              100,
-              100,
-              106,
+              -102,
+              105,
+              105,
+              -105,
+              103,
               100
             ],
             "under_odds": [
-              -128,
-              -130,
-              -135,
-              -130,
-              -135,
+              -125,
+              -140,
+              -140,
+              -125,
+              -131,
               -132
             ]
           }
