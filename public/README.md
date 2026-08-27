@@ -2,7 +2,7 @@
 
 This directory contains the public JSON API endpoints for MLB strikeout props data.
 
-## Generated: Wednesday, August 26, 2026 at 06:40 PM EDT
+## Generated: Thursday, August 27, 2026 at 03:01 AM EDT
 
 ## Files:
 - `index.html` - API documentation
@@ -12,9 +12,9 @@ This directory contains the public JSON API endpoints for MLB strikeout props da
 - `api/v1/best-odds.json` - Best odds rankings
 
 ## Stats:
-- Total Games: 13
-- Total Pitchers: 21
-- Games with Props: 9
+- Total Games: 7
+- Total Pitchers: 14
+- Games with Props: 7
 
 ## Usage:
 These files are designed to be served statically via GitHub Pages, Netlify, or similar hosting.
