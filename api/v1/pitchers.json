@@ -1,9 +1,120 @@
 {
   "metadata": {
-    "generated_at": "2026-10-01T04:14:34.331280-04:00",
-    "generated_at_formatted": "Thursday, October 01, 2026 at 04:14 AM EDT",
+    "generated_at": "2026-10-01T12:50:56.981260-04:00",
+    "generated_at_formatted": "Thursday, October 01, 2026 at 12:50 PM EDT",
     "date": "2026-10-01",
     "timezone": "US/Eastern"
   },
-  "pitchers": []
+  "pitchers": [
+    {
+      "pitcher_name": "Aaron Nola",
+      "strikeout_line": 3.5,
+      "consensus_odds": {
+        "over": -133,
+        "under": 101,
+        "over_formatted": "-133",
+        "under_formatted": "+101"
+      },
+      "sportsbooks": [
+        "FanDuel",
+        "BetMGM",
+        "Bovada",
+        "BetOnline.ag",
+        "MyBookie.ag",
+        "DraftKings",
+        "Fanatics"
+      ],
+      "sportsbook_count": 7,
+      "individual_odds": {
+        "FanDuel": {
+          "over": -128,
+          "under": 100
+        },
+        "Fanatics": {
+          "over": -140,
+          "under": 105
+        },
+        "BetMGM": {
+          "over": -135,
+          "under": 100
+        },
+        "Bovada": {
+          "over": -130,
+          "under": 100
+        },
+        "BetOnline.ag": {
+          "over": -132,
+          "under": 102
+        },
+        "DraftKings": {
+          "over": -132,
+          "under": 104
+        },
+        "MyBookie.ag": {
+          "over": -135,
+          "under": -102
+        }
+      },
+      "raw_odds": {
+        "over_odds": [
+          -128,
+          -140,
+          -135,
+          -130,
+          -132,
+          -132,
+          -135
+        ],
+        "under_odds": [
+          100,
+          105,
+          100,
+          100,
+          102,
+          104,
+          -102
+        ]
+      },
+      "game_info": {
+        "matchup": "Philadelphia Phillies @ Atlanta Braves",
+        "game_time": "08:11 PM EDT",
+        "away_team": "Philadelphia Phillies",
+        "home_team": "Atlanta Braves"
+      }
+    },
+    {
+      "pitcher_name": "Ray Kerr",
+      "strikeout_line": 1.5,
+      "consensus_odds": {
+        "over": -137,
+        "under": 106,
+        "over_formatted": "-137",
+        "under_formatted": "+106"
+      },
+      "sportsbooks": [
+        "BetOnline.ag"
+      ],
+      "sportsbook_count": 1,
+      "individual_odds": {
+        "BetOnline.ag": {
+          "over": -137,
+          "under": 106
+        }
+      },
+      "raw_odds": {
+        "over_odds": [
+          -137
+        ],
+        "under_odds": [
+          106
+        ]
+      },
+      "game_info": {
+        "matchup": "Philadelphia Phillies @ Atlanta Braves",
+        "game_time": "08:11 PM EDT",
+        "away_team": "Philadelphia Phillies",
+        "home_team": "Atlanta Braves"
+      }
+    }
+  ]
 }
