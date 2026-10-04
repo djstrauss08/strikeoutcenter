@@ -1,348 +1,70 @@
 {
   "metadata": {
-    "generated_at": "2026-10-03T18:38:23.014794-04:00",
-    "generated_at_formatted": "Saturday, October 03, 2026 at 06:38 PM EDT",
-    "date": "2026-10-03",
+    "generated_at": "2026-10-04T00:05:18.281349-04:00",
+    "generated_at_formatted": "Sunday, October 04, 2026 at 12:05 AM EDT",
+    "date": "2026-10-04",
     "timezone": "US/Eastern"
   },
   "summary": {
-    "total_games": 3,
-    "total_pitchers": 6,
-    "games_with_props": 2
+    "total_games": 1,
+    "total_pitchers": 1,
+    "games_with_props": 1
   },
   "games": [
     {
-      "event_id": "1632ced04d65127cf6172d3a2c2e2d16",
+      "event_id": "583202487b52f61769b2404a64e01c77",
       "away_team": "Atlanta Braves",
       "home_team": "Los Angeles Dodgers",
       "matchup": "Atlanta Braves @ Los Angeles Dodgers",
-      "game_time": "2026-10-03T16:08:12-04:00",
-      "game_time_formatted": "04:08 PM EDT",
-      "pitchers": []
-    },
-    {
-      "event_id": "cb4d07dc15440acf3d9ebe1ad41756c1",
-      "away_team": "New York Yankees",
-      "home_team": "Tampa Bay Rays",
-      "matchup": "New York Yankees @ Tampa Bay Rays",
-      "game_time": "2026-10-03T18:31:00-04:00",
-      "game_time_formatted": "06:31 PM EDT",
+      "game_time": "2026-10-04T20:00:00-04:00",
+      "game_time_formatted": "08:00 PM EDT",
       "pitchers": [
         {
-          "pitcher_name": "Drew Rasmussen",
+          "pitcher_name": "Blake Snell",
           "strikeout_line": 6.5,
           "consensus_odds": {
-            "over": 115,
-            "under": -151,
-            "over_formatted": "+115",
-            "under_formatted": "-151"
+            "over": -125,
+            "under": -104,
+            "over_formatted": "-125",
+            "under_formatted": "-104"
           },
           "sportsbooks": [
-            "MyBookie.ag",
-            "DraftKings",
-            "BetMGM",
+            "Bovada",
             "FanDuel",
-            "BetOnline.ag",
-            "Bovada"
+            "Fanatics",
+            "DraftKings"
           ],
-          "sportsbook_count": 6,
+          "sportsbook_count": 4,
           "individual_odds": {
             "FanDuel": {
-              "over": 114,
-              "under": -146
-            },
-            "DraftKings": {
-              "over": 109,
-              "under": -139
-            },
-            "BetMGM": {
-              "over": 120,
-              "under": -160
-            },
-            "MyBookie.ag": {
-              "over": 114,
-              "under": -158
-            },
-            "Bovada": {
-              "over": 115,
-              "under": -150
-            },
-            "BetOnline.ag": {
-              "over": 120,
-              "under": -156
-            }
-          },
-          "raw_odds": {
-            "over_odds": [
-              114,
-              109,
-              120,
-              114,
-              115,
-              120
-            ],
-            "under_odds": [
-              -146,
-              -139,
-              -160,
-              -158,
-              -150,
-              -156
-            ]
-          }
-        },
-        {
-          "pitcher_name": "Drew Rasmussen",
-          "strikeout_line": 5.5,
-          "consensus_odds": {
-            "over": -160,
-            "under": 120,
-            "over_formatted": "-160",
-            "under_formatted": "+120"
-          },
-          "sportsbooks": [
-            "Fanatics"
-          ],
-          "sportsbook_count": 1,
-          "individual_odds": {
-            "Fanatics": {
-              "over": -160,
-              "under": 120
-            }
-          },
-          "raw_odds": {
-            "over_odds": [
-              -160
-            ],
-            "under_odds": [
-              120
-            ]
-          }
-        },
-        {
-          "pitcher_name": "Gerrit Cole",
-          "strikeout_line": 4.5,
-          "consensus_odds": {
-            "over": -134,
-            "under": 102,
-            "over_formatted": "-134",
-            "under_formatted": "+102"
-          },
-          "sportsbooks": [
-            "MyBookie.ag",
-            "DraftKings",
-            "BetMGM",
-            "FanDuel",
-            "BetOnline.ag",
-            "Bovada"
-          ],
-          "sportsbook_count": 6,
-          "individual_odds": {
-            "FanDuel": {
-              "over": -130,
-              "under": 102
-            },
-            "DraftKings": {
-              "over": -143,
-              "under": 112
-            },
-            "BetMGM": {
-              "over": -140,
-              "under": 105
-            },
-            "MyBookie.ag": {
-              "over": -133,
-              "under": -104
-            },
-            "Bovada": {
-              "over": -130,
-              "under": 100
-            },
-            "BetOnline.ag": {
-              "over": -130,
-              "under": 100
-            }
-          },
-          "raw_odds": {
-            "over_odds": [
-              -130,
-              -143,
-              -140,
-              -133,
-              -130,
-              -130
-            ],
-            "under_odds": [
-              102,
-              112,
-              105,
-              -104,
-              100,
-              100
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "event_id": "347a2e725dd11a54a1d964eae3d04dd2",
-      "away_team": "San Diego Padres",
-      "home_team": "Milwaukee Brewers",
-      "matchup": "San Diego Padres @ Milwaukee Brewers",
-      "game_time": "2026-10-03T20:30:00-04:00",
-      "game_time_formatted": "08:30 PM EDT",
-      "pitchers": [
-        {
-          "pitcher_name": "Jacob Misiorowski",
-          "strikeout_line": 7.5,
-          "consensus_odds": {
-            "over": -145,
-            "under": 110,
-            "over_formatted": "-145",
-            "under_formatted": "+110"
-          },
-          "sportsbooks": [
-            "MyBookie.ag",
-            "DraftKings",
-            "BetMGM",
-            "BetOnline.ag",
-            "Fanatics"
-          ],
-          "sportsbook_count": 5,
-          "individual_odds": {
-            "DraftKings": {
-              "over": -150,
-              "under": 118
-            },
-            "BetMGM": {
-              "over": -135,
-              "under": 100
+              "over": -120,
+              "under": -106
             },
             "Fanatics": {
-              "over": -150,
-              "under": 115
+              "over": -125,
+              "under": -105
             },
-            "MyBookie.ag": {
-              "over": -150,
-              "under": 108
-            },
-            "BetOnline.ag": {
-              "over": -143,
-              "under": 110
-            }
-          },
-          "raw_odds": {
-            "over_odds": [
-              -150,
-              -135,
-              -150,
-              -150,
-              -143
-            ],
-            "under_odds": [
-              118,
-              100,
-              115,
-              108,
-              110
-            ]
-          }
-        },
-        {
-          "pitcher_name": "Jacob Misiorowski",
-          "strikeout_line": 8.5,
-          "consensus_odds": {
-            "over": 119,
-            "under": -154,
-            "over_formatted": "+119",
-            "under_formatted": "-154"
-          },
-          "sportsbooks": [
-            "FanDuel",
-            "Bovada"
-          ],
-          "sportsbook_count": 2,
-          "individual_odds": {
-            "FanDuel": {
-              "over": 124,
-              "under": -158
-            },
-            "Bovada": {
-              "over": 115,
-              "under": -150
-            }
-          },
-          "raw_odds": {
-            "over_odds": [
-              124,
-              115
-            ],
-            "under_odds": [
-              -158,
-              -150
-            ]
-          }
-        },
-        {
-          "pitcher_name": "Robbie Ray",
-          "strikeout_line": 3.5,
-          "consensus_odds": {
-            "over": -137,
-            "under": 105,
-            "over_formatted": "-137",
-            "under_formatted": "+105"
-          },
-          "sportsbooks": [
-            "MyBookie.ag",
-            "DraftKings",
-            "BetMGM",
-            "FanDuel",
-            "BetOnline.ag",
-            "Bovada"
-          ],
-          "sportsbook_count": 6,
-          "individual_odds": {
             "DraftKings": {
-              "over": -140,
-              "under": 110
-            },
-            "FanDuel": {
-              "over": -142,
-              "under": 112
-            },
-            "BetMGM": {
               "over": -135,
-              "under": 100
+              "under": 106
             },
             "Bovada": {
-              "over": -145,
-              "under": 110
-            },
-            "MyBookie.ag": {
-              "over": -133,
-              "under": -104
-            },
-            "BetOnline.ag": {
-              "over": -130,
-              "under": 100
+              "over": -120,
+              "under": -110
             }
           },
           "raw_odds": {
             "over_odds": [
-              -140,
-              -142,
+              -120,
+              -125,
               -135,
-              -145,
-              -133,
-              -130
+              -120
             ],
             "under_odds": [
-              110,
-              112,
-              100,
-              110,
-              -104,
-              100
+              -106,
+              -105,
+              106,
+              -110
             ]
           }
         }
