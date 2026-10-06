@@ -1,98 +1,339 @@
 {
   "metadata": {
-    "generated_at": "2026-10-05T21:05:07.977240-04:00",
-    "generated_at_formatted": "Monday, October 05, 2026 at 09:05 PM EDT",
-    "date": "2026-10-05",
+    "generated_at": "2026-10-06T04:29:30.139694-04:00",
+    "generated_at_formatted": "Tuesday, October 06, 2026 at 04:29 AM EDT",
+    "date": "2026-10-06",
     "timezone": "US/Eastern"
   },
   "summary": {
-    "total_games": 1,
-    "total_pitchers": 2,
-    "games_with_props": 1
+    "total_games": 2,
+    "total_pitchers": 6,
+    "games_with_props": 2
   },
   "games": [
     {
-      "event_id": "4be245ad03895bcafcdc42d7d926b675",
-      "away_team": "New York Yankees",
-      "home_team": "Tampa Bay Rays",
-      "matchup": "New York Yankees @ Tampa Bay Rays",
-      "game_time": "2026-10-05T20:09:00-04:00",
-      "game_time_formatted": "08:09 PM EDT",
+      "event_id": "1bc3bf1d3034010bdfb31d928a71177a",
+      "away_team": "Los Angeles Dodgers",
+      "home_team": "Atlanta Braves",
+      "matchup": "Los Angeles Dodgers @ Atlanta Braves",
+      "game_time": "2026-10-06T18:00:00-04:00",
+      "game_time_formatted": "06:00 PM EDT",
       "pitchers": [
         {
-          "pitcher_name": "Cam Schlittler",
-          "strikeout_line": 3.5,
+          "pitcher_name": "Chris Sale",
+          "strikeout_line": 7.5,
           "consensus_odds": {
-            "over": -114,
-            "under": -117,
-            "over_formatted": "-114",
-            "under_formatted": "-117"
+            "over": 109,
+            "under": -142,
+            "over_formatted": "+109",
+            "under_formatted": "-142"
           },
           "sportsbooks": [
+            "FanDuel",
+            "BetMGM",
             "Bovada",
+            "MyBookie.ag",
+            "DraftKings",
+            "Fanatics",
+            "BetOnline.ag"
+          ],
+          "sportsbook_count": 7,
+          "individual_odds": {
+            "DraftKings": {
+              "over": 111,
+              "under": -141
+            },
+            "FanDuel": {
+              "over": 116,
+              "under": -148
+            },
+            "BetMGM": {
+              "over": -105,
+              "under": -125
+            },
+            "BetOnline.ag": {
+              "over": 109,
+              "under": -141
+            },
+            "Bovada": {
+              "over": 115,
+              "under": -150
+            },
+            "MyBookie.ag": {
+              "over": 104,
+              "under": -144
+            },
+            "Fanatics": {
+              "over": 115,
+              "under": -150
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              111,
+              116,
+              -105,
+              109,
+              115,
+              104,
+              115
+            ],
+            "under_odds": [
+              -141,
+              -148,
+              -125,
+              -141,
+              -150,
+              -144,
+              -150
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Yoshinobu Yamamoto",
+          "strikeout_line": 6.5,
+          "consensus_odds": {
+            "over": 104,
+            "under": -136,
+            "over_formatted": "+104",
+            "under_formatted": "-136"
+          },
+          "sportsbooks": [
+            "FanDuel",
+            "MyBookie.ag",
+            "Bovada",
+            "DraftKings",
+            "BetOnline.ag"
+          ],
+          "sportsbook_count": 5,
+          "individual_odds": {
+            "DraftKings": {
+              "over": 103,
+              "under": -132
+            },
+            "FanDuel": {
+              "over": 104,
+              "under": -132
+            },
+            "BetOnline.ag": {
+              "over": 107,
+              "under": -139
+            },
+            "Bovada": {
+              "over": 105,
+              "under": -135
+            },
+            "MyBookie.ag": {
+              "over": 102,
+              "under": -141
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              103,
+              104,
+              107,
+              105,
+              102
+            ],
+            "under_odds": [
+              -132,
+              -132,
+              -139,
+              -135,
+              -141
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Yoshinobu Yamamoto",
+          "strikeout_line": 5.5,
+          "consensus_odds": {
+            "over": -160,
+            "under": 120,
+            "over_formatted": "-160",
+            "under_formatted": "+120"
+          },
+          "sportsbooks": [
+            "BetMGM"
+          ],
+          "sportsbook_count": 1,
+          "individual_odds": {
+            "BetMGM": {
+              "over": -160,
+              "under": 120
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -160
+            ],
+            "under_odds": [
+              120
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "event_id": "62d8e1c18355ab6b3913d7a28fa677c2",
+      "away_team": "Milwaukee Brewers",
+      "home_team": "San Diego Padres",
+      "matchup": "Milwaukee Brewers @ San Diego Padres",
+      "game_time": "2026-10-06T21:30:00-04:00",
+      "game_time_formatted": "09:30 PM EDT",
+      "pitchers": [
+        {
+          "pitcher_name": "Dustin May",
+          "strikeout_line": 2.5,
+          "consensus_odds": {
+            "over": -167,
+            "under": 127,
+            "over_formatted": "-167",
+            "under_formatted": "+127"
+          },
+          "sportsbooks": [
+            "FanDuel",
+            "BetMGM",
+            "MyBookie.ag",
+            "Bovada",
+            "DraftKings",
+            "BetOnline.ag"
+          ],
+          "sportsbook_count": 6,
+          "individual_odds": {
+            "FanDuel": {
+              "over": -170,
+              "under": 132
+            },
+            "BetMGM": {
+              "over": -165,
+              "under": 125
+            },
+            "DraftKings": {
+              "over": -158,
+              "under": 124
+            },
+            "Bovada": {
+              "over": -170,
+              "under": 130
+            },
+            "MyBookie.ag": {
+              "over": -171,
+              "under": 123
+            },
+            "BetOnline.ag": {
+              "over": -169,
+              "under": 130
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -170,
+              -165,
+              -158,
+              -170,
+              -171,
+              -169
+            ],
+            "under_odds": [
+              132,
+              125,
+              124,
+              130,
+              123,
+              130
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Nick Pivetta",
+          "strikeout_line": 4.5,
+          "consensus_odds": {
+            "over": 133,
+            "under": -177,
+            "over_formatted": "+133",
+            "under_formatted": "-177"
+          },
+          "sportsbooks": [
+            "FanDuel",
+            "BetMGM",
+            "MyBookie.ag",
+            "Bovada",
+            "BetOnline.ag"
+          ],
+          "sportsbook_count": 5,
+          "individual_odds": {
+            "FanDuel": {
+              "over": 140,
+              "under": -180
+            },
+            "BetMGM": {
+              "over": 130,
+              "under": -175
+            },
+            "Bovada": {
+              "over": 140,
+              "under": -185
+            },
+            "MyBookie.ag": {
+              "over": 124,
+              "under": -173
+            },
+            "BetOnline.ag": {
+              "over": 132,
+              "under": -172
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              140,
+              130,
+              140,
+              124,
+              132
+            ],
+            "under_odds": [
+              -180,
+              -175,
+              -185,
+              -173,
+              -172
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Nick Pivetta",
+          "strikeout_line": 3.5,
+          "consensus_odds": {
+            "over": -157,
+            "under": 121,
+            "over_formatted": "-157",
+            "under_formatted": "+121"
+          },
+          "sportsbooks": [
+            "Fanatics",
             "DraftKings"
           ],
           "sportsbook_count": 2,
           "individual_odds": {
             "DraftKings": {
-              "over": -130,
-              "under": -105
-            },
-            "Bovada": {
-              "over": 100,
-              "under": -130
-            }
-          },
-          "raw_odds": {
-            "over_odds": [
-              -130,
-              100
-            ],
-            "under_odds": [
-              -105,
-              -130
-            ]
-          }
-        },
-        {
-          "pitcher_name": "Freddy Peralta",
-          "strikeout_line": 5.5,
-          "consensus_odds": {
-            "over": -128,
-            "under": -103,
-            "over_formatted": "-128",
-            "under_formatted": "-103"
-          },
-          "sportsbooks": [
-            "Bovada",
-            "Fanatics",
-            "DraftKings"
-          ],
-          "sportsbook_count": 3,
-          "individual_odds": {
-            "DraftKings": {
-              "over": -115,
-              "under": -115
+              "over": -164,
+              "under": 128
             },
             "Fanatics": {
-              "over": -140,
-              "under": 105
-            },
-            "Bovada": {
-              "over": -130,
-              "under": 100
+              "over": -150,
+              "under": 115
             }
           },
           "raw_odds": {
             "over_odds": [
-              -115,
-              -140,
-              -130
+              -164,
+              -150
             ],
             "under_odds": [
-              -115,
-              105,
-              100
+              128,
+              115
             ]
           }
         }
