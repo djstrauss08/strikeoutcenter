@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-10-08T00:16:13.528267-04:00",
-    "generated_at_formatted": "Thursday, October 08, 2026 at 12:16 AM EDT",
+    "generated_at": "2026-10-08T13:09:05.227186-04:00",
+    "generated_at_formatted": "Thursday, October 08, 2026 at 01:09 PM EDT",
     "date": "2026-10-08",
     "timezone": "US/Eastern"
   },
@@ -21,29 +21,71 @@
       "pitchers": [
         {
           "pitcher_name": "Hagen Smith",
-          "strikeout_line": 2.5,
+          "strikeout_line": 1.5,
           "consensus_odds": {
-            "over": 143,
-            "under": -183,
-            "over_formatted": "+143",
-            "under_formatted": "-183"
+            "over": -184,
+            "under": 141,
+            "over_formatted": "-184",
+            "under_formatted": "+141"
           },
           "sportsbooks": [
+            "Bovada",
             "DraftKings"
           ],
-          "sportsbook_count": 1,
+          "sportsbook_count": 2,
           "individual_odds": {
             "DraftKings": {
-              "over": 143,
-              "under": -183
+              "over": -184,
+              "under": 143
+            },
+            "Bovada": {
+              "over": -185,
+              "under": 140
             }
           },
           "raw_odds": {
             "over_odds": [
-              143
+              -184,
+              -185
             ],
             "under_odds": [
-              -183
+              143,
+              140
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Hagen Smith",
+          "strikeout_line": 2.5,
+          "consensus_odds": {
+            "over": 128,
+            "under": -172,
+            "over_formatted": "+128",
+            "under_formatted": "-172"
+          },
+          "sportsbooks": [
+            "MyBookie.ag",
+            "BetOnline.ag"
+          ],
+          "sportsbook_count": 2,
+          "individual_odds": {
+            "MyBookie.ag": {
+              "over": 124,
+              "under": -173
+            },
+            "BetOnline.ag": {
+              "over": 132,
+              "under": -172
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              124,
+              132
+            ],
+            "under_odds": [
+              -173,
+              -172
             ]
           }
         },
@@ -51,62 +93,69 @@
           "pitcher_name": "Parker Messick",
           "strikeout_line": 5.5,
           "consensus_odds": {
-            "over": -152,
-            "under": 118,
-            "over_formatted": "-152",
-            "under_formatted": "+118"
+            "over": -144,
+            "under": 110,
+            "over_formatted": "-144",
+            "under_formatted": "+110"
           },
           "sportsbooks": [
             "Fanatics",
-            "DraftKings"
+            "MyBookie.ag",
+            "BetOnline.ag",
+            "DraftKings",
+            "Bovada",
+            "FanDuel",
+            "BetMGM"
           ],
-          "sportsbook_count": 2,
+          "sportsbook_count": 7,
           "individual_odds": {
             "DraftKings": {
               "over": -155,
               "under": 121
             },
+            "MyBookie.ag": {
+              "over": -141,
+              "under": 102
+            },
             "Fanatics": {
-              "over": -150,
-              "under": 115
+              "over": -130,
+              "under": 100
+            },
+            "Bovada": {
+              "over": -160,
+              "under": 120
+            },
+            "FanDuel": {
+              "over": -146,
+              "under": 114
+            },
+            "BetOnline.ag": {
+              "over": -139,
+              "under": 107
+            },
+            "BetMGM": {
+              "over": -140,
+              "under": 105
             }
           },
           "raw_odds": {
             "over_odds": [
               -155,
-              -150
+              -141,
+              -130,
+              -160,
+              -146,
+              -139,
+              -140
             ],
             "under_odds": [
               121,
-              115
-            ]
-          }
-        },
-        {
-          "pitcher_name": "Parker Messick",
-          "strikeout_line": 6.5,
-          "consensus_odds": {
-            "over": 132,
-            "under": -170,
-            "over_formatted": "+132",
-            "under_formatted": "-170"
-          },
-          "sportsbooks": [
-            "FanDuel"
-          ],
-          "sportsbook_count": 1,
-          "individual_odds": {
-            "FanDuel": {
-              "over": 132,
-              "under": -170
-            }
-          },
-          "raw_odds": {
-            "over_odds": [
-              132
-            ],
-            "under_odds": [
-              -170
+              102,
+              100,
+              120,
+              114,
+              107,
+              105
             ]
           }
         }
