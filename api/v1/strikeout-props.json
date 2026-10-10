@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-10-10T00:06:48.321331-04:00",
-    "generated_at_formatted": "Saturday, October 10, 2026 at 12:06 AM EDT",
+    "generated_at": "2026-10-10T11:39:52.968111-04:00",
+    "generated_at_formatted": "Saturday, October 10, 2026 at 11:39 AM EDT",
     "date": "2026-10-10",
     "timezone": "US/Eastern"
   },
   "summary": {
     "total_games": 1,
-    "total_pitchers": 3,
+    "total_pitchers": 2,
     "games_with_props": 1
   },
   "games": [
@@ -23,48 +23,62 @@
           "pitcher_name": "Gavin Williams",
           "strikeout_line": 6.5,
           "consensus_odds": {
-            "over": -142,
-            "under": 110,
-            "over_formatted": "-142",
-            "under_formatted": "+110"
+            "over": -145,
+            "under": 111,
+            "over_formatted": "-145",
+            "under_formatted": "+111"
           },
           "sportsbooks": [
+            "MyBookie.ag",
             "FanDuel",
-            "Bovada",
+            "BetMGM",
             "DraftKings",
-            "BetOnline.ag"
+            "BetOnline.ag",
+            "Bovada"
           ],
-          "sportsbook_count": 4,
+          "sportsbook_count": 6,
           "individual_odds": {
             "FanDuel": {
-              "over": -162,
-              "under": 126
+              "over": -136,
+              "under": 108
             },
             "DraftKings": {
-              "over": -130,
-              "under": 102
-            },
-            "BetOnline.ag": {
-              "over": -147,
+              "over": -145,
               "under": 114
             },
+            "MyBookie.ag": {
+              "over": -144,
+              "under": 104
+            },
+            "BetOnline.ag": {
+              "over": -141,
+              "under": 109
+            },
             "Bovada": {
-              "over": -130,
-              "under": 100
+              "over": -150,
+              "under": 115
+            },
+            "BetMGM": {
+              "over": -155,
+              "under": 115
             }
           },
           "raw_odds": {
             "over_odds": [
-              -162,
-              -130,
-              -147,
-              -130
+              -136,
+              -145,
+              -144,
+              -141,
+              -150,
+              -155
             ],
             "under_odds": [
-              126,
-              102,
+              108,
               114,
-              100
+              104,
+              109,
+              115,
+              115
             ]
           }
         },
@@ -72,83 +86,69 @@
           "pitcher_name": "Sean Burke",
           "strikeout_line": 3.5,
           "consensus_odds": {
-            "over": -148,
-            "under": 114,
-            "over_formatted": "-148",
-            "under_formatted": "+114"
+            "over": -147,
+            "under": 112,
+            "over_formatted": "-147",
+            "under_formatted": "+112"
           },
           "sportsbooks": [
-            "FanDuel",
-            "Bovada",
-            "DraftKings",
+            "MyBookie.ag",
             "Fanatics",
-            "BetOnline.ag"
+            "FanDuel",
+            "BetMGM",
+            "DraftKings",
+            "BetOnline.ag",
+            "Bovada"
           ],
-          "sportsbook_count": 5,
+          "sportsbook_count": 7,
           "individual_odds": {
             "FanDuel": {
-              "over": -150,
-              "under": 118
+              "over": -146,
+              "under": 114
             },
             "DraftKings": {
               "over": -147,
               "under": 115
             },
-            "Fanatics": {
-              "over": -140,
+            "MyBookie.ag": {
+              "over": -145,
               "under": 105
             },
+            "Fanatics": {
+              "over": -145,
+              "under": 110
+            },
             "BetOnline.ag": {
-              "over": -152,
-              "under": 116
+              "over": -147,
+              "under": 113
             },
             "Bovada": {
               "over": -150,
               "under": 115
+            },
+            "BetMGM": {
+              "over": -150,
+              "under": 110
             }
           },
           "raw_odds": {
             "over_odds": [
-              -150,
+              -146,
               -147,
-              -140,
-              -152,
+              -145,
+              -145,
+              -147,
+              -150,
               -150
             ],
             "under_odds": [
-              118,
+              114,
               115,
               105,
-              116,
-              115
-            ]
-          }
-        },
-        {
-          "pitcher_name": "Sean Burke",
-          "strikeout_line": 4.5,
-          "consensus_odds": {
-            "over": 135,
-            "under": -185,
-            "over_formatted": "+135",
-            "under_formatted": "-185"
-          },
-          "sportsbooks": [
-            "BetMGM"
-          ],
-          "sportsbook_count": 1,
-          "individual_odds": {
-            "BetMGM": {
-              "over": 135,
-              "under": -185
-            }
-          },
-          "raw_odds": {
-            "over_odds": [
-              135
-            ],
-            "under_odds": [
-              -185
+              110,
+              113,
+              115,
+              110
             ]
           }
         }
