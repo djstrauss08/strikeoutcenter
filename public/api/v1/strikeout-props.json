@@ -1,14 +1,158 @@
 {
   "metadata": {
-    "generated_at": "2026-10-09T18:10:40.064345-04:00",
-    "generated_at_formatted": "Friday, October 09, 2026 at 06:10 PM EDT",
-    "date": "2026-10-09",
+    "generated_at": "2026-10-10T00:06:48.321331-04:00",
+    "generated_at_formatted": "Saturday, October 10, 2026 at 12:06 AM EDT",
+    "date": "2026-10-10",
     "timezone": "US/Eastern"
   },
   "summary": {
-    "total_games": 0,
-    "total_pitchers": 0,
-    "games_with_props": 0
+    "total_games": 1,
+    "total_pitchers": 3,
+    "games_with_props": 1
   },
-  "games": []
+  "games": [
+    {
+      "event_id": "62bf363a77455f7a8b48838e7792f60b",
+      "away_team": "Chicago White Sox",
+      "home_team": "Cleveland Guardians",
+      "matchup": "Chicago White Sox @ Cleveland Guardians",
+      "game_time": "2026-10-10T20:01:00-04:00",
+      "game_time_formatted": "08:01 PM EDT",
+      "pitchers": [
+        {
+          "pitcher_name": "Gavin Williams",
+          "strikeout_line": 6.5,
+          "consensus_odds": {
+            "over": -142,
+            "under": 110,
+            "over_formatted": "-142",
+            "under_formatted": "+110"
+          },
+          "sportsbooks": [
+            "FanDuel",
+            "Bovada",
+            "DraftKings",
+            "BetOnline.ag"
+          ],
+          "sportsbook_count": 4,
+          "individual_odds": {
+            "FanDuel": {
+              "over": -162,
+              "under": 126
+            },
+            "DraftKings": {
+              "over": -130,
+              "under": 102
+            },
+            "BetOnline.ag": {
+              "over": -147,
+              "under": 114
+            },
+            "Bovada": {
+              "over": -130,
+              "under": 100
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -162,
+              -130,
+              -147,
+              -130
+            ],
+            "under_odds": [
+              126,
+              102,
+              114,
+              100
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Sean Burke",
+          "strikeout_line": 3.5,
+          "consensus_odds": {
+            "over": -148,
+            "under": 114,
+            "over_formatted": "-148",
+            "under_formatted": "+114"
+          },
+          "sportsbooks": [
+            "FanDuel",
+            "Bovada",
+            "DraftKings",
+            "Fanatics",
+            "BetOnline.ag"
+          ],
+          "sportsbook_count": 5,
+          "individual_odds": {
+            "FanDuel": {
+              "over": -150,
+              "under": 118
+            },
+            "DraftKings": {
+              "over": -147,
+              "under": 115
+            },
+            "Fanatics": {
+              "over": -140,
+              "under": 105
+            },
+            "BetOnline.ag": {
+              "over": -152,
+              "under": 116
+            },
+            "Bovada": {
+              "over": -150,
+              "under": 115
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -150,
+              -147,
+              -140,
+              -152,
+              -150
+            ],
+            "under_odds": [
+              118,
+              115,
+              105,
+              116,
+              115
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Sean Burke",
+          "strikeout_line": 4.5,
+          "consensus_odds": {
+            "over": 135,
+            "under": -185,
+            "over_formatted": "+135",
+            "under_formatted": "-185"
+          },
+          "sportsbooks": [
+            "BetMGM"
+          ],
+          "sportsbook_count": 1,
+          "individual_odds": {
+            "BetMGM": {
+              "over": 135,
+              "under": -185
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              135
+            ],
+            "under_odds": [
+              -185
+            ]
+          }
+        }
+      ]
+    }
+  ]
 }
