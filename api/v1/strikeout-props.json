@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-10-11T12:06:40.759288-04:00",
-    "generated_at_formatted": "Sunday, October 11, 2026 at 12:06 PM EDT",
+    "generated_at": "2026-10-11T17:25:02.374861-04:00",
+    "generated_at_formatted": "Sunday, October 11, 2026 at 05:25 PM EDT",
     "date": "2026-10-11",
     "timezone": "US/Eastern"
   },
   "summary": {
     "total_games": 1,
-    "total_pitchers": 4,
+    "total_pitchers": 3,
     "games_with_props": 1
   },
   "games": [
@@ -23,83 +23,62 @@
           "pitcher_name": "Jacob Misiorowski",
           "strikeout_line": 7.5,
           "consensus_odds": {
-            "over": 106,
-            "under": -139,
-            "over_formatted": "+106",
-            "under_formatted": "-139"
+            "over": -102,
+            "under": -129,
+            "over_formatted": "-102",
+            "under_formatted": "-129"
           },
           "sportsbooks": [
-            "BetOnline.ag",
-            "DraftKings",
             "FanDuel",
-            "MyBookie.ag",
-            "Bovada"
+            "BetOnline.ag",
+            "BetMGM",
+            "DraftKings",
+            "Bovada",
+            "MyBookie.ag"
           ],
-          "sportsbook_count": 5,
+          "sportsbook_count": 6,
           "individual_odds": {
             "FanDuel": {
-              "over": 110,
-              "under": -140
+              "over": 104,
+              "under": -132
             },
-            "DraftKings": {
-              "over": 102,
-              "under": -130
-            },
-            "MyBookie.ag": {
-              "over": 102,
-              "under": -141
-            },
-            "Bovada": {
-              "over": 110,
+            "BetMGM": {
+              "over": 105,
               "under": -145
             },
+            "DraftKings": {
+              "over": -117,
+              "under": -109
+            },
+            "MyBookie.ag": {
+              "over": -106,
+              "under": -130
+            },
+            "Bovada": {
+              "over": 105,
+              "under": -135
+            },
             "BetOnline.ag": {
-              "over": 107,
-              "under": -139
+              "over": -102,
+              "under": -127
             }
           },
           "raw_odds": {
             "over_odds": [
-              110,
-              102,
-              102,
-              110,
-              107
+              104,
+              105,
+              -117,
+              -106,
+              105,
+              -102
             ],
             "under_odds": [
-              -140,
-              -130,
-              -141,
+              -132,
               -145,
-              -139
-            ]
-          }
-        },
-        {
-          "pitcher_name": "Jacob Misiorowski",
-          "strikeout_line": 6.5,
-          "consensus_odds": {
-            "over": -155,
-            "under": 115,
-            "over_formatted": "-155",
-            "under_formatted": "+115"
-          },
-          "sportsbooks": [
-            "BetMGM"
-          ],
-          "sportsbook_count": 1,
-          "individual_odds": {
-            "BetMGM": {
-              "over": -155,
-              "under": 115
-            }
-          },
-          "raw_odds": {
-            "over_odds": [
-              -155
-            ],
-            "under_odds": [
-              115
+              -109,
+              -130,
+              -135,
+              -127
             ]
           }
         },
@@ -107,18 +86,18 @@
           "pitcher_name": "Tarik Skubal",
           "strikeout_line": 7.5,
           "consensus_odds": {
-            "over": 113,
-            "under": -148,
-            "over_formatted": "+113",
-            "under_formatted": "-148"
+            "over": 114,
+            "under": -150,
+            "over_formatted": "+114",
+            "under_formatted": "-150"
           },
           "sportsbooks": [
+            "FanDuel",
             "Fanatics",
             "BetOnline.ag",
             "DraftKings",
-            "FanDuel",
-            "MyBookie.ag",
-            "Bovada"
+            "Bovada",
+            "MyBookie.ag"
           ],
           "sportsbook_count": 6,
           "individual_odds": {
@@ -127,8 +106,8 @@
               "under": -146
             },
             "DraftKings": {
-              "over": 112,
-              "under": -143
+              "over": 113,
+              "under": -144
             },
             "MyBookie.ag": {
               "over": 109,
@@ -143,26 +122,26 @@
               "under": -149
             },
             "Fanatics": {
-              "over": 115,
-              "under": -150
+              "over": 120,
+              "under": -160
             }
           },
           "raw_odds": {
             "over_odds": [
               114,
-              112,
+              113,
               109,
               115,
               115,
-              115
+              120
             ],
             "under_odds": [
               -146,
-              -143,
+              -144,
               -152,
               -150,
               -149,
-              -150
+              -160
             ]
           }
         },
