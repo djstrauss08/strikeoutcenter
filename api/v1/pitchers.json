@@ -1,41 +1,138 @@
 {
   "metadata": {
-    "generated_at": "2026-10-12T21:46:49.457615-04:00",
-    "generated_at_formatted": "Monday, October 12, 2026 at 09:46 PM EDT",
-    "date": "2026-10-12",
+    "generated_at": "2026-10-13T04:52:50.010364-04:00",
+    "generated_at_formatted": "Tuesday, October 13, 2026 at 04:52 AM EDT",
+    "date": "2026-10-13",
     "timezone": "US/Eastern"
   },
   "pitchers": [
     {
-      "pitcher_name": "Drew Rasmussen",
-      "strikeout_line": 6.5,
+      "pitcher_name": "Freddy Peralta",
+      "strikeout_line": 3.5,
       "consensus_odds": {
-        "over": -155,
-        "under": 120,
-        "over_formatted": "-155",
-        "under_formatted": "+120"
+        "over": -129,
+        "under": -101,
+        "over_formatted": "-129",
+        "under_formatted": "-101"
       },
       "sportsbooks": [
+        "BetOnline.ag",
+        "DraftKings",
+        "MyBookie.ag",
+        "FanDuel",
         "Bovada"
       ],
-      "sportsbook_count": 1,
+      "sportsbook_count": 5,
       "individual_odds": {
+        "FanDuel": {
+          "over": -130,
+          "under": 102
+        },
+        "DraftKings": {
+          "over": -130,
+          "under": 102
+        },
         "Bovada": {
-          "over": -155,
-          "under": 120
+          "over": -130,
+          "under": 100
+        },
+        "MyBookie.ag": {
+          "over": -130,
+          "under": -106
+        },
+        "BetOnline.ag": {
+          "over": -127,
+          "under": -102
         }
       },
       "raw_odds": {
         "over_odds": [
-          -155
+          -130,
+          -130,
+          -130,
+          -130,
+          -127
         ],
         "under_odds": [
-          120
+          102,
+          102,
+          100,
+          -106,
+          -102
         ]
       },
       "game_info": {
         "matchup": "Cleveland Guardians @ Tampa Bay Rays",
-        "game_time": "08:08 PM EDT",
+        "game_time": "08:00 PM EDT",
+        "away_team": "Cleveland Guardians",
+        "home_team": "Tampa Bay Rays"
+      }
+    },
+    {
+      "pitcher_name": "Parker Messick",
+      "strikeout_line": 4.5,
+      "consensus_odds": {
+        "over": -151,
+        "under": 115,
+        "over_formatted": "-151",
+        "under_formatted": "+115"
+      },
+      "sportsbooks": [
+        "Fanatics",
+        "BetOnline.ag",
+        "Bovada",
+        "DraftKings",
+        "MyBookie.ag",
+        "FanDuel"
+      ],
+      "sportsbook_count": 6,
+      "individual_odds": {
+        "FanDuel": {
+          "over": -148,
+          "under": 116
+        },
+        "DraftKings": {
+          "over": -150,
+          "under": 117
+        },
+        "Bovada": {
+          "over": -150,
+          "under": 115
+        },
+        "Fanatics": {
+          "over": -150,
+          "under": 115
+        },
+        "MyBookie.ag": {
+          "over": -156,
+          "under": 112
+        },
+        "BetOnline.ag": {
+          "over": -154,
+          "under": 118
+        }
+      },
+      "raw_odds": {
+        "over_odds": [
+          -148,
+          -150,
+          -150,
+          -150,
+          -156,
+          -154
+        ],
+        "under_odds": [
+          116,
+          117,
+          115,
+          115,
+          112,
+          118
+        ]
+      },
+      "game_info": {
+        "matchup": "Cleveland Guardians @ Tampa Bay Rays",
+        "game_time": "08:00 PM EDT",
         "away_team": "Cleveland Guardians",
         "home_team": "Tampa Bay Rays"
       }
