@@ -1,71 +1,105 @@
 {
   "metadata": {
-    "generated_at": "2026-10-15T15:39:29.624536-04:00",
-    "generated_at_formatted": "Thursday, October 15, 2026 at 03:39 PM EDT",
+    "generated_at": "2026-10-15T18:51:43.742668-04:00",
+    "generated_at_formatted": "Thursday, October 15, 2026 at 06:51 PM EDT",
     "date": "2026-10-15",
     "timezone": "US/Eastern"
   },
   "pitchers": [
     {
+      "pitcher_name": "Shane Drohan",
+      "strikeout_line": 2.5,
+      "consensus_odds": {
+        "over": 104,
+        "under": -136,
+        "over_formatted": "+104",
+        "under_formatted": "-136"
+      },
+      "sportsbooks": [
+        "MyBookie.ag",
+        "DraftKings",
+        "BetOnline.ag"
+      ],
+      "sportsbook_count": 3,
+      "individual_odds": {
+        "DraftKings": {
+          "over": 106,
+          "under": -135
+        },
+        "MyBookie.ag": {
+          "over": 100,
+          "under": -138
+        },
+        "BetOnline.ag": {
+          "over": 105,
+          "under": -135
+        }
+      },
+      "raw_odds": {
+        "over_odds": [
+          106,
+          100,
+          105
+        ],
+        "under_odds": [
+          -135,
+          -138,
+          -135
+        ]
+      },
+      "game_info": {
+        "matchup": "Milwaukee Brewers @ Los Angeles Dodgers",
+        "game_time": "08:00 PM EDT",
+        "away_team": "Milwaukee Brewers",
+        "home_team": "Los Angeles Dodgers"
+      }
+    },
+    {
       "pitcher_name": "Tyler Glasnow",
       "strikeout_line": 5.5,
       "consensus_odds": {
-        "over": -160,
-        "under": 122,
-        "over_formatted": "-160",
-        "under_formatted": "+122"
+        "over": -162,
+        "under": 125,
+        "over_formatted": "-162",
+        "under_formatted": "+125"
       },
       "sportsbooks": [
-        "Bovada",
-        "FanDuel",
-        "MyBookie.ag",
         "DraftKings",
-        "BetOnline.ag",
-        "BetMGM"
+        "Bovada",
+        "BetMGM",
+        "FanDuel"
       ],
-      "sportsbook_count": 6,
+      "sportsbook_count": 4,
       "individual_odds": {
         "DraftKings": {
-          "over": -154,
+          "over": -155,
           "under": 121
         },
         "BetMGM": {
           "over": -165,
           "under": 125
         },
-        "MyBookie.ag": {
-          "over": -168,
-          "under": 121
-        },
         "FanDuel": {
-          "over": -150,
-          "under": 118
+          "over": -164,
+          "under": 128
         },
         "Bovada": {
-          "over": -160,
-          "under": 120
-        },
-        "BetOnline.ag": {
-          "over": -167,
-          "under": 128
+          "over": -165,
+          "under": 125
         }
       },
       "raw_odds": {
         "over_odds": [
-          -154,
+          -155,
           -165,
-          -168,
-          -150,
-          -160,
-          -167
+          -164,
+          -165
         ],
         "under_odds": [
           121,
           125,
-          121,
-          118,
-          120,
-          128
+          128,
+          125
         ]
       },
       "game_info": {
@@ -79,27 +113,41 @@
       "pitcher_name": "Tyler Glasnow",
       "strikeout_line": 6.5,
       "consensus_odds": {
-        "over": 115,
-        "under": -150,
-        "over_formatted": "+115",
-        "under_formatted": "-150"
+        "over": 111,
+        "under": -149,
+        "over_formatted": "+111",
+        "under_formatted": "-149"
       },
       "sportsbooks": [
+        "MyBookie.ag",
+        "BetOnline.ag",
         "Fanatics"
       ],
-      "sportsbook_count": 1,
+      "sportsbook_count": 3,
       "individual_odds": {
-        "Fanatics": {
+        "MyBookie.ag": {
+          "over": 109,
+          "under": -152
+        },
+        "BetOnline.ag": {
           "over": 115,
-          "under": -150
+          "under": -149
+        },
+        "Fanatics": {
+          "over": 110,
+          "under": -145
         }
       },
       "raw_odds": {
         "over_odds": [
-          115
+          109,
+          115,
+          110
         ],
         "under_odds": [
-          -150
+          -152,
+          -149,
+          -145
         ]
       },
       "game_info": {
