@@ -1,24 +1,158 @@
 {
   "metadata": {
-    "generated_at": "2026-10-17T22:49:57.833397-04:00",
-    "generated_at_formatted": "Saturday, October 17, 2026 at 10:49 PM EDT",
-    "date": "2026-10-17",
+    "generated_at": "2026-10-18T09:44:18.431382-04:00",
+    "generated_at_formatted": "Sunday, October 18, 2026 at 09:44 AM EDT",
+    "date": "2026-10-18",
     "timezone": "US/Eastern"
   },
   "summary": {
     "total_games": 1,
-    "total_pitchers": 0,
-    "games_with_props": 0
+    "total_pitchers": 2,
+    "games_with_props": 1
   },
   "games": [
     {
-      "event_id": "bf41baaebfa23a202d2f3a6811425ff9",
+      "event_id": "f4ca2d8a09898a94722dde0633e0a7e1",
       "away_team": "Tampa Bay Rays",
       "home_team": "Cleveland Guardians",
       "matchup": "Tampa Bay Rays @ Cleveland Guardians",
-      "game_time": "2026-10-17T20:00:00-04:00",
-      "game_time_formatted": "08:00 PM EDT",
-      "pitchers": []
+      "game_time": "2026-10-18T17:10:00-04:00",
+      "game_time_formatted": "05:10 PM EDT",
+      "pitchers": [
+        {
+          "pitcher_name": "Drew Rasmussen",
+          "strikeout_line": 5.5,
+          "consensus_odds": {
+            "over": -111,
+            "under": -118,
+            "over_formatted": "-111",
+            "under_formatted": "-118"
+          },
+          "sportsbooks": [
+            "MyBookie.ag",
+            "BetOnline.ag",
+            "FanDuel",
+            "Bovada",
+            "BetMGM",
+            "DraftKings"
+          ],
+          "sportsbook_count": 6,
+          "individual_odds": {
+            "DraftKings": {
+              "over": -110,
+              "under": -116
+            },
+            "FanDuel": {
+              "over": -115,
+              "under": -111
+            },
+            "BetMGM": {
+              "over": -110,
+              "under": -120
+            },
+            "BetOnline.ag": {
+              "over": -108,
+              "under": -120
+            },
+            "Bovada": {
+              "over": -115,
+              "under": -115
+            },
+            "MyBookie.ag": {
+              "over": -111,
+              "under": -124
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -110,
+              -115,
+              -110,
+              -108,
+              -115,
+              -111
+            ],
+            "under_odds": [
+              -116,
+              -111,
+              -120,
+              -120,
+              -115,
+              -124
+            ]
+          }
+        },
+        {
+          "pitcher_name": "Parker Messick",
+          "strikeout_line": 4.5,
+          "consensus_odds": {
+            "over": -121,
+            "under": -109,
+            "over_formatted": "-121",
+            "under_formatted": "-109"
+          },
+          "sportsbooks": [
+            "MyBookie.ag",
+            "BetOnline.ag",
+            "FanDuel",
+            "Bovada",
+            "BetMGM",
+            "DraftKings",
+            "Fanatics"
+          ],
+          "sportsbook_count": 7,
+          "individual_odds": {
+            "DraftKings": {
+              "over": -124,
+              "under": -103
+            },
+            "FanDuel": {
+              "over": -120,
+              "under": -106
+            },
+            "BetMGM": {
+              "over": -125,
+              "under": -105
+            },
+            "BetOnline.ag": {
+              "over": -116,
+              "under": -111
+            },
+            "Bovada": {
+              "over": -120,
+              "under": -110
+            },
+            "MyBookie.ag": {
+              "over": -120,
+              "under": -115
+            },
+            "Fanatics": {
+              "over": -120,
+              "under": -110
+            }
+          },
+          "raw_odds": {
+            "over_odds": [
+              -124,
+              -120,
+              -125,
+              -116,
+              -120,
+              -120,
+              -120
+            ],
+            "under_odds": [
+              -103,
+              -106,
+              -105,
+              -111,
+              -110,
+              -115,
+              -110
+            ]
+          }
+        }
+      ]
     }
   ]
 }
