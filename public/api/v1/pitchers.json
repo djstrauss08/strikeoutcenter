@@ -1,9 +1,113 @@
 {
   "metadata": {
-    "generated_at": "2026-10-18T23:02:33.950076-04:00",
-    "generated_at_formatted": "Sunday, October 18, 2026 at 11:02 PM EDT",
-    "date": "2026-10-18",
+    "generated_at": "2026-10-19T12:45:43.152531-04:00",
+    "generated_at_formatted": "Monday, October 19, 2026 at 12:45 PM EDT",
+    "date": "2026-10-19",
     "timezone": "US/Eastern"
   },
-  "pitchers": []
+  "pitchers": [
+    {
+      "pitcher_name": "Freddy Peralta",
+      "strikeout_line": 4.5,
+      "consensus_odds": {
+        "over": 125,
+        "under": -161,
+        "over_formatted": "+125",
+        "under_formatted": "-161"
+      },
+      "sportsbooks": [
+        "DraftKings",
+        "Bovada",
+        "FanDuel"
+      ],
+      "sportsbook_count": 3,
+      "individual_odds": {
+        "FanDuel": {
+          "over": 128,
+          "under": -164
+        },
+        "Bovada": {
+          "over": 125,
+          "under": -165
+        },
+        "DraftKings": {
+          "over": 121,
+          "under": -154
+        }
+      },
+      "raw_odds": {
+        "over_odds": [
+          128,
+          125,
+          121
+        ],
+        "under_odds": [
+          -164,
+          -165,
+          -154
+        ]
+      },
+      "game_info": {
+        "matchup": "Cleveland Guardians @ Tampa Bay Rays",
+        "game_time": "08:10 PM EDT",
+        "away_team": "Cleveland Guardians",
+        "home_team": "Tampa Bay Rays"
+      }
+    },
+    {
+      "pitcher_name": "Freddy Peralta",
+      "strikeout_line": 3.5,
+      "consensus_odds": {
+        "over": -162,
+        "under": 121,
+        "over_formatted": "-162",
+        "under_formatted": "+121"
+      },
+      "sportsbooks": [
+        "BetMGM",
+        "BetOnline.ag",
+        "Fanatics",
+        "MyBookie.ag"
+      ],
+      "sportsbook_count": 4,
+      "individual_odds": {
+        "Fanatics": {
+          "over": -165,
+          "under": 125
+        },
+        "MyBookie.ag": {
+          "over": -156,
+          "under": 112
+        },
+        "BetMGM": {
+          "over": -175,
+          "under": 130
+        },
+        "BetOnline.ag": {
+          "over": -154,
+          "under": 118
+        }
+      },
+      "raw_odds": {
+        "over_odds": [
+          -165,
+          -156,
+          -175,
+          -154
+        ],
+        "under_odds": [
+          125,
+          112,
+          130,
+          118
+        ]
+      },
+      "game_info": {
+        "matchup": "Cleveland Guardians @ Tampa Bay Rays",
+        "game_time": "08:10 PM EDT",
+        "away_team": "Cleveland Guardians",
+        "home_team": "Tampa Bay Rays"
+      }
+    }
+  ]
 }
