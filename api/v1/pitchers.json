@@ -1,78 +1,140 @@
 {
   "metadata": {
-    "generated_at": "2026-10-27T11:40:56.615244-04:00",
-    "generated_at_formatted": "Tuesday, October 27, 2026 at 11:40 AM EDT",
+    "generated_at": "2026-10-27T16:23:09.767950-04:00",
+    "generated_at_formatted": "Tuesday, October 27, 2026 at 04:23 PM EDT",
     "date": "2026-10-27",
     "timezone": "US/Eastern"
   },
   "pitchers": [
     {
+      "pitcher_name": "Dustin May",
+      "strikeout_line": 2.5,
+      "consensus_odds": {
+        "over": 124,
+        "under": -163,
+        "over_formatted": "+124",
+        "under_formatted": "-163"
+      },
+      "sportsbooks": [
+        "Bovada",
+        "BetOnline.ag",
+        "MyBookie.ag",
+        "DraftKings",
+        "FanDuel"
+      ],
+      "sportsbook_count": 5,
+      "individual_odds": {
+        "FanDuel": {
+          "over": 116,
+          "under": -148
+        },
+        "DraftKings": {
+          "over": 139,
+          "under": -178
+        },
+        "BetOnline.ag": {
+          "over": 120,
+          "under": -156
+        },
+        "Bovada": {
+          "over": 135,
+          "under": -180
+        },
+        "MyBookie.ag": {
+          "over": 111,
+          "under": -154
+        }
+      },
+      "raw_odds": {
+        "over_odds": [
+          116,
+          139,
+          120,
+          135,
+          111
+        ],
+        "under_odds": [
+          -148,
+          -178,
+          -156,
+          -180,
+          -154
+        ]
+      },
+      "game_info": {
+        "matchup": "Milwaukee Brewers @ Tampa Bay Rays",
+        "game_time": "08:00 PM EDT",
+        "away_team": "Milwaukee Brewers",
+        "home_team": "Tampa Bay Rays"
+      }
+    },
+    {
       "pitcher_name": "Griffin Jax",
       "strikeout_line": 3.5,
       "consensus_odds": {
-        "over": -118,
-        "under": -111,
-        "over_formatted": "-118",
-        "under_formatted": "-111"
+        "over": -110,
+        "under": -119,
+        "over_formatted": "-110",
+        "under_formatted": "-119"
       },
       "sportsbooks": [
-        "BetMGM",
-        "Fanatics",
+        "Bovada",
         "BetOnline.ag",
+        "Fanatics",
         "MyBookie.ag",
-        "FanDuel",
         "DraftKings",
-        "Bovada"
+        "FanDuel",
+        "BetMGM"
       ],
       "sportsbook_count": 7,
       "individual_odds": {
         "FanDuel": {
-          "over": -120,
-          "under": -106
+          "over": -111,
+          "under": -115
         },
         "Fanatics": {
           "over": -115,
           "under": -115
         },
         "DraftKings": {
-          "over": -105,
-          "under": -122
+          "over": -102,
+          "under": -125
         },
         "BetMGM": {
-          "over": -125,
-          "under": -105
+          "over": -115,
+          "under": -115
         },
         "BetOnline.ag": {
-          "over": -119,
-          "under": -109
+          "over": -111,
+          "under": -116
         },
         "Bovada": {
-          "over": -120,
-          "under": -110
+          "over": -105,
+          "under": -125
         },
         "MyBookie.ag": {
-          "over": -123,
-          "under": -113
+          "over": -115,
+          "under": -120
         }
       },
       "raw_odds": {
         "over_odds": [
-          -120,
+          -111,
           -115,
+          -102,
+          -115,
+          -111,
           -105,
-          -125,
-          -119,
-          -120,
-          -123
+          -115
         ],
         "under_odds": [
-          -106,
           -115,
-          -122,
-          -105,
-          -109,
-          -110,
-          -113
+          -115,
+          -125,
+          -115,
+          -116,
+          -125,
+          -120
         ]
       },
       "game_info": {
